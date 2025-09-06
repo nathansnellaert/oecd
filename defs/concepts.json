@@ -1,0 +1,4677 @@
+{
+  "REF_AREA": {
+    "id": "REF_AREA",
+    "names": {
+      "en": "Reference area"
+    },
+    "name": "Reference area",
+    "descriptions": {
+      "en": "Name of the Borrower/Counterparty"
+    },
+    "description": "Name of the Borrower/Counterparty",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "TIME_PERIOD": {
+    "id": "TIME_PERIOD",
+    "names": {
+      "en": "Financing document\u00a0datetime"
+    },
+    "name": "Financing document\u00a0datetime",
+    "descriptions": {
+      "en": "Date of the principal financing document(s) (dd/mm/yyyy), or if not available, start of the quarter of the principal financing document(s) e.g. 01/10/2012, 01/07/2018)"
+    },
+    "description": "Date of the principal financing document(s) (dd/mm/yyyy), or if not available, start of the quarter of the principal financing document(s) e.g. 01/10/2012, 01/07/2018)",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "MEASURE": {
+    "id": "MEASURE",
+    "names": {
+      "en": "Measure"
+    },
+    "name": "Measure",
+    "descriptions": {
+      "en": "Measure"
+    },
+    "description": "Measure",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "COFOG": {
+    "id": "COFOG",
+    "names": {
+      "en": "Function of government",
+      "fr": "Fonction des administrations publiques"
+    },
+    "name": "Function of government",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "SUBEMP_CONCEPTS_NEW",
+    "scheme_agency": "OECD.CFE.RDG"
+  },
+  "SECTOR": {
+    "id": "SECTOR",
+    "names": {
+      "en": "Institutional sector",
+      "fr": "Secteur institutionnel"
+    },
+    "name": "Institutional sector",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "SUBEMP_CONCEPTS_NEW",
+    "scheme_agency": "OECD.CFE.RDG"
+  },
+  "SIZE_CLASS": {
+    "id": "SIZE_CLASS",
+    "names": {
+      "en": "Employment size class",
+      "fr": "Nombre de personnes employ\u00e9es"
+    },
+    "name": "Employment size class",
+    "descriptions": {
+      "en": "Breakdown by size class"
+    },
+    "description": "Breakdown by size class",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "STATISTICAL_OPERATION": {
+    "id": "STATISTICAL_OPERATION",
+    "names": {
+      "en": "Statistical operation",
+      "fr": "Op\u00e9ration statistique"
+    },
+    "name": "Statistical operation",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "SNG_WOFI_CONCEPT",
+    "scheme_agency": "OECD.CFE.RDG"
+  },
+  "OBS_VALUE": {
+    "id": "OBS_VALUE",
+    "names": {
+      "en": "Observation value",
+      "fr": "Observation value"
+    },
+    "name": "Observation value",
+    "descriptions": {
+      "en": "Value of a particular variable."
+    },
+    "description": "Value of a particular variable.",
+    "scheme_id": "CS_QDD_ITTI",
+    "scheme_agency": "OECD.CTP.TAV"
+  },
+  "DECIMALS": {
+    "id": "DECIMALS",
+    "names": {
+      "en": "Decimals",
+      "fr": "D\u00e9cimales"
+    },
+    "name": "Decimals",
+    "descriptions": {
+      "en": "Decimals"
+    },
+    "description": "Decimals",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "OBS_STATUS": {
+    "id": "OBS_STATUS",
+    "names": {
+      "en": "Observation status",
+      "fr": "Observation status"
+    },
+    "name": "Observation status",
+    "descriptions": {
+      "en": "Information on the quality of a value or an unusual or missing value."
+    },
+    "description": "Information on the quality of a value or an unusual or missing value.",
+    "scheme_id": "CS_QDD_ITTI",
+    "scheme_agency": "OECD.CTP.TAV"
+  },
+  "UNIT_MEASURE": {
+    "id": "UNIT_MEASURE",
+    "names": {
+      "en": "Unit of measure"
+    },
+    "name": "Unit of measure",
+    "descriptions": {
+      "en": "Unit in which the data values are expressed."
+    },
+    "description": "Unit in which the data values are expressed.",
+    "scheme_id": "CS_KIIBIH",
+    "scheme_agency": "OECD.DEV.LAC"
+  },
+  "UNIT_MULT": {
+    "id": "UNIT_MULT",
+    "names": {
+      "en": "Unit multiplier"
+    },
+    "name": "Unit multiplier",
+    "descriptions": {
+      "en": "Exponent in base 10 specified so that multiplying the observation numeric values by 10^UNIT_MULT gives a value expressed in the unit of measure."
+    },
+    "description": "Exponent in base 10 specified so that multiplying the observation numeric values by 10^UNIT_MULT gives a value expressed in the unit of measure.",
+    "scheme_id": "CS_KIIBIH",
+    "scheme_agency": "OECD.DEV.LAC"
+  },
+  "CONF_STATUS": {
+    "id": "CONF_STATUS",
+    "names": {
+      "en": "Confidentiality status",
+      "fr": "Statut de confidentialit\u00e9"
+    },
+    "name": "Confidentiality status",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "SUBEMP_CONCEPTS_NEW",
+    "scheme_agency": "OECD.CFE.RDG"
+  },
+  "PRICE_BASE": {
+    "id": "PRICE_BASE",
+    "names": {
+      "en": "Price base"
+    },
+    "name": "Price base",
+    "descriptions": {
+      "en": "Price base"
+    },
+    "description": "Price base",
+    "scheme_id": "CS_TRENDS",
+    "scheme_agency": "OECD.ITF"
+  },
+  "BASE_PER": {
+    "id": "BASE_PER",
+    "names": {
+      "en": "Base period",
+      "fr": "P\u00e9riode de base"
+    },
+    "name": "Base period",
+    "descriptions": {
+      "en": "P\u00e9riode de base"
+    },
+    "description": "P\u00e9riode de base",
+    "scheme_id": "CS_HEALTH_SOCX_AGG",
+    "scheme_agency": "OECD.ELS.SPD"
+  },
+  "INCOME": {
+    "id": "INCOME",
+    "names": {
+      "en": "Income group",
+      "fr": "Groupe de revenus"
+    },
+    "name": "Income group",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "SNG_WOFI_CONCEPT",
+    "scheme_agency": "OECD.CFE.RDG"
+  },
+  "FORM": {
+    "id": "FORM",
+    "names": {
+      "en": "Form of the state",
+      "fr": "Forme de l'\u00c9tat"
+    },
+    "name": "Form of the state",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "SNG_WOFI_CONCEPT",
+    "scheme_agency": "OECD.CFE.RDG"
+  },
+  "REG": {
+    "id": "REG",
+    "names": {
+      "en": "World region",
+      "fr": "R\u00e9gion du monde"
+    },
+    "name": "World region",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "SNG_WOFI_CONCEPT",
+    "scheme_agency": "OECD.CFE.RDG"
+  },
+  "SEX": {
+    "id": "SEX",
+    "names": {
+      "en": "Sex",
+      "fr": "Sexe"
+    },
+    "name": "Sex",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "SUBEMP_CONCEPTS_NEW",
+    "scheme_agency": "OECD.CFE.RDG"
+  },
+  "AGE": {
+    "id": "AGE",
+    "names": {
+      "en": "Age"
+    },
+    "name": "Age",
+    "descriptions": {
+      "en": "Age groups"
+    },
+    "description": "Age groups",
+    "scheme_id": "CS_KIIBIH",
+    "scheme_agency": "OECD.DEV.LAC"
+  },
+  "OCCUPATION": {
+    "id": "OCCUPATION",
+    "names": {
+      "en": "Occupation",
+      "fr": "Occupation"
+    },
+    "name": "Occupation",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "SUBEMP_CONCEPTS_NEW",
+    "scheme_agency": "OECD.CFE.RDG"
+  },
+  "ATTAINMENT_LEV": {
+    "id": "ATTAINMENT_LEV",
+    "names": {
+      "en": "Educational attainment level",
+      "fr": "Niveau de scolarit\u00e9"
+    },
+    "name": "Educational attainment level",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "SUBEMP_CONCEPTS_NEW",
+    "scheme_agency": "OECD.CFE.RDG"
+  },
+  "CONTRACT": {
+    "id": "CONTRACT",
+    "names": {
+      "en": "Contract type",
+      "fr": "Type de contrat"
+    },
+    "name": "Contract type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "SUBEMP_CONCEPTS_NEW",
+    "scheme_agency": "OECD.CFE.RDG"
+  },
+  "WORK_TIME_ARNGMNT": {
+    "id": "WORK_TIME_ARNGMNT",
+    "names": {
+      "en": "Working time arrangement",
+      "fr": "Am\u00e9nagement du temps de travail"
+    },
+    "name": "Working time arrangement",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "SUBEMP_CONCEPTS_NEW",
+    "scheme_agency": "OECD.CFE.RDG"
+  },
+  "SEX_OWN": {
+    "id": "SEX_OWN",
+    "names": {
+      "en": "Sex of the principal owner",
+      "fr": "Sexe du d\u00e9tenteur principal"
+    },
+    "name": "Sex of the principal owner",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SMEE_FINANCING",
+    "scheme_agency": "OECD.CFE.SMEE"
+  },
+  "ENTR_SIZE": {
+    "id": "ENTR_SIZE",
+    "names": {
+      "en": "Enterprise size",
+      "fr": "Taille d'enterprise"
+    },
+    "name": "Enterprise size",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SMEE_FINANCING",
+    "scheme_agency": "OECD.CFE.SMEE"
+  },
+  "TRANSACTION_TYPE": {
+    "id": "TRANSACTION_TYPE",
+    "names": {
+      "en": "Transaction type",
+      "fr": "Type de transaction"
+    },
+    "name": "Transaction type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SMEE_FINANCING",
+    "scheme_agency": "OECD.CFE.SMEE"
+  },
+  "PRICES": {
+    "id": "PRICES",
+    "names": {
+      "en": "Price base",
+      "fr": "Type de prix"
+    },
+    "name": "Price base",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SMEE_FINANCING",
+    "scheme_agency": "OECD.CFE.SMEE"
+  },
+  "COUNTRY": {
+    "id": "COUNTRY",
+    "names": {
+      "en": "Country",
+      "fr": "Pays"
+    },
+    "name": "Country",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SMEE_FINANCING",
+    "scheme_agency": "OECD.CFE.SMEE"
+  },
+  "COUNTERPART_AREA": {
+    "id": "COUNTERPART_AREA",
+    "names": {
+      "en": "Counterpart area",
+      "fr": "Zone de contrepartie"
+    },
+    "name": "Counterpart area",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOURISM",
+    "scheme_agency": "OECD.CFE.TOU"
+  },
+  "OBS_STATUS2": {
+    "id": "OBS_STATUS2",
+    "names": {
+      "en": "Observation status2"
+    },
+    "name": "Observation status2",
+    "descriptions": {
+      "en": "Information on the quality of a value or an unusual or missing value."
+    },
+    "description": "Information on the quality of a value or an unusual or missing value.",
+    "scheme_id": "CS_TRENDS",
+    "scheme_agency": "OECD.ITF"
+  },
+  "VISITOR_TYPE": {
+    "id": "VISITOR_TYPE",
+    "names": {
+      "en": "Visitor type",
+      "fr": "Type de visiteur"
+    },
+    "name": "Visitor type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOURISM",
+    "scheme_agency": "OECD.CFE.TOU"
+  },
+  "ACCOMMODATION_TYPE": {
+    "id": "ACCOMMODATION_TYPE",
+    "names": {
+      "en": "Accommodation type",
+      "fr": "Type d'h\u00e9bergement"
+    },
+    "name": "Accommodation type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOURISM",
+    "scheme_agency": "OECD.CFE.TOU"
+  },
+  "ACTIVITY": {
+    "id": "ACTIVITY",
+    "names": {
+      "en": "Economic activity",
+      "fr": "Activit\u00e9 \u00e9conomique"
+    },
+    "name": "Economic activity",
+    "descriptions": {
+      "en": "Breakdown by economic activity"
+    },
+    "description": "Breakdown by economic activity",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "PRODUCT": {
+    "id": "PRODUCT",
+    "names": {
+      "en": "Product",
+      "fr": "Produit"
+    },
+    "name": "Product",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOURISM",
+    "scheme_agency": "OECD.CFE.TOU"
+  },
+  "SOURCE": {
+    "id": "SOURCE",
+    "names": {
+      "en": "Source",
+      "fr": "Source"
+    },
+    "name": "Source",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOURISM",
+    "scheme_agency": "OECD.CFE.TOU"
+  },
+  "SERVICE": {
+    "id": "SERVICE",
+    "names": {
+      "en": "Service",
+      "fr": "Service"
+    },
+    "name": "Service",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOURISM",
+    "scheme_agency": "OECD.CFE.TOU"
+  },
+  "CURRENCY": {
+    "id": "CURRENCY",
+    "names": {
+      "en": "Currency"
+    },
+    "name": "Currency",
+    "descriptions": {
+      "en": "Currency as specified in the loan agreement"
+    },
+    "description": "Currency as specified in the loan agreement",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "METHODOLOGY": {
+    "id": "METHODOLOGY",
+    "names": {
+      "en": "Methodology",
+      "fr": "M\u00e9thodologie"
+    },
+    "name": "Methodology",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOURISM",
+    "scheme_agency": "OECD.CFE.TOU"
+  },
+  "VARIABLE": {
+    "id": "VARIABLE",
+    "names": {
+      "en": "VARIABLE"
+    },
+    "name": "VARIABLE",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "COMPONENT_ROLES",
+    "scheme_agency": "OECD"
+  },
+  "FREQ": {
+    "id": "FREQ",
+    "names": {
+      "en": "Frequency of observation"
+    },
+    "name": "Frequency of observation",
+    "descriptions": {
+      "en": "Repayment profile / (if bond) Coupon frequency"
+    },
+    "description": "Repayment profile / (if bond) Coupon frequency",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "GEO": {
+    "id": "GEO",
+    "names": {
+      "en": "GEO"
+    },
+    "name": "GEO",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "COMPONENT_ROLES",
+    "scheme_agency": "OECD"
+  },
+  "OPERATION": {
+    "id": "OPERATION",
+    "names": {
+      "en": "OPERATION"
+    },
+    "name": "OPERATION",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "COMPONENT_ROLES",
+    "scheme_agency": "OECD"
+  },
+  "COMMENT": {
+    "id": "COMMENT",
+    "names": {
+      "en": "COMMENT"
+    },
+    "name": "COMMENT",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "COMPONENT_ROLES",
+    "scheme_agency": "OECD"
+  },
+  "FLAG": {
+    "id": "FLAG",
+    "names": {
+      "en": "FLAG"
+    },
+    "name": "FLAG",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "COMPONENT_ROLES",
+    "scheme_agency": "OECD"
+  },
+  "ENTITY": {
+    "id": "ENTITY",
+    "names": {
+      "en": "ENTITY"
+    },
+    "name": "ENTITY",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "COMPONENT_ROLES",
+    "scheme_agency": "OECD"
+  },
+  "COUNT": {
+    "id": "COUNT",
+    "names": {
+      "en": "COUNT"
+    },
+    "name": "COUNT",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "COMPONENT_ROLES",
+    "scheme_agency": "OECD"
+  },
+  "DD_ID": {
+    "id": "DD_ID",
+    "names": {
+      "en": "DD ID"
+    },
+    "name": "DD ID",
+    "descriptions": {
+      "en": "#"
+    },
+    "description": "#",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "RECIPIENT_TYPE": {
+    "id": "RECIPIENT_TYPE",
+    "names": {
+      "en": "Recipient type"
+    },
+    "name": "Recipient type",
+    "descriptions": {
+      "en": "Type of initial recipient of financing"
+    },
+    "description": "Type of initial recipient of financing",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "RECIPIENT": {
+    "id": "RECIPIENT",
+    "names": {
+      "en": "Recipient"
+    },
+    "name": "Recipient",
+    "descriptions": {
+      "en": "Initial recipient of financing (if not the same as the Borrower/Counterparty and known at signing)"
+    },
+    "description": "Initial recipient of financing (if not the same as the Borrower/Counterparty and known at signing)",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "CREDIT_PROV": {
+    "id": "CREDIT_PROV",
+    "names": {
+      "en": "Credit provider"
+    },
+    "name": "Credit provider",
+    "descriptions": {
+      "en": "For bilateral financings, the lender or other credit provider (at signing)"
+    },
+    "description": "For bilateral financings, the lender or other credit provider (at signing)",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "LEAD_PROV": {
+    "id": "LEAD_PROV",
+    "names": {
+      "en": "Lead provider"
+    },
+    "name": "Lead provider",
+    "descriptions": {
+      "en": "Where applicable, name of the Mandated Lead Arrangers, Facility Agent/Fiscal Agent/Trustee/Transaction Intermediary or similar at signing (for syndicated deals or those with multiple providers of financing/underwriters)"
+    },
+    "description": "Where applicable, name of the Mandated Lead Arrangers, Facility Agent/Fiscal Agent/Trustee/Transaction Intermediary or similar at signing (for syndicated deals or those with multiple providers of financing/underwriters)",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "FIN_TYPE": {
+    "id": "FIN_TYPE",
+    "names": {
+      "en": "Financing type"
+    },
+    "name": "Financing type",
+    "descriptions": {
+      "en": "Description of type of financing"
+    },
+    "description": "Description of type of financing",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "CURRENCY_MULTI": {
+    "id": "CURRENCY_MULTI",
+    "names": {
+      "en": "Multiple currencies"
+    },
+    "name": "Multiple currencies",
+    "descriptions": {
+      "en": "If multi-currency transaction, or transaction that has different payments in different currencies, please specify"
+    },
+    "description": "If multi-currency transaction, or transaction that has different payments in different currencies, please specify",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "INTEREST_RATE": {
+    "id": "INTEREST_RATE",
+    "names": {
+      "en": "Interest rate"
+    },
+    "name": "Interest rate",
+    "descriptions": {
+      "en": "Interest rate / Coupon rate / Margin"
+    },
+    "description": "Interest rate / Coupon rate / Margin",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "INTEREST_RATE_TYPE": {
+    "id": "INTEREST_RATE_TYPE",
+    "names": {
+      "en": "Interest rate\u00a0type"
+    },
+    "name": "Interest rate\u00a0type",
+    "descriptions": {
+      "en": "Interest rate type / Coupon type"
+    },
+    "description": "Interest rate type / Coupon type",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "DD_DIM": {
+    "id": "DD_DIM",
+    "names": {
+      "en": "Drilldown technical dimension"
+    },
+    "name": "Drilldown technical dimension",
+    "descriptions": {
+      "en": "Drilldown technical dimension"
+    },
+    "description": "Drilldown technical dimension",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "REF_RATE_BENCHMARK": {
+    "id": "REF_RATE_BENCHMARK",
+    "names": {
+      "en": "Reference rate benchmark"
+    },
+    "name": "Reference rate benchmark",
+    "descriptions": {
+      "en": "If floating, please specify the Reference Rate benchmark"
+    },
+    "description": "If floating, please specify the Reference Rate benchmark",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "ORIG_CURR_VALUE": {
+    "id": "ORIG_CURR_VALUE",
+    "names": {
+      "en": "Gross amount in financing document's currency"
+    },
+    "name": "Gross amount in financing document's currency",
+    "descriptions": {
+      "en": "Gross amount which can be raised or borrowed"
+    },
+    "description": "Gross amount which can be raised or borrowed",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "GRACE_PERIOD": {
+    "id": "GRACE_PERIOD",
+    "names": {
+      "en": "Grace period"
+    },
+    "name": "Grace period",
+    "descriptions": {
+      "en": "Grace period - number of years"
+    },
+    "description": "Grace period - number of years",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "TRANS_REPAY": {
+    "id": "TRANS_REPAY",
+    "names": {
+      "en": "Transaction repayment"
+    },
+    "name": "Transaction repayment",
+    "descriptions": {
+      "en": "Principal transaction repayment"
+    },
+    "description": "Principal transaction repayment",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "REPAY_PROFILE_TIME": {
+    "id": "REPAY_PROFILE_TIME",
+    "names": {
+      "en": "Repayment profile"
+    },
+    "name": "Repayment profile",
+    "descriptions": {
+      "en": "Final repayment or maturity date (dd/mm/yyyy), or if not available, start of the final repayment or maturity date (e.g. 01/10/2012, 01/07/2018)"
+    },
+    "description": "Final repayment or maturity date (dd/mm/yyyy), or if not available, start of the final repayment or maturity date (e.g. 01/10/2012, 01/07/2018)",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "REPO_COLL": {
+    "id": "REPO_COLL",
+    "names": {
+      "en": "Repo collateral"
+    },
+    "name": "Repo collateral",
+    "descriptions": {
+      "en": "Description of any applicable collateral/security/assets subject to repo, if any"
+    },
+    "description": "Description of any applicable collateral/security/assets subject to repo, if any",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "CLAIM_RANK": {
+    "id": "CLAIM_RANK",
+    "names": {
+      "en": "Claim ranking"
+    },
+    "name": "Claim ranking",
+    "descriptions": {
+      "en": "Ranking of claims (where applicable)"
+    },
+    "description": "Ranking of claims (where applicable)",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "FIN_PURPOSE": {
+    "id": "FIN_PURPOSE",
+    "names": {
+      "en": "Financing purpose"
+    },
+    "name": "Financing purpose",
+    "descriptions": {
+      "en": "Purpose of financing/intended use of proceeds on drawdown"
+    },
+    "description": "Purpose of financing/intended use of proceeds on drawdown",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "GUARANTOR_NAME": {
+    "id": "GUARANTOR_NAME",
+    "names": {
+      "en": "Guarantor name"
+    },
+    "name": "Guarantor name",
+    "descriptions": {
+      "en": "Name of Guarantor/Provider of indemnity, if any"
+    },
+    "description": "Name of Guarantor/Provider of indemnity, if any",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "GUARANTOR_BENEF": {
+    "id": "GUARANTOR_BENEF",
+    "names": {
+      "en": "Guarantee beneficiaries"
+    },
+    "name": "Guarantee beneficiaries",
+    "descriptions": {
+      "en": "Where applicable, name of the beneficiaries of the guarantee or indemnity and maximum amount payable"
+    },
+    "description": "Where applicable, name of the beneficiaries of the guarantee or indemnity and maximum amount payable",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "FIN_DOC_LAW": {
+    "id": "FIN_DOC_LAW",
+    "names": {
+      "en": "Financing document law"
+    },
+    "name": "Financing document law",
+    "descriptions": {
+      "en": "Governing law of the principal financing document(s)"
+    },
+    "description": "Governing law of the principal financing document(s)",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "WAIVER_IMMUN": {
+    "id": "WAIVER_IMMUN",
+    "names": {
+      "en": "Waiver of immunity"
+    },
+    "name": "Waiver of immunity",
+    "descriptions": {
+      "en": "Description of waiver of sovereign immunity"
+    },
+    "description": "Description of waiver of sovereign immunity",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "DISPUTE_RES_MECH": {
+    "id": "DISPUTE_RES_MECH",
+    "names": {
+      "en": "Dispute resolution mechanism"
+    },
+    "name": "Dispute resolution mechanism",
+    "descriptions": {
+      "en": "Dispute resolution mechanism"
+    },
+    "description": "Dispute resolution mechanism",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "EMBARGO_TIME": {
+    "id": "EMBARGO_TIME",
+    "names": {
+      "en": "Embargo time"
+    },
+    "name": "Embargo time",
+    "descriptions": {
+      "en": "Embargo date\u00a0(dd/mm/yyyy)"
+    },
+    "description": "Embargo date\u00a0(dd/mm/yyyy)",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "DATA_AVAIL": {
+    "id": "DATA_AVAIL",
+    "names": {
+      "en": "Data source"
+    },
+    "name": "Data source",
+    "descriptions": {
+      "en": "Data source"
+    },
+    "description": "Data source",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "ISIN": {
+    "id": "ISIN",
+    "names": {
+      "en": "ISIN"
+    },
+    "name": "ISIN",
+    "descriptions": {
+      "en": "* ISIN, if available"
+    },
+    "description": "* ISIN, if available",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "YIELD_MATURITY": {
+    "id": "YIELD_MATURITY",
+    "names": {
+      "en": "Yield to Maturity at issuance"
+    },
+    "name": "Yield to Maturity at issuance",
+    "descriptions": {
+      "en": "* Yield to Maturity at issuance (for bonds or bills)"
+    },
+    "description": "* Yield to Maturity at issuance (for bonds or bills)",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "PRICE_ISSUANCE": {
+    "id": "PRICE_ISSUANCE",
+    "names": {
+      "en": "Price at issuance"
+    },
+    "name": "Price at issuance",
+    "descriptions": {
+      "en": "* Price at issuance (for bonds or bills)"
+    },
+    "description": "* Price at issuance (for bonds or bills)",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "DEF_EVENT_COND": {
+    "id": "DEF_EVENT_COND",
+    "names": {
+      "en": "Default event conditions"
+    },
+    "name": "Default event conditions",
+    "descriptions": {
+      "en": "* Description of default event conditions, including cross default clause, if any"
+    },
+    "description": "* Description of default event conditions, including cross default clause, if any",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "TRANS_INSUR": {
+    "id": "TRANS_INSUR",
+    "names": {
+      "en": "Transaction insurance"
+    },
+    "name": "Transaction insurance",
+    "descriptions": {
+      "en": "* Is the transaction insured? If yes, who is paying the insurance fee and what does it cover?"
+    },
+    "description": "* Is the transaction insured? If yes, who is paying the insurance fee and what does it cover?",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "SUSTAINABILITY": {
+    "id": "SUSTAINABILITY",
+    "names": {
+      "en": "Sustainability"
+    },
+    "name": "Sustainability",
+    "descriptions": {
+      "en": "* Do any of the transactions have features or restrictions related to sustainability, such as ESG considerations (formally, such as ESG criteria, or informally, such as provisions that seek to support employment, health, or environmental considerations)?"
+    },
+    "description": "* Do any of the transactions have features or restrictions related to sustainability, such as ESG considerations (formally, such as ESG criteria, or informally, such as provisions that seek to support employment, health, or environmental considerations)?",
+    "scheme_id": "CS_DEBT_TRANS",
+    "scheme_agency": "OECD.DAF"
+  },
+  "PREMIUMS": {
+    "id": "PREMIUMS",
+    "names": {
+      "en": "Premiums",
+      "fr": "Primes"
+    },
+    "name": "Premiums",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_INS",
+    "scheme_agency": "OECD.DAF.CM"
+  },
+  "OWNERSHIP": {
+    "id": "OWNERSHIP",
+    "names": {
+      "en": "Ownership",
+      "fr": "Propri\u00e9taire"
+    },
+    "name": "Ownership",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_INS",
+    "scheme_agency": "OECD.DAF.CM"
+  },
+  "INSURANCE_TYPE": {
+    "id": "INSURANCE_TYPE",
+    "names": {
+      "en": "Insurance type",
+      "fr": "Type assurance"
+    },
+    "name": "Insurance type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_INS",
+    "scheme_agency": "OECD.DAF.CM"
+  },
+  "INSURANCE_BUSINESS": {
+    "id": "INSURANCE_BUSINESS",
+    "names": {
+      "en": "Insurance business",
+      "fr": "Secteur assurance"
+    },
+    "name": "Insurance business",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_INS",
+    "scheme_agency": "OECD.DAF.CM"
+  },
+  "INSURER_TYPE": {
+    "id": "INSURER_TYPE",
+    "names": {
+      "en": "Insurer type",
+      "fr": "Type assureur"
+    },
+    "name": "Insurer type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_INS",
+    "scheme_agency": "OECD.DAF.CM"
+  },
+  "CONTRACT_TYPE": {
+    "id": "CONTRACT_TYPE",
+    "names": {
+      "en": "Contract type",
+      "fr": "Type contrat"
+    },
+    "name": "Contract type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_INS",
+    "scheme_agency": "OECD.DAF.CM"
+  },
+  "EMPLOYER_TYPE": {
+    "id": "EMPLOYER_TYPE",
+    "names": {
+      "en": "Employer type",
+      "fr": "Type employeur"
+    },
+    "name": "Employer type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_INS",
+    "scheme_agency": "OECD.DAF.CM"
+  },
+  "RISK_LOCATION": {
+    "id": "RISK_LOCATION",
+    "names": {
+      "en": "Risk location",
+      "fr": "Emplacement risque"
+    },
+    "name": "Risk location",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_INS",
+    "scheme_agency": "OECD.DAF.CM"
+  },
+  "INSURANCE_CLASS": {
+    "id": "INSURANCE_CLASS",
+    "names": {
+      "en": "Insurance class",
+      "fr": "Cat\u00e9gorie d'assurance"
+    },
+    "name": "Insurance class",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_INS",
+    "scheme_agency": "OECD.DAF.CM"
+  },
+  "DESTINATION": {
+    "id": "DESTINATION",
+    "names": {
+      "en": "Destination",
+      "fr": "Destination"
+    },
+    "name": "Destination",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_INS",
+    "scheme_agency": "OECD.DAF.CM"
+  },
+  "PLAN_TYPE": {
+    "id": "PLAN_TYPE",
+    "names": {
+      "en": "Pension plan type",
+      "fr": "Type de plan de retraite"
+    },
+    "name": "Pension plan type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PNN",
+    "scheme_agency": "OECD.DAF.CM"
+  },
+  "DEFINITION_TYPE": {
+    "id": "DEFINITION_TYPE",
+    "names": {
+      "en": "Definition type",
+      "fr": "Type de d\u00e9finition"
+    },
+    "name": "Definition type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PNN",
+    "scheme_agency": "OECD.DAF.CM"
+  },
+  "VEHICLE_TYPE": {
+    "id": "VEHICLE_TYPE",
+    "names": {
+      "en": "Vehicle type"
+    },
+    "name": "Vehicle type",
+    "descriptions": {
+      "en": "Vehicle type"
+    },
+    "description": "Vehicle type",
+    "scheme_id": "CS_TRENDS",
+    "scheme_agency": "OECD.ITF"
+  },
+  "JURISDICTION": {
+    "id": "JURISDICTION",
+    "names": {
+      "en": "Jurisdiction",
+      "fr": "Comp\u00e9tence"
+    },
+    "name": "Jurisdiction",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "INFORMATION": {
+    "id": "INFORMATION",
+    "names": {
+      "en": "Information",
+      "fr": "Information"
+    },
+    "name": "Information",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CEC_QDD_CONCEPTS",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "INDUSTRY": {
+    "id": "INDUSTRY",
+    "names": {
+      "en": "Industry",
+      "fr": "Industrie"
+    },
+    "name": "Industry",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "CARTEL_NAME": {
+    "id": "CARTEL_NAME",
+    "names": {
+      "en": "Cartel name",
+      "fr": "Nom du cartel"
+    },
+    "name": "Cartel name",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "SANCTION_TYPE": {
+    "id": "SANCTION_TYPE",
+    "names": {
+      "en": "Sanction type",
+      "fr": "Type de sanction"
+    },
+    "name": "Sanction type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "BID_RIGGING": {
+    "id": "BID_RIGGING",
+    "names": {
+      "en": "Bid rigging",
+      "fr": "Truquage des offres"
+    },
+    "name": "Bid rigging",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "CARTEL_CONNOR": {
+    "id": "CARTEL_CONNOR",
+    "names": {
+      "en": "Cartel connor",
+      "fr": "Cartel connor"
+    },
+    "name": "Cartel connor",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "FIRM_NUMBER": {
+    "id": "FIRM_NUMBER",
+    "names": {
+      "en": "Number of firms",
+      "fr": "Nombre d'entreprises"
+    },
+    "name": "Number of firms",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "PER_NUMBER": {
+    "id": "PER_NUMBER",
+    "names": {
+      "en": "Number of persons",
+      "fr": "Nombre de personnes"
+    },
+    "name": "Number of persons",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "CASE_NUMBER": {
+    "id": "CASE_NUMBER",
+    "names": {
+      "en": "Case number",
+      "fr": "Num\u00e9ro de dossier"
+    },
+    "name": "Case number",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "CASE_LINK": {
+    "id": "CASE_LINK",
+    "names": {
+      "en": "Case link",
+      "fr": "Lien vers le dossier"
+    },
+    "name": "Case link",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "AUTHORITY": {
+    "id": "AUTHORITY",
+    "names": {
+      "en": "Authority",
+      "fr": "Autorit\u00e9"
+    },
+    "name": "Authority",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "START_DATE": {
+    "id": "START_DATE",
+    "names": {
+      "en": "Start date",
+      "fr": "Date de d\u00e9but"
+    },
+    "name": "Start date",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "END_DATE": {
+    "id": "END_DATE",
+    "names": {
+      "en": "End date",
+      "fr": "Date de fin"
+    },
+    "name": "End date",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "CARTEL_DURATION": {
+    "id": "CARTEL_DURATION",
+    "names": {
+      "en": "Cartel duration",
+      "fr": "Dur\u00e9e du cartel"
+    },
+    "name": "Cartel duration",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "DISCOVERY_DATE": {
+    "id": "DISCOVERY_DATE",
+    "names": {
+      "en": "Discorevery date",
+      "fr": "Date de d\u00e9couragement"
+    },
+    "name": "Discorevery date",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "DECISION_DATE": {
+    "id": "DECISION_DATE",
+    "names": {
+      "en": "Decision date",
+      "fr": "Date de d\u00e9cision"
+    },
+    "name": "Decision date",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "SUBSIDIARY_NAME": {
+    "id": "SUBSIDIARY_NAME",
+    "names": {
+      "en": "Subsidiary name",
+      "fr": "Nom des filiales"
+    },
+    "name": "Subsidiary name",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "PARENT_NAME": {
+    "id": "PARENT_NAME",
+    "names": {
+      "en": "Parent name",
+      "fr": "Nom du parent"
+    },
+    "name": "Parent name",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "PARENT_COUNTRY": {
+    "id": "PARENT_COUNTRY",
+    "names": {
+      "en": "Parent country",
+      "fr": "Pays d'origine"
+    },
+    "name": "Parent country",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "AMOUNT_ORIGINAL": {
+    "id": "AMOUNT_ORIGINAL",
+    "names": {
+      "en": "Amount original",
+      "fr": "Montant initial"
+    },
+    "name": "Amount original",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "EXCHANGE_RATE": {
+    "id": "EXCHANGE_RATE",
+    "names": {
+      "en": "Exchange rate",
+      "fr": "Taux de change"
+    },
+    "name": "Exchange rate",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CARTEL_DB",
+    "scheme_agency": "OECD.DAF.COMP"
+  },
+  "MEASURE_PRINCIPLE": {
+    "id": "MEASURE_PRINCIPLE",
+    "names": {
+      "en": "Measurement principle",
+      "fr": "Principe de mesure"
+    },
+    "name": "Measurement principle",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "ACCOUNTING_ENTRY": {
+    "id": "ACCOUNTING_ENTRY",
+    "names": {
+      "en": "Accounting entry",
+      "fr": "Ecriture comptable"
+    },
+    "name": "Accounting entry",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "TYPE_ENTITY": {
+    "id": "TYPE_ENTITY",
+    "names": {
+      "en": "Entity type",
+      "fr": "Type d'entit\u00e9"
+    },
+    "name": "Entity type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "FDI_COMP": {
+    "id": "FDI_COMP",
+    "names": {
+      "en": "FDI component",
+      "fr": "Composant de l'IDE"
+    },
+    "name": "FDI component",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "LEVEL_COUNTERPART": {
+    "id": "LEVEL_COUNTERPART",
+    "names": {
+      "en": "Counterpart level",
+      "fr": "Niveau de contrepartie"
+    },
+    "name": "Counterpart level",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "FDI_COLLECTION_ID": {
+    "id": "FDI_COLLECTION_ID",
+    "names": {
+      "en": "FDI data collection identifier",
+      "fr": "Identifiant de collecte des IDE"
+    },
+    "name": "FDI data collection identifier",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "FDI_PROCESS_STATUS": {
+    "id": "FDI_PROCESS_STATUS",
+    "names": {
+      "en": "Status of the FDI data process",
+      "fr": "Etat du traitement des donn\u00e9es IDE"
+    },
+    "name": "Status of the FDI data process",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "ACTIVITY_ALLOC": {
+    "id": "ACTIVITY_ALLOC",
+    "names": {
+      "en": "Activity allocation",
+      "fr": "Allocation de l'activit\u00e9"
+    },
+    "name": "Activity allocation",
+    "descriptions": {
+      "en": "Identifes reference entity to classify economic activity"
+    },
+    "description": "Identifes reference entity to classify economic activity",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "SECTOR_FDIRRI": {
+    "id": "SECTOR_FDIRRI",
+    "names": {
+      "en": "Sector of application",
+      "fr": "Secteur d'application"
+    },
+    "name": "Sector of application",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDIRRI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "POL_CAT": {
+    "id": "POL_CAT",
+    "names": {
+      "en": "Policy category",
+      "fr": "Type de mesure r\u00e9glementaire"
+    },
+    "name": "Policy category",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDIRRI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "EXPLANATORY_NOTES": {
+    "id": "EXPLANATORY_NOTES",
+    "names": {
+      "en": "Explanatory Notes",
+      "fr": "Notes explicatives"
+    },
+    "name": "Explanatory Notes",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDIRRI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "LEG_PROV": {
+    "id": "LEG_PROV",
+    "names": {
+      "en": "Legal provision",
+      "fr": "Disposition l\u00e9gale"
+    },
+    "name": "Legal provision",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDIRRI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "OFF_SOURCES": {
+    "id": "OFF_SOURCES",
+    "names": {
+      "en": "Official source",
+      "fr": "Source officielle"
+    },
+    "name": "Official source",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDIRRI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "UNOFF_SOURCES": {
+    "id": "UNOFF_SOURCES",
+    "names": {
+      "en": "Unofficial sources",
+      "fr": "Sources non officielles"
+    },
+    "name": "Unofficial sources",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDIRRI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "LINK_SOURCES": {
+    "id": "LINK_SOURCES",
+    "names": {
+      "en": "Link to sources",
+      "fr": "Lien vers les sources"
+    },
+    "name": "Link to sources",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDIRRI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "EU_EX": {
+    "id": "EU_EX",
+    "names": {
+      "en": "EU exemption",
+      "fr": "Exemption de l'UE"
+    },
+    "name": "EU exemption",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDIRRI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "SAF": {
+    "id": "SAF",
+    "names": {
+      "en": "Standard score adjustment factor",
+      "fr": "Facteur d'ajustement de l'indice standard"
+    },
+    "name": "Standard score adjustment factor",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDIRRI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "RESTRICTION_STATUS": {
+    "id": "RESTRICTION_STATUS",
+    "names": {
+      "en": "Restriction status",
+      "fr": "\u00c9tat des restrictions"
+    },
+    "name": "Restriction status",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDIRRI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "MEASURE_ID": {
+    "id": "MEASURE_ID",
+    "names": {
+      "en": "Measure ID",
+      "fr": "D'identification de la mesure"
+    },
+    "name": "Measure ID",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDIRRI",
+    "scheme_agency": "OECD.DAF.INV"
+  },
+  "DONOR": {
+    "id": "DONOR",
+    "names": {
+      "en": "Donor",
+      "fr": "Donneur"
+    },
+    "name": "Donor",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_QDD_DCD_IDRC",
+    "scheme_agency": "OECD.DCD.FSD"
+  },
+  "TYING_STATUS": {
+    "id": "TYING_STATUS",
+    "names": {
+      "en": "Tying status",
+      "fr": "Degr\u00e9 de liaison"
+    },
+    "name": "Tying status",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DAC1",
+    "scheme_agency": "OECD.DCD.FSD"
+  },
+  "FLOW_TYPE": {
+    "id": "FLOW_TYPE",
+    "names": {
+      "en": "Flow type",
+      "fr": "Type de flux"
+    },
+    "name": "Flow type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DAC2",
+    "scheme_agency": "OECD.DCD.FSD"
+  },
+  "WORKER_STATUS": {
+    "id": "WORKER_STATUS",
+    "names": {
+      "en": "Worker status"
+    },
+    "name": "Worker status",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_KIIBIH",
+    "scheme_agency": "OECD.DEV.LAC"
+  },
+  "DEG_URB": {
+    "id": "DEG_URB",
+    "names": {
+      "en": "Degree of urbanisation"
+    },
+    "name": "Degree of urbanisation",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_KIIBIH",
+    "scheme_agency": "OECD.DEV.LAC"
+  },
+  "HOUSEHOLD_INF": {
+    "id": "HOUSEHOLD_INF",
+    "names": {
+      "en": "Household formality"
+    },
+    "name": "Household formality",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_KIIBIH",
+    "scheme_agency": "OECD.DEV.LAC"
+  },
+  "WORKER_INF": {
+    "id": "WORKER_INF",
+    "names": {
+      "en": "Worker formality"
+    },
+    "name": "Worker formality",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_KIIBIH",
+    "scheme_agency": "OECD.DEV.LAC"
+  },
+  "HOURS": {
+    "id": "HOURS",
+    "names": {
+      "en": "Hours worked"
+    },
+    "name": "Hours worked",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_KIIBIH",
+    "scheme_agency": "OECD.DEV.LAC"
+  },
+  "POP_BASE": {
+    "id": "POP_BASE",
+    "names": {
+      "en": "Population base",
+      "fr": "Base de population"
+    },
+    "name": "Population base",
+    "descriptions": {
+      "en": "Indicates specific population bases for some variables"
+    },
+    "description": "Indicates specific population bases for some variables",
+    "scheme_id": "CS_GID",
+    "scheme_agency": "OECD.DEV.NPG"
+  },
+  "CALC_METHOD": {
+    "id": "CALC_METHOD",
+    "names": {
+      "en": "Calculation method",
+      "fr": "M\u00e9thode de calcul"
+    },
+    "name": "Calculation method",
+    "descriptions": {
+      "en": "Indicates whether an indicator was used to compute the SIGI or not."
+    },
+    "description": "Indicates whether an indicator was used to compute the SIGI or not.",
+    "scheme_id": "CS_GID",
+    "scheme_agency": "OECD.DEV.NPG"
+  },
+  "SDG_SERIES": {
+    "id": "SDG_SERIES",
+    "names": {
+      "en": "SDG indicator",
+      "fr": "Indicateur ODD"
+    },
+    "name": "SDG indicator",
+    "descriptions": {
+      "en": "Indicates whether a variable is an official SDG indicator"
+    },
+    "description": "Indicates whether a variable is an official SDG indicator",
+    "scheme_id": "CS_GID",
+    "scheme_agency": "OECD.DEV.NPG"
+  },
+  "VARIABLE_CATEGORY": {
+    "id": "VARIABLE_CATEGORY",
+    "names": {
+      "en": "Variable category",
+      "fr": "Cat\u00e9gorie de variable"
+    },
+    "name": "Variable category",
+    "descriptions": {
+      "en": "Indicates the area of discrimination of a variable: law, attitude or practice"
+    },
+    "description": "Indicates the area of discrimination of a variable: law, attitude or practice",
+    "scheme_id": "CS_GID",
+    "scheme_agency": "OECD.DEV.NPG"
+  },
+  "SIGI_FRAMEWORK": {
+    "id": "SIGI_FRAMEWORK",
+    "names": {
+      "en": "SIGI Framework",
+      "fr": "Cadre conceptuel du SIGI"
+    },
+    "name": "SIGI Framework",
+    "descriptions": {
+      "en": "Indicates to which SIGI dimension and indicator a variable belongs"
+    },
+    "description": "Indicates to which SIGI dimension and indicator a variable belongs",
+    "scheme_id": "CS_GID",
+    "scheme_agency": "OECD.DEV.NPG"
+  },
+  "LOCATION": {
+    "id": "LOCATION",
+    "names": {
+      "en": "Country",
+      "fr": "Pays"
+    },
+    "name": "Country",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TIG8YUX",
+    "scheme_agency": "OECD.DEV.NPG"
+  },
+  "AGGREGATES": {
+    "id": "AGGREGATES",
+    "names": {
+      "en": "Aggregates",
+      "fr": "Agr\u00e9gats"
+    },
+    "name": "Aggregates",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TIG8YUX",
+    "scheme_agency": "OECD.DEV.NPG"
+  },
+  "VAR": {
+    "id": "VAR",
+    "names": {
+      "en": "Variables",
+      "fr": "Variables"
+    },
+    "name": "Variables",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TIG8YUX",
+    "scheme_agency": "OECD.DEV.NPG"
+  },
+  "ADJUSTMENT": {
+    "id": "ADJUSTMENT",
+    "names": {
+      "en": "Adjustment",
+      "fr": "Base de prix"
+    },
+    "name": "Adjustment",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_EO",
+    "scheme_agency": "OECD.ECO.MAD"
+  },
+  "CLIM_POL": {
+    "id": "CLIM_POL",
+    "names": {
+      "en": "Climate policies",
+      "fr": "Politiques climatiques"
+    },
+    "name": "Climate policies",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_EPS",
+    "scheme_agency": "OECD.ECO.MAD"
+  },
+  "CITIZENSHIP": {
+    "id": "CITIZENSHIP",
+    "names": {
+      "en": "Citizenship",
+      "fr": "Nationalit\u00e9"
+    },
+    "name": "Citizenship",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_MIG",
+    "scheme_agency": "OECD.ELS.IMD"
+  },
+  "BIRTH_COUNTRY": {
+    "id": "BIRTH_COUNTRY",
+    "names": {
+      "en": "Country of birth",
+      "fr": "Pays de naissance"
+    },
+    "name": "Country of birth",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_MIG",
+    "scheme_agency": "OECD.ELS.IMD"
+  },
+  "BIRTH_PLACE": {
+    "id": "BIRTH_PLACE",
+    "names": {
+      "en": "Place of birth",
+      "fr": "Lieu de naissance"
+    },
+    "name": "Place of birth",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_MIG",
+    "scheme_agency": "OECD.ELS.IMD"
+  },
+  "EDUCATION_LEV": {
+    "id": "EDUCATION_LEV",
+    "names": {
+      "en": "Education level",
+      "fr": "Niveau de formation"
+    },
+    "name": "Education level",
+    "descriptions": {
+      "en": "Breakdown by qualification (ISCED 2011)"
+    },
+    "description": "Breakdown by qualification (ISCED 2011)",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "MIGRATION_TYPE": {
+    "id": "MIGRATION_TYPE",
+    "names": {
+      "en": "Entry category",
+      "fr": "Cat\u00e9gorie d\u2019entr\u00e9e"
+    },
+    "name": "Entry category",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_MIG",
+    "scheme_agency": "OECD.ELS.IMD"
+  },
+  "VERSION": {
+    "id": "VERSION",
+    "names": {
+      "en": "Version",
+      "fr": "Version"
+    },
+    "name": "Version",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_EPL",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "PROGRAMME": {
+    "id": "PROGRAMME",
+    "names": {
+      "en": "Programme",
+      "fr": "Programme"
+    },
+    "name": "Programme",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_LMP",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "HOUSEHOLD_TYPE": {
+    "id": "HOUSEHOLD_TYPE",
+    "names": {
+      "en": "Household type"
+    },
+    "name": "Household type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "INCOME_PART": {
+    "id": "INCOME_PART",
+    "names": {
+      "en": "Earnings of the spouse"
+    },
+    "name": "Earnings of the spouse",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "CHILDCARE_USE": {
+    "id": "CHILDCARE_USE",
+    "names": {
+      "en": "Use of childcare services"
+    },
+    "name": "Use of childcare services",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "UNEMP_DURATION": {
+    "id": "UNEMP_DURATION",
+    "names": {
+      "en": "Unemployment duration"
+    },
+    "name": "Unemployment duration",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "INCOME_PREV": {
+    "id": "INCOME_PREV",
+    "names": {
+      "en": "Earnings in the previous job"
+    },
+    "name": "Earnings in the previous job",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "SOC_ASS_BENEFIT": {
+    "id": "SOC_ASS_BENEFIT",
+    "names": {
+      "en": "Claim social assistance or minimum income benefits"
+    },
+    "name": "Claim social assistance or minimum income benefits",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "HOUSE_BENEFIT": {
+    "id": "HOUSE_BENEFIT",
+    "names": {
+      "en": "Claim rent supplements"
+    },
+    "name": "Claim rent supplements",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "TEMP_INTOWORK_BENEFIT": {
+    "id": "TEMP_INTOWORK_BENEFIT",
+    "names": {
+      "en": "Claim temporary into-work benefits when taking up work"
+    },
+    "name": "Claim temporary into-work benefits when taking up work",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "BENEFIT_TYPE": {
+    "id": "BENEFIT_TYPE",
+    "names": {
+      "en": "Primary out-of-work benefit"
+    },
+    "name": "Primary out-of-work benefit",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "CONTRIBUTION": {
+    "id": "CONTRIBUTION",
+    "names": {
+      "en": "Participation tax rate breakdown"
+    },
+    "name": "Participation tax rate breakdown",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "CHILDCARE_COST": {
+    "id": "CHILDCARE_COST",
+    "names": {
+      "en": "Net childcare cost breakdown"
+    },
+    "name": "Net childcare cost breakdown",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "INCOME_CURR": {
+    "id": "INCOME_CURR",
+    "names": {
+      "en": "Earnings of the reference person"
+    },
+    "name": "Earnings of the reference person",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "WORKING_HOURS_INCREASE": {
+    "id": "WORKING_HOURS_INCREASE",
+    "names": {
+      "en": "Increase in working hours"
+    },
+    "name": "Increase in working hours",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "BENEFIT_TIER": {
+    "id": "BENEFIT_TIER",
+    "names": {
+      "en": "Benefit tier"
+    },
+    "name": "Benefit tier",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "STAT_REF_POP": {
+    "id": "STAT_REF_POP",
+    "names": {
+      "en": "Reference population for average and median wage statistics"
+    },
+    "name": "Reference population for average and median wage statistics",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "METHOD_MIN_WAGE": {
+    "id": "METHOD_MIN_WAGE",
+    "names": {
+      "en": "Minimum wage methodology"
+    },
+    "name": "Minimum wage methodology",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "AGE_CHILDREN": {
+    "id": "AGE_CHILDREN",
+    "names": {
+      "en": "Age of children"
+    },
+    "name": "Age of children",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TAXBEN",
+    "scheme_agency": "OECD.ELS.JAI"
+  },
+  "DURATION": {
+    "id": "DURATION",
+    "names": {
+      "en": "Unemployment duration"
+    },
+    "name": "Unemployment duration",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DUR",
+    "scheme_agency": "OECD.ELS.SAE"
+  },
+  "PAY_PERIOD": {
+    "id": "PAY_PERIOD",
+    "names": {
+      "en": "Pay period",
+      "fr": "P\u00e9riode de paie"
+    },
+    "name": "Pay period",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_EARNINGS",
+    "scheme_agency": "OECD.ELS.SAE"
+  },
+  "AGGREGATION_OPERATION": {
+    "id": "AGGREGATION_OPERATION",
+    "names": {
+      "en": "Aggregation operation"
+    },
+    "name": "Aggregation operation",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_HW",
+    "scheme_agency": "OECD.ELS.SAE"
+  },
+  "LABOUR_FORCE_STATUS": {
+    "id": "LABOUR_FORCE_STATUS",
+    "names": {
+      "en": "Labour force status"
+    },
+    "name": "Labour force status",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_LFS",
+    "scheme_agency": "OECD.ELS.SAE"
+  },
+  "JOB_COVERAGE": {
+    "id": "JOB_COVERAGE",
+    "names": {
+      "en": "Job coverage"
+    },
+    "name": "Job coverage",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_HW",
+    "scheme_agency": "OECD.ELS.SAE"
+  },
+  "WORK_PERIOD": {
+    "id": "WORK_PERIOD",
+    "names": {
+      "en": "Work period"
+    },
+    "name": "Work period",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_HW",
+    "scheme_agency": "OECD.ELS.SAE"
+  },
+  "HOURS_TYPE": {
+    "id": "HOURS_TYPE",
+    "names": {
+      "en": "Hours type"
+    },
+    "name": "Hours type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_HW",
+    "scheme_agency": "OECD.ELS.SAE"
+  },
+  "HOUR_BANDS": {
+    "id": "HOUR_BANDS",
+    "names": {
+      "en": "Hour bands"
+    },
+    "name": "Hour bands",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_HW",
+    "scheme_agency": "OECD.ELS.SAE"
+  },
+  "TIME_HORIZ": {
+    "id": "TIME_HORIZ",
+    "names": {
+      "en": "Time horizon",
+      "fr": "Horizon temporel"
+    },
+    "name": "Time horizon",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_POPULATION",
+    "scheme_agency": "OECD.ELS.SAE"
+  },
+  "TENURE": {
+    "id": "TENURE",
+    "names": {
+      "en": "Job tenure"
+    },
+    "name": "Job tenure",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TENURE",
+    "scheme_agency": "OECD.ELS.SAE"
+  },
+  "EXPEND_SOURCE": {
+    "id": "EXPEND_SOURCE",
+    "names": {
+      "en": "Expenditure source",
+      "fr": "Source des d\u00e9penses"
+    },
+    "name": "Expenditure source",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_HEALTH_SOCX_AGG",
+    "scheme_agency": "OECD.ELS.SPD"
+  },
+  "SPENDING_TYPE": {
+    "id": "SPENDING_TYPE",
+    "names": {
+      "en": "Spending type",
+      "fr": "Type de d\u00e9penses"
+    },
+    "name": "Spending type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_HEALTH_SOCX_AGG",
+    "scheme_agency": "OECD.ELS.SPD"
+  },
+  "PROGRAMME_TYPE": {
+    "id": "PROGRAMME_TYPE",
+    "names": {
+      "en": "Programme type",
+      "fr": "Type de programme"
+    },
+    "name": "Programme type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_HEALTH_SOCX_AGG",
+    "scheme_agency": "OECD.ELS.SPD"
+  },
+  "OPTIONALITY": {
+    "id": "OPTIONALITY",
+    "names": {
+      "en": "Optionality"
+    },
+    "name": "Optionality",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PAG",
+    "scheme_agency": "OECD.ELS.SPD"
+  },
+  "PLASTIC_CATEGORY": {
+    "id": "PLASTIC_CATEGORY",
+    "names": {
+      "en": "Plastic category",
+      "fr": "Cat\u00e9gorie de plastique"
+    },
+    "name": "Plastic category",
+    "descriptions": {
+      "en": "Plastic category"
+    },
+    "description": "Plastic category",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "PLASTIC_SOURCE": {
+    "id": "PLASTIC_SOURCE",
+    "names": {
+      "en": "Plastic source",
+      "fr": "Source de plastique"
+    },
+    "name": "Plastic source",
+    "descriptions": {
+      "en": "Plastic source"
+    },
+    "description": "Plastic source",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "POLLUTANT": {
+    "id": "POLLUTANT",
+    "names": {
+      "en": "Greenhouse gas",
+      "fr": "Gaz \u00e0 effet de serre"
+    },
+    "name": "Greenhouse gas",
+    "descriptions": {
+      "en": "Greenhouse gas"
+    },
+    "description": "Greenhouse gas",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "PLASTIC_LIFEC_S": {
+    "id": "PLASTIC_LIFEC_S",
+    "names": {
+      "en": "Plastic lifecycle stage",
+      "fr": "Cycle de vie des plastiques"
+    },
+    "name": "Plastic lifecycle stage",
+    "descriptions": {
+      "en": "Plastic lifecycle stage"
+    },
+    "description": "Plastic lifecycle stage",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "PLASTIC_WATER": {
+    "id": "PLASTIC_WATER",
+    "names": {
+      "en": "Plastic in aquatic environments",
+      "fr": "Le plastique dans les environnements aquatiques"
+    },
+    "name": "Plastic in aquatic environments",
+    "descriptions": {
+      "en": "Plastic in aquatic environments"
+    },
+    "description": "Plastic in aquatic environments",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "PLASTIC_POLYMER": {
+    "id": "PLASTIC_POLYMER",
+    "names": {
+      "en": "Plastic polymer",
+      "fr": "Polym\u00e8re plastique"
+    },
+    "name": "Plastic polymer",
+    "descriptions": {
+      "en": "Plastic polymer"
+    },
+    "description": "Plastic polymer",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "PLASTIC_APP": {
+    "id": "PLASTIC_APP",
+    "names": {
+      "en": "Plastics application",
+      "fr": "Application des plastiques"
+    },
+    "name": "Plastics application",
+    "descriptions": {
+      "en": "Plastics application"
+    },
+    "description": "Plastics application",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "PLASTIC_END_LIFE": {
+    "id": "PLASTIC_END_LIFE",
+    "names": {
+      "en": "Plastic end-of-life fate",
+      "fr": "Mode de gestion en fin de vie du plastique"
+    },
+    "name": "Plastic end-of-life fate",
+    "descriptions": {
+      "en": "Plastic end-of-life fate"
+    },
+    "description": "Plastic end-of-life fate",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "PLASTIC_TYPE": {
+    "id": "PLASTIC_TYPE",
+    "names": {
+      "en": "Plastic type",
+      "fr": "Type de plastique"
+    },
+    "name": "Plastic type",
+    "descriptions": {
+      "en": "Plastic type"
+    },
+    "description": "Plastic type",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "SCENARIO": {
+    "id": "SCENARIO",
+    "names": {
+      "en": "Scenario",
+      "fr": "Sc\u00e9nario"
+    },
+    "name": "Scenario",
+    "descriptions": {
+      "en": "Scenario"
+    },
+    "description": "Scenario",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "PLASTIC_RECYCLING": {
+    "id": "PLASTIC_RECYCLING",
+    "names": {
+      "en": "Plastic recycling",
+      "fr": "Recyclage du plastique"
+    },
+    "name": "Plastic recycling",
+    "descriptions": {
+      "en": "Plastic recycling"
+    },
+    "description": "Plastic recycling",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "MISMANAGED_LITTERED_PLASTIC": {
+    "id": "MISMANAGED_LITTERED_PLASTIC",
+    "names": {
+      "en": "Mismanaged and littered plastic",
+      "fr": "Plastique mal g\u00e9r\u00e9"
+    },
+    "name": "Mismanaged and littered plastic",
+    "descriptions": {
+      "en": "Mismanaged and littered plastic"
+    },
+    "description": "Mismanaged and littered plastic",
+    "scheme_id": "CS_GPO",
+    "scheme_agency": "OECD.ENV.EEI"
+  },
+  "OBS_STATUS_2": {
+    "id": "OBS_STATUS_2",
+    "names": {
+      "en": "Observation status 2",
+      "fr": "Statut d'observation 2"
+    },
+    "name": "Observation status 2",
+    "descriptions": {
+      "en": "Information on the quality of a value or an unusual or missing value."
+    },
+    "description": "Information on the quality of a value or an unusual or missing value.",
+    "scheme_id": "ICT_CONCEPTS",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "OBS_STATUS_3": {
+    "id": "OBS_STATUS_3",
+    "names": {
+      "en": "Observation status 3",
+      "fr": "Statut d'observation 3"
+    },
+    "name": "Observation status 3",
+    "descriptions": {
+      "en": "Information on the quality of a value or an unusual or missing value."
+    },
+    "description": "Information on the quality of a value or an unusual or missing value.",
+    "scheme_id": "ICT_CONCEPTS",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "OBS_STATUS_4": {
+    "id": "OBS_STATUS_4",
+    "names": {
+      "en": "Observation status 4"
+    },
+    "name": "Observation status 4",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_WATER_ABSTRACT",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "CONVERSION_TYPE": {
+    "id": "CONVERSION_TYPE",
+    "names": {
+      "en": "Conversion type",
+      "fr": "Type de conversion"
+    },
+    "name": "Conversion type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_MUNW",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "EXPOSURE_LEVEL": {
+    "id": "EXPOSURE_LEVEL",
+    "names": {
+      "en": "Exposure levels (WHO Air Quality Guidelines)",
+      "fr": "Niveaux d'exposition (lignes directrices de l'OMS sur la qualit\u00e9 de l'air)"
+    },
+    "name": "Exposure levels (WHO Air Quality Guidelines)",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AIR_POL",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "ISO": {
+    "id": "ISO",
+    "names": {
+      "en": "ISO",
+      "fr": "ISO"
+    },
+    "name": "ISO",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AIR_POL",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "CLIM_ACT_POL": {
+    "id": "CLIM_ACT_POL",
+    "names": {
+      "en": "Climate actions and policies",
+      "fr": "Actions et politiques en mati\u00e8re de climat"
+    },
+    "name": "Climate actions and policies",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CAPMF",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "TRANSFORMATION": {
+    "id": "TRANSFORMATION",
+    "names": {
+      "en": "Transformation",
+      "fr": "Transformation"
+    },
+    "name": "Transformation",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_EAMFP",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "CEPA": {
+    "id": "CEPA",
+    "names": {
+      "en": "Classification of Environmental Protection Activities (CEPA)",
+      "fr": "Classification des activit\u00e9s de protection de l'environnement (CEPA)"
+    },
+    "name": "Classification of Environmental Protection Activities (CEPA)",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_EPEA",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "CATEGORY": {
+    "id": "CATEGORY",
+    "names": {
+      "en": "Category of environmentally related tax revenue",
+      "fr": "Cat\u00e9gorie de recettes provenant des taxes li\u00e9es \u00e0 l'environnement"
+    },
+    "name": "Category of environmentally related tax revenue",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_ERTR",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "DOMAIN": {
+    "id": "DOMAIN",
+    "names": {
+      "en": "Domain of environmentally related tax revenue",
+      "fr": "Domaine de recettes provenant des taxes li\u00e9es \u00e0 l'environnement"
+    },
+    "name": "Domain of environmentally related tax revenue",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_ERTR",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "REF_YEAR_PRICE": {
+    "id": "REF_YEAR_PRICE",
+    "names": {
+      "en": "Price reference year"
+    },
+    "name": "Price reference year",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SOE",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "PRODUCT_CATEGORIES": {
+    "id": "PRODUCT_CATEGORIES",
+    "names": {
+      "en": "Product categories",
+      "fr": "Cat\u00e9gories de produits"
+    },
+    "name": "Product categories",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_EWASTE",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "RISK": {
+    "id": "RISK",
+    "names": {
+      "en": "Risk",
+      "fr": "Risque"
+    },
+    "name": "Risk",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_EXP_MORSC",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "TIMELINESS": {
+    "id": "TIMELINESS",
+    "names": {
+      "en": "Timeliness"
+    },
+    "name": "Timeliness",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_GREEN_GROWTH",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "GROUP": {
+    "id": "GROUP",
+    "names": {
+      "en": "Material group",
+      "fr": "Type de mati\u00e8re"
+    },
+    "name": "Material group",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_MATERIAL_RESOURCES",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "TECH": {
+    "id": "TECH",
+    "names": {
+      "en": "Technological domain",
+      "fr": "Domaine technologique"
+    },
+    "name": "Technological domain",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PAT_IND",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "PARTNER": {
+    "id": "PARTNER",
+    "names": {
+      "en": "Counterpart area",
+      "fr": "Pays de contrepartie"
+    },
+    "name": "Counterpart area",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PAT_COL",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "SIZE": {
+    "id": "SIZE",
+    "names": {
+      "en": "Family size",
+      "fr": "Taille de la famille brevets"
+    },
+    "name": "Family size",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PAT_DEV",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "PAT": {
+    "id": "PAT",
+    "names": {
+      "en": "Regional patent office",
+      "fr": "Office r\u00e9gional des brevets"
+    },
+    "name": "Regional patent office",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PAT_IND",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "TYPE": {
+    "id": "TYPE",
+    "names": {
+      "en": "Type of patent counting",
+      "fr": "Type de comptage des brevets"
+    },
+    "name": "Type of patent counting",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PAT_IND",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "DESIGNATION": {
+    "id": "DESIGNATION",
+    "names": {
+      "en": "IUCN management categories",
+      "fr": "Cat\u00e9gories de gestion de l'UICN"
+    },
+    "name": "IUCN management categories",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "PROTECTED_AREAS",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "RET_PERIOD": {
+    "id": "RET_PERIOD",
+    "names": {
+      "en": "Return periods"
+    },
+    "name": "Return periods",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "EXPOSURE_TO_CLIMATE_HAZARDS",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "PERIOD": {
+    "id": "PERIOD",
+    "names": {
+      "en": "Period"
+    },
+    "name": "Period",
+    "descriptions": {
+      "en": "Timespan or point in time to which the observation actually refers."
+    },
+    "description": "Timespan or point in time to which the observation actually refers.",
+    "scheme_id": "CS_DD_HCL_TEST",
+    "scheme_agency": "OECD.SDD.SDPS"
+  },
+  "PAR": {
+    "id": "PAR",
+    "names": {
+      "en": "Parameter",
+      "fr": "Param\u00e8tre"
+    },
+    "name": "Parameter",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_WATER_DISCHARGE",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "SUPPLY_USE": {
+    "id": "SUPPLY_USE",
+    "names": {
+      "en": "Supply and use",
+      "fr": "Ressources et emplois"
+    },
+    "name": "Supply and use",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_WATER_PSUT",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "SPECIES": {
+    "id": "SPECIES",
+    "names": {
+      "en": "Species",
+      "fr": "Esp\u00e8ces"
+    },
+    "name": "Species",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_WILD_LIFE",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "MATERIAL": {
+    "id": "MATERIAL",
+    "names": {
+      "en": "Materials",
+      "fr": "Mat\u00e9riaux"
+    },
+    "name": "Materials",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_WSTREAMS",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "HEAT_STRESS": {
+    "id": "HEAT_STRESS",
+    "names": {
+      "en": "Heat stress thresholds"
+    },
+    "name": "Heat stress thresholds",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "EXPOSURE_TO_CLIMATE_HAZARDS",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "HURRICANE_WIND_SCALE": {
+    "id": "HURRICANE_WIND_SCALE",
+    "names": {
+      "en": "Hurricane wind scale thresholds"
+    },
+    "name": "Hurricane wind scale thresholds",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "EXPOSURE_TO_CLIMATE_HAZARDS",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "IUCN_CODE": {
+    "id": "IUCN_CODE",
+    "names": {
+      "en": "IUCN code",
+      "fr": "IUCN code"
+    },
+    "name": "IUCN code",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "PROTECTED_AREAS",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "SCOPE": {
+    "id": "SCOPE",
+    "names": {
+      "en": "Scope",
+      "fr": "Scope"
+    },
+    "name": "Scope",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "PROTECTED_AREAS",
+    "scheme_agency": "OECD.ENV.EPI"
+  },
+  "CRITERIA": {
+    "id": "CRITERIA",
+    "names": {
+      "en": "Criteria"
+    },
+    "name": "Criteria",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PII",
+    "scheme_agency": "OECD.GOV.PSI"
+  },
+  "TRANSPORT_MODE": {
+    "id": "TRANSPORT_MODE",
+    "names": {
+      "en": "Transport mode"
+    },
+    "name": "Transport mode",
+    "descriptions": {
+      "en": "Transport mode"
+    },
+    "description": "Transport mode",
+    "scheme_id": "CS_TRENDS",
+    "scheme_agency": "OECD.ITF"
+  },
+  "GEO_COVERAGE": {
+    "id": "GEO_COVERAGE",
+    "names": {
+      "en": "Geographical coverage",
+      "fr": "Couverture g\u00e9ographique"
+    },
+    "name": "Geographical coverage",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TRANSPORT",
+    "scheme_agency": "OECD.ITF"
+  },
+  "FUEL": {
+    "id": "FUEL",
+    "names": {
+      "en": "Fuel type",
+      "fr": "Type de carburant"
+    },
+    "name": "Fuel type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TRANSPORT",
+    "scheme_agency": "OECD.ITF"
+  },
+  "INFRASTRUCTURE_TYPE": {
+    "id": "INFRASTRUCTURE_TYPE",
+    "names": {
+      "en": "Infrastructure type"
+    },
+    "name": "Infrastructure type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TRENDS",
+    "scheme_agency": "OECD.ITF"
+  },
+  "FLIGHT_TYPE": {
+    "id": "FLIGHT_TYPE",
+    "names": {
+      "en": "Flight type",
+      "fr": "Type de vol"
+    },
+    "name": "Flight type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AT_EU",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "EMISSIONS_SOURCE": {
+    "id": "EMISSIONS_SOURCE",
+    "names": {
+      "en": "Emissions",
+      "fr": "Source d'\u00e9missions"
+    },
+    "name": "Emissions",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AEA",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "ACTIVITY_SCOPE": {
+    "id": "ACTIVITY_SCOPE",
+    "names": {
+      "en": "Activity scope",
+      "fr": "Champ d'application de l'activit\u00e9"
+    },
+    "name": "Activity scope",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AEA",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "VESSEL": {
+    "id": "VESSEL",
+    "names": {
+      "en": "Vessel",
+      "fr": "Navire"
+    },
+    "name": "Vessel",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AEA",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "CLASSIFICATION": {
+    "id": "CLASSIFICATION",
+    "names": {
+      "en": "Classification",
+      "fr": "Classification"
+    },
+    "name": "Classification",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AT_EU",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "ENERGY_USE": {
+    "id": "ENERGY_USE",
+    "names": {
+      "en": "Energy use",
+      "fr": "Utilisation d'\u00e9nergie"
+    },
+    "name": "Energy use",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AT_EU",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "RESOURCE": {
+    "id": "RESOURCE",
+    "names": {
+      "en": "Resource",
+      "fr": "Ressource"
+    },
+    "name": "Resource",
+    "descriptions": {
+      "en": "Resource",
+      "fr": "Ressource"
+    },
+    "description": "Resource",
+    "scheme_id": "CS_NAT_RES",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "SEEA": {
+    "id": "SEEA",
+    "names": {
+      "en": "Stocks and flows",
+      "fr": "Stocks et flux"
+    },
+    "name": "Stocks and flows",
+    "descriptions": {
+      "en": "Stocks and flows",
+      "fr": "Stocks et flux"
+    },
+    "description": "Stocks and flows",
+    "scheme_id": "CS_NAT_RES",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "CLASS": {
+    "id": "CLASS",
+    "names": {
+      "en": "Class",
+      "fr": "Classe"
+    },
+    "name": "Class",
+    "descriptions": {
+      "en": "Classe",
+      "fr": "Classe"
+    },
+    "description": "Classe",
+    "scheme_id": "CS_NAT_RES",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "ENERGY_FLOWS": {
+    "id": "ENERGY_FLOWS",
+    "names": {
+      "en": "Energy flows",
+      "fr": "Energy flows"
+    },
+    "name": "Energy flows",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PEFA",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "PEFA_INDICATORS": {
+    "id": "PEFA_INDICATORS",
+    "names": {
+      "en": "Measure",
+      "fr": "Key indicators"
+    },
+    "name": "Measure",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PEFA",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "PEFA_BRIDGE_ITEMS": {
+    "id": "PEFA_BRIDGE_ITEMS",
+    "names": {
+      "en": "Bridging items",
+      "fr": "Bridging items"
+    },
+    "name": "Bridging items",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PEFA",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "STK_FLOW": {
+    "id": "STK_FLOW",
+    "names": {
+      "en": "Table",
+      "fr": "Stocks and flows"
+    },
+    "name": "Table",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PEFA",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "TRANSACTION": {
+    "id": "TRANSACTION",
+    "names": {
+      "en": "Transaction",
+      "fr": "Transaction"
+    },
+    "name": "Transaction",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_PEFA",
+    "scheme_agency": "OECD.SDD.NAD.SEEA"
+  },
+  "SUBJECT": {
+    "id": "SUBJECT",
+    "names": {
+      "en": "Subject",
+      "fr": "Sujet"
+    },
+    "name": "Subject",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_MEI_TEST",
+    "scheme_agency": "OECD.SDD.SDPS"
+  },
+  "FREQUENCY": {
+    "id": "FREQUENCY",
+    "names": {
+      "en": "Frequency",
+      "fr": "Fr\u00e9quence"
+    },
+    "name": "Frequency",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_MEI_TEST",
+    "scheme_agency": "OECD.SDD.SDPS"
+  },
+  "EDITION": {
+    "id": "EDITION",
+    "names": {
+      "en": "Edition",
+      "fr": "\u00c9dition"
+    },
+    "name": "Edition",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_STES",
+    "scheme_agency": "OECD.SDD.STES"
+  },
+  "INDICATOR_TYPE": {
+    "id": "INDICATOR_TYPE",
+    "names": {
+      "en": "Indicator type",
+      "fr": "Type d'indicateur"
+    },
+    "name": "Indicator type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_BB_DB",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "DIMENSIONS": {
+    "id": "DIMENSIONS",
+    "names": {
+      "en": "Dimensions"
+    },
+    "name": "Dimensions",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "THEME": {
+    "id": "THEME",
+    "names": {
+      "en": "Theme"
+    },
+    "name": "Theme",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "NDS_LINK": {
+    "id": "NDS_LINK",
+    "names": {
+      "en": "Link to NDS"
+    },
+    "name": "Link to NDS",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "NAME": {
+    "id": "NAME",
+    "names": {
+      "en": "Name"
+    },
+    "name": "Name",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "DESCRIPTION": {
+    "id": "DESCRIPTION",
+    "names": {
+      "en": "Description"
+    },
+    "name": "Description",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "DOMAINS": {
+    "id": "DOMAINS",
+    "names": {
+      "en": "Domains"
+    },
+    "name": "Domains",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "RESP_DEVELOPMENT": {
+    "id": "RESP_DEVELOPMENT",
+    "names": {
+      "en": "Responsible entity(ies) - Development"
+    },
+    "name": "Responsible entity(ies) - Development",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "RESP_IMPLEMENTATION": {
+    "id": "RESP_IMPLEMENTATION",
+    "names": {
+      "en": "Responsible entity(ies) - Implementation"
+    },
+    "name": "Responsible entity(ies) - Implementation",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "RESP_MONITORING": {
+    "id": "RESP_MONITORING",
+    "names": {
+      "en": "Responsible entity(ies) - Monitoring"
+    },
+    "name": "Responsible entity(ies) - Monitoring",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "BUDGET": {
+    "id": "BUDGET",
+    "names": {
+      "en": "Budget"
+    },
+    "name": "Budget",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "BUDGET_AMOUNT": {
+    "id": "BUDGET_AMOUNT",
+    "names": {
+      "en": "Budget Amount"
+    },
+    "name": "Budget Amount",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "BUDGET_CURRENCY": {
+    "id": "BUDGET_CURRENCY",
+    "names": {
+      "en": "Budget Currency"
+    },
+    "name": "Budget Currency",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "BUDGET_TIMEFRAME": {
+    "id": "BUDGET_TIMEFRAME",
+    "names": {
+      "en": "Time frame for spending the budget"
+    },
+    "name": "Time frame for spending the budget",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "BUDGET_TIMEFRAME_YEARS": {
+    "id": "BUDGET_TIMEFRAME_YEARS",
+    "names": {
+      "en": "Number of years to spend the budget"
+    },
+    "name": "Number of years to spend the budget",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "TARGET_POPULATION": {
+    "id": "TARGET_POPULATION",
+    "names": {
+      "en": "Target population"
+    },
+    "name": "Target population",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "TARGET_POPULATION_SIZE": {
+    "id": "TARGET_POPULATION_SIZE",
+    "names": {
+      "en": "Size of the target population"
+    },
+    "name": "Size of the target population",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "MARKET_OPENNESS": {
+    "id": "MARKET_OPENNESS",
+    "names": {
+      "en": "MARKET OPENNESS"
+    },
+    "name": "MARKET OPENNESS",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "TRUST": {
+    "id": "TRUST",
+    "names": {
+      "en": "TRUST"
+    },
+    "name": "TRUST",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "SOCIETY": {
+    "id": "SOCIETY",
+    "names": {
+      "en": "SOCIETY"
+    },
+    "name": "SOCIETY",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "JOBS": {
+    "id": "JOBS",
+    "names": {
+      "en": "JOBS"
+    },
+    "name": "JOBS",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "INNOVATION": {
+    "id": "INNOVATION",
+    "names": {
+      "en": "INNOVATION"
+    },
+    "name": "INNOVATION",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "USE": {
+    "id": "USE",
+    "names": {
+      "en": "USE"
+    },
+    "name": "USE",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "ACCESS": {
+    "id": "ACCESS",
+    "names": {
+      "en": "ACCESS"
+    },
+    "name": "ACCESS",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_1",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "RESPONSE_ID": {
+    "id": "RESPONSE_ID",
+    "names": {
+      "en": "ResponseID"
+    },
+    "name": "ResponseID",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "HAS_NDS": {
+    "id": "HAS_NDS",
+    "names": {
+      "en": "Has NDS"
+    },
+    "name": "Has NDS",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "NDS_PLAN": {
+    "id": "NDS_PLAN",
+    "names": {
+      "en": "Plans NDS"
+    },
+    "name": "Plans NDS",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "RESP_LEAD": {
+    "id": "RESP_LEAD",
+    "names": {
+      "en": "Responsible entity(ies) - Lead"
+    },
+    "name": "Responsible entity(ies) - Lead",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "RESP_EVALUATION": {
+    "id": "RESP_EVALUATION",
+    "names": {
+      "en": "Responsible entity(ies) - Evaluation"
+    },
+    "name": "Responsible entity(ies) - Evaluation",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "RESP_COORDINATION": {
+    "id": "RESP_COORDINATION",
+    "names": {
+      "en": "Responsible entity(ies) - Coordination"
+    },
+    "name": "Responsible entity(ies) - Coordination",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "BUDGET_USD": {
+    "id": "BUDGET_USD",
+    "names": {
+      "en": "Budget in USD"
+    },
+    "name": "Budget in USD",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "BUDGET_GDP": {
+    "id": "BUDGET_GDP",
+    "names": {
+      "en": "Budget as share of GDP"
+    },
+    "name": "Budget as share of GDP",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "BUDGET_ADMIN": {
+    "id": "BUDGET_ADMIN",
+    "names": {
+      "en": "Budget administration"
+    },
+    "name": "Budget administration",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "BUDGET_ADMIN_NAME": {
+    "id": "BUDGET_ADMIN_NAME",
+    "names": {
+      "en": "Name of the budget administration"
+    },
+    "name": "Name of the budget administration",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "NDS_MONITOR": {
+    "id": "NDS_MONITOR",
+    "names": {
+      "en": "NDS monitoring"
+    },
+    "name": "NDS monitoring",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "NDS_TARGET": {
+    "id": "NDS_TARGET",
+    "names": {
+      "en": "NDS targeting"
+    },
+    "name": "NDS targeting",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "NDS_EVAL": {
+    "id": "NDS_EVAL",
+    "names": {
+      "en": "Do you evaluate the NDS"
+    },
+    "name": "Do you evaluate the NDS",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "NDS_IMPACT": {
+    "id": "NDS_IMPACT",
+    "names": {
+      "en": "Do you measure NDS impact"
+    },
+    "name": "Do you measure NDS impact",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "NDS_IMPACT_METHOD": {
+    "id": "NDS_IMPACT_METHOD",
+    "names": {
+      "en": "NDS impact method"
+    },
+    "name": "NDS impact method",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "NDS_EVAL_METHOD": {
+    "id": "NDS_EVAL_METHOD",
+    "names": {
+      "en": "NDS evaluation method"
+    },
+    "name": "NDS evaluation method",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "MORE_INFO": {
+    "id": "MORE_INFO",
+    "names": {
+      "en": "More information"
+    },
+    "name": "More information",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "PRIORITY_1": {
+    "id": "PRIORITY_1",
+    "names": {
+      "en": "Priority 1"
+    },
+    "name": "Priority 1",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "PRIORITY_2": {
+    "id": "PRIORITY_2",
+    "names": {
+      "en": "Priority 2"
+    },
+    "name": "Priority 2",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "PRIORITY_3": {
+    "id": "PRIORITY_3",
+    "names": {
+      "en": "Priority 3"
+    },
+    "name": "Priority 3",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "KEY_PRIORITIES": {
+    "id": "KEY_PRIORITIES",
+    "names": {
+      "en": "Key priorities"
+    },
+    "name": "Key priorities",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_DEO_2",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "DIMENSION": {
+    "id": "DIMENSION",
+    "names": {
+      "en": "Dimension",
+      "fr": "Dimension"
+    },
+    "name": "Dimension",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_NDSC",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "POLICY": {
+    "id": "POLICY",
+    "names": {
+      "en": "Policy domains",
+      "fr": "Domaine"
+    },
+    "name": "Policy domains",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_NDSC",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "POLICY_ALL": {
+    "id": "POLICY_ALL",
+    "names": {
+      "en": "All policy domains included in the dimension",
+      "fr": "Tous les domaines"
+    },
+    "name": "All policy domains included in the dimension",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_NDSC",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "YEAR": {
+    "id": "YEAR",
+    "names": {
+      "en": "Year",
+      "fr": "Ann\u00e9e"
+    },
+    "name": "Year",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_NDSC",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "POLICY_DIM": {
+    "id": "POLICY_DIM",
+    "names": {
+      "en": "Policy dimension",
+      "fr": "Dimension",
+      "he": "\u05de\u05d9\u05de\u05d3",
+      "ar": "\u0627\u0644\u0628\u064f\u0639\u062f"
+    },
+    "name": "Policy dimension",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOOLKIT",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "LATEST": {
+    "id": "LATEST",
+    "names": {
+      "en": "Latest",
+      "fr": "Derni\u00e8re observation",
+      "he": "\u05d4\u05db\u05d9 \u05de\u05d0\u05d5\u05d7\u05e8",
+      "ar": "\u0627\u0644\u0623\u062e\u064a\u0631\u0629"
+    },
+    "name": "Latest",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOOLKIT",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "DIRECTION": {
+    "id": "DIRECTION",
+    "names": {
+      "en": "Direction",
+      "fr": "Direction",
+      "he": "\u05db\u05d9\u05d5\u05d5\u05df",
+      "ar": "\u0627\u062a\u062c\u0627\u0647"
+    },
+    "name": "Direction",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOOLKIT",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "TIME_DATA": {
+    "id": "TIME_DATA",
+    "names": {
+      "en": "Time_data",
+      "fr": "Ann\u00e9e donn\u00e9e",
+      "he": "\u05e0\u05ea\u05d5\u05e0\u05d9_\u05e9\u05e0\u05d4",
+      "ar": "\u0627\u0644\u0633\u0646\u0629_\u0628\u064a\u0627\u0646\u0627\u062a"
+    },
+    "name": "Time_data",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOOLKIT",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "AVG_COUNT": {
+    "id": "AVG_COUNT",
+    "names": {
+      "en": "Countries in the average",
+      "fr": "Pays dans la moyenne",
+      "he": "\u05de\u05d3\u05d9\u05e0\u05d5\u05ea \u05d1\u05de\u05de\u05d5\u05e6\u05e2",
+      "ar": "\u0627\u0644\u062f\u0648\u0644 \u0641\u064a \u0627\u0644\u0645\u062a\u0648\u0633\u0637"
+    },
+    "name": "Countries in the average",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOOLKIT",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "BREAKDOWN": {
+    "id": "BREAKDOWN",
+    "names": {
+      "en": "Breakdown",
+      "fr": "R\u00e9partition"
+    },
+    "name": "Breakdown",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TQ_SURVEY",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "RESTYPE": {
+    "id": "RESTYPE",
+    "names": {
+      "en": "Type of restriction",
+      "fr": "Type de restrictions",
+      "he": "\u05e1\u05d5\u05d2 \u05de\u05d2\u05d1\u05dc\u05d5\u05ea",
+      "ar": "\u0646\u0648\u0639 \u0627\u0644\u0642\u064a\u062f"
+    },
+    "name": "Type of restriction",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOOLKIT_12",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "LEVEL": {
+    "id": "LEVEL",
+    "names": {
+      "en": "Level of education",
+      "fr": "Niveau d'\u00e9ducation",
+      "he": "\u05e8\u05de\u05ea \u05d4\u05e9\u05db\u05dc\u05d4",
+      "ar": "\u0645\u0633\u062a\u0648\u0649 \u0627\u0644\u062a\u0639\u0644\u064a\u0645"
+    },
+    "name": "Level of education",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOOLKIT_8",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "FLOW": {
+    "id": "FLOW",
+    "names": {
+      "en": "Flow",
+      "fr": "Flux",
+      "he": "\u05d6\u05e8\u05d9\u05de\u05d4",
+      "ar": "\u0627\u0644\u062a\u062f\u0641\u0642"
+    },
+    "name": "Flow",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOOLKIT_7",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "FIELD": {
+    "id": "FIELD",
+    "names": {
+      "en": "Field",
+      "fr": "Champs",
+      "he": "\u05e9\u05d3\u05d4",
+      "ar": "\u0645\u062c\u0627\u0644"
+    },
+    "name": "Field",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TOOLKIT_8",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "POPULATION": {
+    "id": "POPULATION",
+    "names": {
+      "en": "Population",
+      "fr": "Population"
+    },
+    "name": "Population",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_TQ_SURVEY",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "TIME_HORIZON_USE": {
+    "id": "TIME_HORIZON_USE",
+    "names": {
+      "en": "Time horizon",
+      "fr": "Horizon temporel"
+    },
+    "name": "Time horizon",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "ICT_CONCEPTS",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "GEO_AREA": {
+    "id": "GEO_AREA",
+    "names": {
+      "en": "Geographical area",
+      "fr": "Zone g\u00e9ographique"
+    },
+    "name": "Geographical area",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "ICT_CONCEPTS",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "INCOME_QUARTILE": {
+    "id": "INCOME_QUARTILE",
+    "names": {
+      "en": "Income quartile"
+    },
+    "name": "Income quartile",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "ICT_CONCEPTS",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "INCOME_QUINTILE": {
+    "id": "INCOME_QUINTILE",
+    "names": {
+      "en": "Income quintile"
+    },
+    "name": "Income quintile",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "ICT_CONCEPTS",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "EDUCATION_LEVEL": {
+    "id": "EDUCATION_LEVEL",
+    "names": {
+      "en": "Education level",
+      "fr": "Niveau d'\u00e9ducation"
+    },
+    "name": "Education level",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "ICT_CONCEPTS",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "EMP_STATUS": {
+    "id": "EMP_STATUS",
+    "names": {
+      "en": "Employment status",
+      "fr": "Statut de l'emploi"
+    },
+    "name": "Employment status",
+    "descriptions": {
+      "en": "Breakdown by status of the employee"
+    },
+    "description": "Breakdown by status of the employee",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "BREAKDOWN_V7": {
+    "id": "BREAKDOWN_V7",
+    "names": {
+      "en": "V7 Breakdowns",
+      "fr": "V7 Breakdowns"
+    },
+    "name": "V7 Breakdowns",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "ICT_CONCEPTS",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "INCOME_GROUP": {
+    "id": "INCOME_GROUP",
+    "names": {
+      "en": "Income group",
+      "fr": "Groupe de revenus"
+    },
+    "name": "Income group",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "ICT_CONCEPTS",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "BREAKDOWN_V7_HH": {
+    "id": "BREAKDOWN_V7_HH",
+    "names": {
+      "en": "V7 Breakdowns households",
+      "fr": "V7 Breakdowns households"
+    },
+    "name": "V7 Breakdowns households",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "ICT_CONCEPTS",
+    "scheme_agency": "OECD.STI.DEP"
+  },
+  "PATENT_AUTHORITIES": {
+    "id": "PATENT_AUTHORITIES",
+    "names": {
+      "en": "Patent authorities",
+      "fr": "Bureau de brevets"
+    },
+    "name": "Patent authorities",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_Patents",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "DATE_TYPE": {
+    "id": "DATE_TYPE",
+    "names": {
+      "en": "Reference date type",
+      "fr": "Type de date de r\u00e9f\u00e9rence"
+    },
+    "name": "Reference date type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_Patents",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "PARTNER_AREA": {
+    "id": "PARTNER_AREA",
+    "names": {
+      "en": "Counterpart area",
+      "fr": "Pays partenaire"
+    },
+    "name": "Counterpart area",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_Patents",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "AGENT_ROLE": {
+    "id": "AGENT_ROLE",
+    "names": {
+      "en": "Agent role",
+      "fr": "R\u00f4le de l'agent"
+    },
+    "name": "Agent role",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_Patents",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "COOPERATION_TYPE": {
+    "id": "COOPERATION_TYPE",
+    "names": {
+      "en": "Cooperation type",
+      "fr": "Type de coop\u00e9ration"
+    },
+    "name": "Cooperation type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_Patents",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "WIPO": {
+    "id": "WIPO",
+    "names": {
+      "en": "World Intellectual Property Organization domains",
+      "fr": "Domaines de l'Organisation Mondiale de la Propri\u00e9t\u00e9 Intellectuelle"
+    },
+    "name": "World Intellectual Property Organization domains",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_Patents",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "OECD_TECHNOLOGY_PATENT": {
+    "id": "OECD_TECHNOLOGY_PATENT",
+    "names": {
+      "en": "Selected OECD technology domains",
+      "fr": "S\u00e9lection de domaines technologiques de l'OCDE"
+    },
+    "name": "Selected OECD technology domains",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_Patents",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "EST_METHOD": {
+    "id": "EST_METHOD",
+    "names": {
+      "en": "Estimation methodology",
+      "fr": "M\u00e9thode d'estimation"
+    },
+    "name": "Estimation methodology",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_STAN",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "INDUSTRIAL_INSTRUMENT": {
+    "id": "INDUSTRIAL_INSTRUMENT",
+    "names": {
+      "en": "Industrial policy instrument"
+    },
+    "name": "Industrial policy instrument",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "INSTRUMENT_TYPE": {
+    "id": "INSTRUMENT_TYPE",
+    "names": {
+      "en": "Instrument type"
+    },
+    "name": "Instrument type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "SECTORAL": {
+    "id": "SECTORAL",
+    "names": {
+      "en": "Sectoral"
+    },
+    "name": "Sectoral",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "GREEN": {
+    "id": "GREEN",
+    "names": {
+      "en": "Green"
+    },
+    "name": "Green",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "TECH_FOCUSED": {
+    "id": "TECH_FOCUSED",
+    "names": {
+      "en": "Technology"
+    },
+    "name": "Technology",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "RD": {
+    "id": "RD",
+    "names": {
+      "en": "R&D"
+    },
+    "name": "R&D",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "SME": {
+    "id": "SME",
+    "names": {
+      "en": "SMEs and young firms"
+    },
+    "name": "SMEs and young firms",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "JOBS_SKILLS": {
+    "id": "JOBS_SKILLS",
+    "names": {
+      "en": "Jobs&skills"
+    },
+    "name": "Jobs&skills",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "DIGITAL": {
+    "id": "DIGITAL",
+    "names": {
+      "en": "Digital"
+    },
+    "name": "Digital",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "ENERGY_COST": {
+    "id": "ENERGY_COST",
+    "names": {
+      "en": "Energy cost"
+    },
+    "name": "Energy cost",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "INVESTMENT": {
+    "id": "INVESTMENT",
+    "names": {
+      "en": "Investment"
+    },
+    "name": "Investment",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "REGIONAL": {
+    "id": "REGIONAL",
+    "names": {
+      "en": "Regional"
+    },
+    "name": "Regional",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "EXPORT_FINANCE": {
+    "id": "EXPORT_FINANCE",
+    "names": {
+      "en": "Export finance"
+    },
+    "name": "Export finance",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "COVID_SUPPORT": {
+    "id": "COVID_SUPPORT",
+    "names": {
+      "en": "COVID emergency support"
+    },
+    "name": "COVID emergency support",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "EU_SUPPORT": {
+    "id": "EU_SUPPORT",
+    "names": {
+      "en": "EU support"
+    },
+    "name": "EU support",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "INSTRUMENT_ORIGINAL": {
+    "id": "INSTRUMENT_ORIGINAL",
+    "names": {
+      "en": "Industrial policy instrument name in original language"
+    },
+    "name": "Industrial policy instrument name in original language",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "QUIS_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "CHARACTERISTIC": {
+    "id": "CHARACTERISTIC",
+    "names": {
+      "en": "Workforce characteristic",
+      "fr": "Caract\u00e9ristique de la main-d'oeuvre"
+    },
+    "name": "Workforce characteristic",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "TIMBC_CONCEPTS",
+    "scheme_agency": "OECD.STI.PIE"
+  },
+  "ASJC": {
+    "id": "ASJC",
+    "names": {
+      "en": "All Science Journal Classification"
+    },
+    "name": "All Science Journal Classification",
+    "descriptions": {
+      "en": "All Science Journal Classification"
+    },
+    "description": "All Science Journal Classification",
+    "scheme_id": "CS_BIBLIO",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "ORIGIN": {
+    "id": "ORIGIN",
+    "names": {
+      "en": "Origin",
+      "fr": "Origine"
+    },
+    "name": "Origin",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_BIBLIO",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "AUX_OBS_STATUS": {
+    "id": "AUX_OBS_STATUS",
+    "names": {
+      "en": "Aux observation status"
+    },
+    "name": "Aux observation status",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SBRD",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "SECT_PERF": {
+    "id": "SECT_PERF",
+    "names": {
+      "en": "Sector of performance",
+      "fr": "Secteur de performance"
+    },
+    "name": "Sector of performance",
+    "descriptions": {
+      "en": "Breakdown by sector of performance"
+    },
+    "description": "Breakdown by sector of performance",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "SECT_FUND": {
+    "id": "SECT_FUND",
+    "names": {
+      "en": "Sources of funds",
+      "fr": "Sources de financement"
+    },
+    "name": "Sources of funds",
+    "descriptions": {
+      "en": "Breakdown by source of funds"
+    },
+    "description": "Breakdown by source of funds",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "TYPE_RD": {
+    "id": "TYPE_RD",
+    "names": {
+      "en": "Type of R&D",
+      "fr": "Type de R-D"
+    },
+    "name": "Type of R&D",
+    "descriptions": {
+      "en": "Breakdown by type of R&D"
+    },
+    "description": "Breakdown by type of R&D",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "TYPE_COST": {
+    "id": "TYPE_COST",
+    "names": {
+      "en": "Type of expenditure",
+      "fr": "Type de co\u00fbts"
+    },
+    "name": "Type of expenditure",
+    "descriptions": {
+      "en": "Breakdown by type of costs"
+    },
+    "description": "Breakdown by type of costs",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "FORD": {
+    "id": "FORD",
+    "names": {
+      "en": "Field of R&D",
+      "fr": "Champs de R-D"
+    },
+    "name": "Field of R&D",
+    "descriptions": {
+      "en": "Breakdown by field of R&D"
+    },
+    "description": "Breakdown by field of R&D",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "SEO": {
+    "id": "SEO",
+    "names": {
+      "en": "Socio-economic objectives",
+      "fr": "Objectif socio-\u00e9conomique"
+    },
+    "name": "Socio-economic objectives",
+    "descriptions": {
+      "en": "Breakdown by socio-economic objective"
+    },
+    "description": "Breakdown by socio-economic objective",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "FUNDMODE": {
+    "id": "FUNDMODE",
+    "names": {
+      "en": "Funding mode",
+      "fr": "Mode de financement"
+    },
+    "name": "Funding mode",
+    "descriptions": {
+      "en": "Breakdown by funding mode"
+    },
+    "description": "Breakdown by funding mode",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "TRANSCOORD": {
+    "id": "TRANSCOORD",
+    "names": {
+      "en": "Transnationally coordinated research",
+      "fr": "Activit\u00e9 \u00e9conomique"
+    },
+    "name": "Transnationally coordinated research",
+    "descriptions": {
+      "en": "Breakdown for National public funding to transnationally coordinated R&D"
+    },
+    "description": "Breakdown for National public funding to transnationally coordinated R&D",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "FUNCTION": {
+    "id": "FUNCTION",
+    "names": {
+      "en": "Function",
+      "fr": "Fonction"
+    },
+    "name": "Function",
+    "descriptions": {
+      "en": "Breakdown for Function"
+    },
+    "description": "Breakdown for Function",
+    "scheme_id": "CS_RDS",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "AUX_OBS_STATUS_2": {
+    "id": "AUX_OBS_STATUS_2",
+    "names": {
+      "en": "Aux observation status 2"
+    },
+    "name": "Aux observation status 2",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SBRD",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "AUX_OBS_STATUS_3": {
+    "id": "AUX_OBS_STATUS_3",
+    "names": {
+      "en": "Aux observation status 3",
+      "fr": "Statut d'observation auxilliaire 3"
+    },
+    "name": "Aux observation status 3",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_RDTAX",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "PROFIT_SCENARIO": {
+    "id": "PROFIT_SCENARIO",
+    "names": {
+      "en": "Profit scenario",
+      "fr": "Sc\u00e9nario de profit"
+    },
+    "name": "Profit scenario",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_RDTAX",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "SOURCE_DATA": {
+    "id": "SOURCE_DATA",
+    "names": {
+      "en": "Data source"
+    },
+    "name": "Data source",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REICO_FULL",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "REICO_THEME": {
+    "id": "REICO_THEME",
+    "names": {
+      "en": "ReICO theme"
+    },
+    "name": "ReICO theme",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REICO_FULL",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "OBS_STATUS_1": {
+    "id": "OBS_STATUS_1",
+    "names": {
+      "en": "Observation status"
+    },
+    "name": "Observation status",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REICO_VIZ",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "SOURCE_FINAL": {
+    "id": "SOURCE_FINAL",
+    "names": {
+      "en": "Selected source"
+    },
+    "name": "Selected source",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REICO_FULL",
+    "scheme_agency": "OECD.STI.STP"
+  },
+  "INDIC": {
+    "id": "INDIC",
+    "names": {
+      "en": "Indicator",
+      "fr": "Indicateur"
+    },
+    "name": "Indicator",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AEI2024_DASHBOARD",
+    "scheme_agency": "OECD.TAD.ARP"
+  },
+  "EROSION_LEVEL": {
+    "id": "EROSION_LEVEL",
+    "names": {
+      "en": "Erosion risk level",
+      "fr": "Niveau de risque d'\u00e9rosion"
+    },
+    "name": "Erosion risk level",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AGRI_ENVAEI",
+    "scheme_agency": "OECD.TAD.ARP"
+  },
+  "WATER_TYPE": {
+    "id": "WATER_TYPE",
+    "names": {
+      "en": "Water type",
+      "fr": "Type d'eau"
+    },
+    "name": "Water type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AGRI_ENVAEI",
+    "scheme_agency": "OECD.TAD.ARP"
+  },
+  "NUTRIENTS": {
+    "id": "NUTRIENTS",
+    "names": {
+      "en": "Nutrients",
+      "fr": "Nutriments"
+    },
+    "name": "Nutrients",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AGRI_ENVAEI",
+    "scheme_agency": "OECD.TAD.ARP"
+  },
+  "COMMODITY": {
+    "id": "COMMODITY",
+    "names": {
+      "en": "Commodity",
+      "fr": "Produits de base"
+    },
+    "name": "Commodity",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FISH",
+    "scheme_agency": "OECD.TAD.ARP"
+  },
+  "TRADE_FLOW": {
+    "id": "TRADE_FLOW",
+    "names": {
+      "en": "Trade flow",
+      "fr": "Flux commercial"
+    },
+    "name": "Trade flow",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FISH",
+    "scheme_agency": "OECD.TAD.ARP"
+  },
+  "CONVENTION": {
+    "id": "CONVENTION",
+    "names": {
+      "en": "Agricultural convention",
+      "fr": "Convention agricole"
+    },
+    "name": "Agricultural convention",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FISH",
+    "scheme_agency": "OECD.TAD.ARP"
+  },
+  "WORK_STATUS": {
+    "id": "WORK_STATUS",
+    "names": {
+      "en": "Working status",
+      "fr": "Statut de travail"
+    },
+    "name": "Working status",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FISH",
+    "scheme_agency": "OECD.TAD.ARP"
+  },
+  "FLEET_SIZE": {
+    "id": "FLEET_SIZE",
+    "names": {
+      "en": "Fleet size",
+      "fr": "Taille des flottes"
+    },
+    "name": "Fleet size",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FISH",
+    "scheme_agency": "OECD.TAD.ARP"
+  },
+  "VERSION_ID": {
+    "id": "VERSION_ID",
+    "names": {
+      "en": "Version ID"
+    },
+    "name": "Version ID",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_AGR_OUT",
+    "scheme_agency": "OECD.TAD.ATM"
+  },
+  "STRI_REGULATORY_MEASURE": {
+    "id": "STRI_REGULATORY_MEASURE",
+    "names": {
+      "en": "STRI regulatory measure",
+      "fr": "Mesure r\u00e8glementaire STRI"
+    },
+    "name": "STRI regulatory measure",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_STRI",
+    "scheme_agency": "OECD.TAD.TPD"
+  },
+  "STRI_TYPE": {
+    "id": "STRI_TYPE",
+    "names": {
+      "en": "STRI type",
+      "fr": "Type de STRI"
+    },
+    "name": "STRI type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_STRI",
+    "scheme_agency": "OECD.TAD.TPD"
+  },
+  "POP_GROUP": {
+    "id": "POP_GROUP",
+    "names": {
+      "en": "Population group",
+      "fr": "Groupe d\u00e9mographique"
+    },
+    "name": "Population group",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_CWB",
+    "scheme_agency": "OECD.WISE.CWB"
+  },
+  "DEFINITION": {
+    "id": "DEFINITION",
+    "names": {
+      "en": "Definition",
+      "fr": "D\u00e9finition"
+    },
+    "name": "Definition",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_IDD",
+    "scheme_agency": "OECD.WISE.INE"
+  },
+  "POVERTY_LINE": {
+    "id": "POVERTY_LINE",
+    "names": {
+      "en": "Poverty line",
+      "fr": "Ligne de pauvret\u00e9"
+    },
+    "name": "Poverty line",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_IDD",
+    "scheme_agency": "OECD.WISE.INE"
+  },
+  "THRESHOLD": {
+    "id": "THRESHOLD",
+    "names": {
+      "en": "Threshold",
+      "fr": "Niveau"
+    },
+    "name": "Threshold",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_WEALTH",
+    "scheme_agency": "OECD.WISE.INE"
+  },
+  "SDG_GOAL": {
+    "id": "SDG_GOAL",
+    "names": {
+      "en": "SDG goal",
+      "fr": "Objectif des ODD"
+    },
+    "name": "SDG goal",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SDG",
+    "scheme_agency": "OECD.WISE.RSB"
+  },
+  "SDG_TARGET": {
+    "id": "SDG_TARGET",
+    "names": {
+      "en": "SDG target",
+      "fr": "Cible des ODD"
+    },
+    "name": "SDG target",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SDG",
+    "scheme_agency": "OECD.WISE.RSB"
+  },
+  "SDG_INDICATOR": {
+    "id": "SDG_INDICATOR",
+    "names": {
+      "en": "SDG indicator",
+      "fr": "Indicateur des ODD"
+    },
+    "name": "SDG indicator",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SDG",
+    "scheme_agency": "OECD.WISE.RSB"
+  },
+  "INCOME_WEALTH_QUANTILE": {
+    "id": "INCOME_WEALTH_QUANTILE",
+    "names": {
+      "en": "Income or wealth quantile",
+      "fr": "Quantile de revenue ou de richesse"
+    },
+    "name": "Income or wealth quantile",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SDG",
+    "scheme_agency": "OECD.WISE.RSB"
+  }
+}

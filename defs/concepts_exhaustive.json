@@ -1,0 +1,2379 @@
+{
+  "FREQ": {
+    "id": "FREQ",
+    "names": {
+      "en": "Frequency of observation"
+    },
+    "name": "Frequency of observation",
+    "descriptions": {
+      "en": "Time interval at which observations occur over a given time period."
+    },
+    "description": "Time interval at which observations occur over a given time period.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL"
+    ]
+  },
+  "REF_AREA": {
+    "id": "REF_AREA",
+    "names": {
+      "en": "Reference area"
+    },
+    "name": "Reference area",
+    "descriptions": {
+      "en": "Country or geographic area to which the measured statistical phenomenon relates."
+    },
+    "description": "Country or geographic area to which the measured statistical phenomenon relates.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "DEMAND_PROD": {
+    "id": "DEMAND_PROD",
+    "names": {
+      "en": "Demand or Production"
+    },
+    "name": "Demand or Production",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "ACCOUNTING_ENTRY": {
+    "id": "ACCOUNTING_ENTRY",
+    "names": {
+      "en": "Accounting entry"
+    },
+    "name": "Accounting entry",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "COUNTERPART_AREA": {
+    "id": "COUNTERPART_AREA",
+    "names": {
+      "en": "Counterpart area"
+    },
+    "name": "Counterpart area",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "INTERACTORS": {
+    "id": "INTERACTORS",
+    "names": {
+      "en": "Units interacting with the environment"
+    },
+    "name": "Units interacting with the environment",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "BRIDGE_ITEMS": {
+    "id": "BRIDGE_ITEMS",
+    "names": {
+      "en": "Bridging items"
+    },
+    "name": "Bridging items",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "AIRPOL": {
+    "id": "AIRPOL",
+    "names": {
+      "en": "Air pollutants and greenhouse gasses"
+    },
+    "name": "Air pollutants and greenhouse gasses",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "STO": {
+    "id": "STO",
+    "names": {
+      "en": "Stocks, transactions and other flows"
+    },
+    "name": "Stocks, transactions and other flows",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "UNIT_MEASURE": {
+    "id": "UNIT_MEASURE",
+    "names": {
+      "en": "Unit of measure"
+    },
+    "name": "Unit of measure",
+    "descriptions": {
+      "en": "Unit in which the data values are expressed."
+    },
+    "description": "Unit in which the data values are expressed.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "PRODUCT": {
+    "id": "PRODUCT",
+    "names": {
+      "en": "Type of product"
+    },
+    "name": "Type of product",
+    "descriptions": {
+      "en": "Type of product"
+    },
+    "description": "Type of product",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "SECTOR": {
+    "id": "SECTOR",
+    "names": {
+      "en": "Sector"
+    },
+    "name": "Sector",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "MATERIAL": {
+    "id": "MATERIAL",
+    "names": {
+      "en": "Materials"
+    },
+    "name": "Materials",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "WATER_FLOWS": {
+    "id": "WATER_FLOWS",
+    "names": {
+      "en": "Water flows"
+    },
+    "name": "Water flows",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "ENERGY_FLOWS": {
+    "id": "ENERGY_FLOWS",
+    "names": {
+      "en": "Energy flows"
+    },
+    "name": "Energy flows",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "LAND_COVER": {
+    "id": "LAND_COVER",
+    "names": {
+      "en": "Land cover"
+    },
+    "name": "Land cover",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "LAND_COVER_TO": {
+    "id": "LAND_COVER_TO",
+    "names": {
+      "en": "Land cover"
+    },
+    "name": "Land cover",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "LAND_USE": {
+    "id": "LAND_USE",
+    "names": {
+      "en": "Land use"
+    },
+    "name": "Land use",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "LAND_USE_TO": {
+    "id": "LAND_USE_TO",
+    "names": {
+      "en": "Land use"
+    },
+    "name": "Land use",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "TIME_PERIOD": {
+    "id": "TIME_PERIOD",
+    "names": {
+      "en": "Time period"
+    },
+    "name": "Time period",
+    "descriptions": {
+      "en": "Timespan or point in time to which the observation actually refers."
+    },
+    "description": "Timespan or point in time to which the observation actually refers.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "OBS_VALUE": {
+    "id": "OBS_VALUE",
+    "names": {
+      "en": "Observation value"
+    },
+    "name": "Observation value",
+    "descriptions": {
+      "en": "Value of a particular variable."
+    },
+    "description": "Value of a particular variable.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "CONF_STATUS": {
+    "id": "CONF_STATUS",
+    "names": {
+      "en": "Confidentiality status"
+    },
+    "name": "Confidentiality status",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "OBS_STATUS_1": {
+    "id": "OBS_STATUS_1",
+    "names": {
+      "en": "Observation status"
+    },
+    "name": "Observation status",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "OBS_STATUS_2": {
+    "id": "OBS_STATUS_2",
+    "names": {
+      "en": "Observation status 2"
+    },
+    "name": "Observation status 2",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "OBS_STATUS_3": {
+    "id": "OBS_STATUS_3",
+    "names": {
+      "en": "Observation status 3"
+    },
+    "name": "Observation status 3",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "OBS_STATUS_4": {
+    "id": "OBS_STATUS_4",
+    "names": {
+      "en": "Observation status 4"
+    },
+    "name": "Observation status 4",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "COMMENT_DSET": {
+    "id": "COMMENT_DSET",
+    "names": {
+      "en": "Comments on dataset level"
+    },
+    "name": "Comments on dataset level",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "COMMENT_OBS": {
+    "id": "COMMENT_OBS",
+    "names": {
+      "en": "Observation-level footnotes"
+    },
+    "name": "Observation-level footnotes",
+    "descriptions": {
+      "en": "Additional information on specific aspects of each observation, such as how the observation was computed/estimated or details that could affect the comparability of this data point with others in a time series."
+    },
+    "description": "Additional information on specific aspects of each observation, such as how the observation was computed/estimated or details that could affect the comparability of this data point with others in a time series.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "COMMENT_TS": {
+    "id": "COMMENT_TS",
+    "names": {
+      "en": "Time series-level footnotes"
+    },
+    "name": "Time series-level footnotes",
+    "descriptions": {
+      "en": "Additional information on specific aspects applicable to all observations in the time series."
+    },
+    "description": "Additional information on specific aspects applicable to all observations in the time series.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "UNIT_MULT": {
+    "id": "UNIT_MULT",
+    "names": {
+      "en": "Unit multiplier"
+    },
+    "name": "Unit multiplier",
+    "descriptions": {
+      "en": "Exponent in base 10 specified so that multiplying the observation numeric values by 10^UNIT_MULT gives a value expressed in the unit of measure."
+    },
+    "description": "Exponent in base 10 specified so that multiplying the observation numeric values by 10^UNIT_MULT gives a value expressed in the unit of measure.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "EMBARGO_TIME": {
+    "id": "EMBARGO_TIME",
+    "names": {
+      "en": "Embargo date and time"
+    },
+    "name": "Embargo date and time",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "DECIMALS": {
+    "id": "DECIMALS",
+    "names": {
+      "en": "Decimals"
+    },
+    "name": "Decimals",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "TITLE": {
+    "id": "TITLE",
+    "names": {
+      "en": "Title"
+    },
+    "name": "Title",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "TITLE_COMPL": {
+    "id": "TITLE_COMPL",
+    "names": {
+      "en": "Title Complement"
+    },
+    "name": "Title Complement",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "LAST_UPDATE": {
+    "id": "LAST_UPDATE",
+    "names": {
+      "en": "Data Update \u2013 Last Update"
+    },
+    "name": "Data Update \u2013 Last Update",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "COMPILING_ORG": {
+    "id": "COMPILING_ORG",
+    "names": {
+      "en": "Compiling organisation"
+    },
+    "name": "Compiling organisation",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "PRE_BREAK_VALUE": {
+    "id": "PRE_BREAK_VALUE",
+    "names": {
+      "en": "Pre-break value"
+    },
+    "name": "Pre-break value",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "DISS_ORG": {
+    "id": "DISS_ORG",
+    "names": {
+      "en": "Dissemination organisation"
+    },
+    "name": "Dissemination organisation",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_SEEA",
+    "scheme_agency": "ESTAT",
+    "source_dataflow": "ESTAT/SEEA_AEA_A",
+    "source_dataflows": [
+      "ESTAT/SEEA_AEA_A"
+    ]
+  },
+  "SEX": {
+    "id": "SEX",
+    "names": {
+      "en": "Sex"
+    },
+    "name": "Sex",
+    "descriptions": {
+      "en": "State of being male or female."
+    },
+    "description": "State of being male or female.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "AGE": {
+    "id": "AGE",
+    "names": {
+      "en": "Age"
+    },
+    "name": "Age",
+    "descriptions": {
+      "en": "Length of time that an entity has lived or existed."
+    },
+    "description": "Length of time that an entity has lived or existed.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "EDUCATION_LEV": {
+    "id": "EDUCATION_LEV",
+    "names": {
+      "en": "Education level"
+    },
+    "name": "Education level",
+    "descriptions": {
+      "en": "Highest level of an educational programme the person has successfully completed."
+    },
+    "description": "Highest level of an educational programme the person has successfully completed.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "OCCUPATION": {
+    "id": "OCCUPATION",
+    "names": {
+      "en": "Occupation"
+    },
+    "name": "Occupation",
+    "descriptions": {
+      "en": "Job or position held by an individual who performs a set of tasks and duties."
+    },
+    "description": "Job or position held by an individual who performs a set of tasks and duties.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "OBS_STATUS": {
+    "id": "OBS_STATUS",
+    "names": {
+      "en": "Observation status"
+    },
+    "name": "Observation status",
+    "descriptions": {
+      "en": "Information on the quality of a value or an unusual or missing value."
+    },
+    "description": "Information on the quality of a value or an unusual or missing value.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "BASE_PER": {
+    "id": "BASE_PER",
+    "names": {
+      "en": "Base period"
+    },
+    "name": "Base period",
+    "descriptions": {
+      "en": "Period of time used as the base of an index number, or to which a constant series refers."
+    },
+    "description": "Period of time used as the base of an index number, or to which a constant series refers.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "SERIES": {
+    "id": "SERIES",
+    "names": {
+      "en": "SDG Series"
+    },
+    "name": "SDG Series",
+    "descriptions": {
+      "en": "SDG Indicator or Series. Uses the CETS convention for encoding."
+    },
+    "description": "SDG Indicator or Series. Uses the CETS convention for encoding.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "URBANISATION": {
+    "id": "URBANISATION",
+    "names": {
+      "en": "Degree of urbanisation"
+    },
+    "name": "Degree of urbanisation",
+    "descriptions": {
+      "en": "Refers to Total, Urban, or Rural location."
+    },
+    "description": "Refers to Total, Urban, or Rural location.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "INCOME_WEALTH_QUANTILE": {
+    "id": "INCOME_WEALTH_QUANTILE",
+    "names": {
+      "en": "Income or wealth quantile"
+    },
+    "name": "Income or wealth quantile",
+    "descriptions": {
+      "en": "Income or wealth quantile"
+    },
+    "description": "Income or wealth quantile",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "CUST_BREAKDOWN": {
+    "id": "CUST_BREAKDOWN",
+    "names": {
+      "en": "Custom Breakdown"
+    },
+    "name": "Custom Breakdown",
+    "descriptions": {
+      "en": "Used to represent user-defined breakdowns."
+    },
+    "description": "Used to represent user-defined breakdowns.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "COMPOSITE_BREAKDOWN": {
+    "id": "COMPOSITE_BREAKDOWN",
+    "names": {
+      "en": "Composite breakdown"
+    },
+    "name": "Composite breakdown",
+    "descriptions": {
+      "en": "Represents an amalgamation of infrequently used breakdowns."
+    },
+    "description": "Represents an amalgamation of infrequently used breakdowns.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "DISABILITY_STATUS": {
+    "id": "DISABILITY_STATUS",
+    "names": {
+      "en": "Disability status"
+    },
+    "name": "Disability status",
+    "descriptions": {
+      "en": "Represents a person's disability status."
+    },
+    "description": "Represents a person's disability status.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "NATURE": {
+    "id": "NATURE",
+    "names": {
+      "en": "Nature of data points"
+    },
+    "name": "Nature of data points",
+    "descriptions": {
+      "en": "Information on the production and dissemination of the data (e.g.: if the figure has been produced by the country, estimated by an international agency, etc.)"
+    },
+    "description": "Information on the production and dissemination of the data (e.g.: if the figure has been produced by the country, estimated by an international agency, etc.)",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "TIME_DETAIL": {
+    "id": "TIME_DETAIL",
+    "names": {
+      "en": "Time period details"
+    },
+    "name": "Time period details",
+    "descriptions": {
+      "en": "When TIME_PERIOD refers to a date range, this attribute is used to provide metadata on the actual range the observation refers to (e.g. for period '2001-2003' TIME_PERIOD would be 2002 but the actual dates --2001-2003-- would be expressed\n            here)."
+    },
+    "description": "When TIME_PERIOD refers to a date range, this attribute is used to provide metadata on the actual range the observation refers to (e.g. for period '2001-2003' TIME_PERIOD would be 2002 but the actual dates --2001-2003-- would be expressed\n            here).",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "TIME_COVERAGE": {
+    "id": "TIME_COVERAGE",
+    "names": {
+      "en": "Time period or range (ISO8601)"
+    },
+    "name": "Time period or range (ISO8601)",
+    "descriptions": {
+      "en": "ISO8601 representation of the actual time interval to which the observation refers"
+    },
+    "description": "ISO8601 representation of the actual time interval to which the observation refers",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "UPPER_BOUND": {
+    "id": "UPPER_BOUND",
+    "names": {
+      "en": "Upper bound value"
+    },
+    "name": "Upper bound value",
+    "descriptions": {
+      "en": "Upper bound value for the indicator or series."
+    },
+    "description": "Upper bound value for the indicator or series.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "LOWER_BOUND": {
+    "id": "LOWER_BOUND",
+    "names": {
+      "en": "Lower bound value"
+    },
+    "name": "Lower bound value",
+    "descriptions": {
+      "en": "Lower bound value for the indicator or series."
+    },
+    "description": "Lower bound value for the indicator or series.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "REPORTING_TYPE": {
+    "id": "REPORTING_TYPE",
+    "names": {
+      "en": "Reporting type"
+    },
+    "name": "Reporting type",
+    "descriptions": {
+      "en": "Represents whether the official SDG series is reported by a national, regional, or international agency."
+    },
+    "description": "Represents whether the official SDG series is reported by a national, regional, or international agency.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "SOURCE_DETAIL": {
+    "id": "SOURCE_DETAIL",
+    "names": {
+      "en": "Source details"
+    },
+    "name": "Source details",
+    "descriptions": {
+      "en": "Information on the name and specific details of each observation's data source. Both the sources for the numerator and denominator could be specified here."
+    },
+    "description": "Information on the name and specific details of each observation's data source. Both the sources for the numerator and denominator could be specified here.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "ACTIVITY": {
+    "id": "ACTIVITY",
+    "names": {
+      "en": "Economic activity"
+    },
+    "name": "Economic activity",
+    "descriptions": {
+      "en": "Classification of economic activities"
+    },
+    "description": "Classification of economic activities",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "GEO_INFO_URL": {
+    "id": "GEO_INFO_URL",
+    "names": {
+      "en": "Geoinformation URL"
+    },
+    "name": "Geoinformation URL",
+    "descriptions": {
+      "en": "Location of geoinformation"
+    },
+    "description": "Location of geoinformation",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "GEO_INFO_TYPE": {
+    "id": "GEO_INFO_TYPE",
+    "names": {
+      "en": "Geoinformation type"
+    },
+    "name": "Geoinformation type",
+    "descriptions": {
+      "en": "Type of geionformation provided in attribute GEO_INFO_URL"
+    },
+    "description": "Type of geionformation provided in attribute GEO_INFO_URL",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "CUST_BREAKDOWN_LB": {
+    "id": "CUST_BREAKDOWN_LB",
+    "names": {
+      "en": "Label for custom breakdown"
+    },
+    "name": "Label for custom breakdown",
+    "descriptions": {
+      "en": "Information provided in the CUST_BREAKDOWN dimension, when applicable"
+    },
+    "description": "Information provided in the CUST_BREAKDOWN dimension, when applicable",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "DATA_LAST_UPDATE": {
+    "id": "DATA_LAST_UPDATE",
+    "names": {
+      "en": "Date of the most recent change of the series."
+    },
+    "name": "Date of the most recent change of the series.",
+    "descriptions": {
+      "en": "Date of the most recent change of the series."
+    },
+    "description": "Date of the most recent change of the series.",
+    "scheme_id": "SDG_CONCEPTS",
+    "scheme_agency": "IAEG-SDGs",
+    "source_dataflow": "IAEG-SDGs/DF_SDG_GLC",
+    "source_dataflows": [
+      "IAEG-SDGs/DF_SDG_GLC",
+      "IAEG-SDGs/DF_SDG_GLH"
+    ]
+  },
+  "MEASURE": {
+    "id": "MEASURE",
+    "names": {
+      "en": "Measure",
+      "fr": "Mesure"
+    },
+    "name": "Measure",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "POLLUTANT_CONCENTRATION": {
+    "id": "POLLUTANT_CONCENTRATION",
+    "names": {
+      "en": "Pollutant concentration level",
+      "fr": "Niveau de concentration de polluants"
+    },
+    "name": "Pollutant concentration level",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "ORIGIN": {
+    "id": "ORIGIN",
+    "names": {
+      "en": "Origin",
+      "fr": "Origine"
+    },
+    "name": "Origin",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "TRAN_MODE": {
+    "id": "TRAN_MODE",
+    "names": {
+      "en": "Mode of transport",
+      "fr": "Mode de transport"
+    },
+    "name": "Mode of transport",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD"
+    ]
+  },
+  "RET_PERIOD": {
+    "id": "RET_PERIOD",
+    "names": {
+      "en": "Return period",
+      "fr": "P\u00e9riode de retour"
+    },
+    "name": "Return period",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "TIME_SEASON": {
+    "id": "TIME_SEASON",
+    "names": {
+      "en": "Time of the day and season",
+      "fr": "Moment de la journ\u00e9e et saison"
+    },
+    "name": "Time of the day and season",
+    "descriptions": {
+      "en": "Period of the year (summer, all year) and of the day (day/night)"
+    },
+    "description": "Period of the year (summer, all year) and of the day (day/night)",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD"
+    ]
+  },
+  "HEAT_STRESS": {
+    "id": "HEAT_STRESS",
+    "names": {
+      "en": "Heat stress threshold",
+      "fr": "Seuil de stress thermique"
+    },
+    "name": "Heat stress threshold",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "TERRITORIAL_LEVEL": {
+    "id": "TERRITORIAL_LEVEL",
+    "names": {
+      "en": "Territorial level",
+      "fr": "Niveau territorial"
+    },
+    "name": "Territorial level",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "TRAVEL_TIME": {
+    "id": "TRAVEL_TIME",
+    "names": {
+      "en": "Travel time",
+      "fr": "Temps de trajet"
+    },
+    "name": "Travel time",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD"
+    ]
+  },
+  "SERVICE": {
+    "id": "SERVICE",
+    "names": {
+      "en": "Service",
+      "fr": "Service"
+    },
+    "name": "Service",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD"
+    ]
+  },
+  "PATENT_TECH": {
+    "id": "PATENT_TECH",
+    "names": {
+      "en": "Selected OECD technology domains"
+    },
+    "name": "Selected OECD technology domains",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_COASTAL_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_FIRES",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_HEAT_STRESS",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_PRECIP",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_RIVER_FLOOD",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_TEMPERATURES",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_AGE_SEX",
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_DEPEND",
+      "OECD.CFE.EDS/DSD_FUA_DIGI@DF_INTERNET_SPEED",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_FUA_ENER@DF_CDD_HDD"
+    ]
+  },
+  "PROJ_SCENARIO": {
+    "id": "PROJ_SCENARIO",
+    "names": {
+      "en": "Projection scenario"
+    },
+    "name": "Projection scenario",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_CLIM_PROJ",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_DROUGHT",
+      "OECD.CFE.EDS/DSD_FUA_CLIM@DF_LAND_TEMP",
+      "OECD.CFE.EDS/DSD_FUA_ECO@DF_ECONOMY",
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "PM_CONCENTRATION": {
+    "id": "PM_CONCENTRATION",
+    "names": {
+      "en": "PM concentration level",
+      "fr": "Niveau de concentration en PM"
+    },
+    "name": "PM concentration level",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FUA_CITY",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_FUA_DEMO@DF_ORIGIN"
+    ]
+  },
+  "TERRITORIAL_TYPE": {
+    "id": "TERRITORIAL_TYPE",
+    "names": {
+      "en": "Territorial typology",
+      "fr": "Typologie territoriale"
+    },
+    "name": "Territorial typology",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REGIONAL",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "BUS_TYPE": {
+    "id": "BUS_TYPE",
+    "names": {
+      "en": "Type of business",
+      "fr": "Type d'entreprises"
+    },
+    "name": "Type of business",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REGIONAL",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "BUS_STAGE": {
+    "id": "BUS_STAGE",
+    "names": {
+      "en": "Stage of business development",
+      "fr": "Stade du d\u00e9veloppement de l'entreprise"
+    },
+    "name": "Stage of business development",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REGIONAL",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "SECT_PERF": {
+    "id": "SECT_PERF",
+    "names": {
+      "en": "Sector of performance",
+      "fr": "Secteur de performance"
+    },
+    "name": "Sector of performance",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REGIONAL",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "TRADE_FLOW": {
+    "id": "TRADE_FLOW",
+    "names": {
+      "en": "Trade flow",
+      "fr": "Flux commercial"
+    },
+    "name": "Trade flow",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REGIONAL",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "TRANSACTION": {
+    "id": "TRANSACTION",
+    "names": {
+      "en": "Transaction",
+      "fr": "Transaction"
+    },
+    "name": "Transaction",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REGIONAL",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "CURRENCY": {
+    "id": "CURRENCY",
+    "names": {
+      "en": "Currency",
+      "fr": "Monnaie"
+    },
+    "name": "Currency",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REGIONAL",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "STATISTICAL_OPERATION": {
+    "id": "STATISTICAL_OPERATION",
+    "names": {
+      "en": "Statistical operation",
+      "fr": "Op\u00e9ration statistique"
+    },
+    "name": "Statistical operation",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REGIONAL",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "BUILT_TYPE": {
+    "id": "BUILT_TYPE",
+    "names": {
+      "en": "Built up type",
+      "fr": "Type de construction"
+    },
+    "name": "Built up type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REGIONAL",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "PRICES": {
+    "id": "PRICES",
+    "names": {
+      "en": "Price base",
+      "fr": "Type de prix"
+    },
+    "name": "Price base",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REGIONAL",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "COUNTRY": {
+    "id": "COUNTRY",
+    "names": {
+      "en": "Country",
+      "fr": "Pays"
+    },
+    "name": "Country",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REGIONAL",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "REF_YEAR_PRICE": {
+    "id": "REF_YEAR_PRICE",
+    "names": {
+      "en": "Price reference year",
+      "fr": "Prix \u200b\u200bann\u00e9e de r\u00e9f\u00e9rence"
+    },
+    "name": "Price reference year",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REGIONAL",
+    "scheme_agency": "OECD.CFE.EDS",
+    "source_dataflow": "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP",
+    "source_dataflows": [
+      "OECD.CFE.EDS/DSD_REG_CLIM@DF_AIR_TEMP"
+    ]
+  },
+  "STANDARD_REVENUE": {
+    "id": "STANDARD_REVENUE",
+    "names": {
+      "en": "Revenue category",
+      "fr": "Cat\u00e9gorie de recettes"
+    },
+    "name": "Revenue category",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REV",
+    "scheme_agency": "OECD.CTP.TPS",
+    "source_dataflow": "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+    "source_dataflows": [
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN"
+    ]
+  },
+  "CTRY_SPECIFIC_REVENUE": {
+    "id": "CTRY_SPECIFIC_REVENUE",
+    "names": {
+      "en": "Country-specific revenue category",
+      "fr": "Cat\u00e9gorie de recettes sp\u00e9cifique au pays"
+    },
+    "name": "Country-specific revenue category",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REV",
+    "scheme_agency": "OECD.CTP.TPS",
+    "source_dataflow": "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+    "source_dataflows": [
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN"
+    ]
+  },
+  "REVENUE_CODE": {
+    "id": "REVENUE_CODE",
+    "names": {
+      "en": "Revenue code",
+      "fr": "Code recette"
+    },
+    "name": "Revenue code",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_REV",
+    "scheme_agency": "OECD.CTP.TPS",
+    "source_dataflow": "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+    "source_dataflows": [
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVHND",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVLCA",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVMEX",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVNIC",
+      "OECD.CTP.TPS/DSD_REV_LAC@DF_REVPAN"
+    ]
+  },
+  "MEASURE_PRINCIPLE": {
+    "id": "MEASURE_PRINCIPLE",
+    "names": {
+      "en": "Measurement principle",
+      "fr": "Principe de mesure"
+    },
+    "name": "Measurement principle",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV",
+    "source_dataflow": "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+    "source_dataflows": [
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "TYPE_ENTITY": {
+    "id": "TYPE_ENTITY",
+    "names": {
+      "en": "Entity type",
+      "fr": "Type d'entit\u00e9"
+    },
+    "name": "Entity type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV",
+    "source_dataflow": "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+    "source_dataflows": [
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "FDI_COMP": {
+    "id": "FDI_COMP",
+    "names": {
+      "en": "FDI component",
+      "fr": "Composant de l'IDE"
+    },
+    "name": "FDI component",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV",
+    "source_dataflow": "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+    "source_dataflows": [
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "LEVEL_COUNTERPART": {
+    "id": "LEVEL_COUNTERPART",
+    "names": {
+      "en": "Counterpart level",
+      "fr": "Niveau de contrepartie"
+    },
+    "name": "Counterpart level",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV",
+    "source_dataflow": "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+    "source_dataflows": [
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "FDI_COLLECTION_ID": {
+    "id": "FDI_COLLECTION_ID",
+    "names": {
+      "en": "FDI data collection identifier",
+      "fr": "Identifiant de collecte des IDE"
+    },
+    "name": "FDI data collection identifier",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV",
+    "source_dataflow": "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+    "source_dataflows": [
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "FDI_PROCESS_STATUS": {
+    "id": "FDI_PROCESS_STATUS",
+    "names": {
+      "en": "Status of the FDI data process",
+      "fr": "Etat du traitement des donn\u00e9es IDE"
+    },
+    "name": "Status of the FDI data process",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV",
+    "source_dataflow": "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+    "source_dataflows": [
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "ACTIVITY_ALLOC": {
+    "id": "ACTIVITY_ALLOC",
+    "names": {
+      "en": "Activity allocation",
+      "fr": "Allocation de l'activit\u00e9"
+    },
+    "name": "Activity allocation",
+    "descriptions": {
+      "en": "Identifes reference entity to classify economic activity"
+    },
+    "description": "Identifes reference entity to classify economic activity",
+    "scheme_id": "CS_FDI",
+    "scheme_agency": "OECD.DAF.INV",
+    "source_dataflow": "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+    "source_dataflows": [
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_FLOW_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_AGGR",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_CTRY",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_INC_IND",
+      "OECD.DAF.INV/DSD_FDI@DF_FDI_POS_AGGR"
+    ]
+  },
+  "LABOUR_FORCE_STATUS": {
+    "id": "LABOUR_FORCE_STATUS",
+    "names": {
+      "en": "Labour force status",
+      "fr": "Situation sur le march\u00e9 du travail"
+    },
+    "name": "Labour force status",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FTPT",
+    "scheme_agency": "OECD.ELS.SAE",
+    "source_dataflow": "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+    "source_dataflows": [
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "JOB_COVERAGE": {
+    "id": "JOB_COVERAGE",
+    "names": {
+      "en": "Job coverage",
+      "fr": "Couverture de l\u2019emploi"
+    },
+    "name": "Job coverage",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FTPT",
+    "scheme_agency": "OECD.ELS.SAE",
+    "source_dataflow": "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+    "source_dataflows": [
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "WORKER_STATUS": {
+    "id": "WORKER_STATUS",
+    "names": {
+      "en": "Worker status",
+      "fr": "Statut dans l\u2019emploi"
+    },
+    "name": "Worker status",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FTPT",
+    "scheme_agency": "OECD.ELS.SAE",
+    "source_dataflow": "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+    "source_dataflows": [
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "WORK_TIME_ARNGMNT": {
+    "id": "WORK_TIME_ARNGMNT",
+    "names": {
+      "en": "Working time arrangement",
+      "fr": "Organisation du temps de travail"
+    },
+    "name": "Working time arrangement",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FTPT",
+    "scheme_agency": "OECD.ELS.SAE",
+    "source_dataflow": "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+    "source_dataflows": [
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "METHODOLOGY": {
+    "id": "METHODOLOGY",
+    "names": {
+      "en": "Methodology",
+      "fr": "M\u00e9thodologie"
+    },
+    "name": "Methodology",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_FTPT",
+    "scheme_agency": "OECD.ELS.SAE",
+    "source_dataflow": "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+    "source_dataflows": [
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_COMMON_INC",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_INC_GEN",
+      "OECD.ELS.SAE/DSD_FTPT@DF_FTPT_NATIONAL"
+    ]
+  },
+  "WORK_PERIOD": {
+    "id": "WORK_PERIOD",
+    "names": {
+      "en": "Work period"
+    },
+    "name": "Work period",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_HW",
+    "scheme_agency": "OECD.ELS.SAE",
+    "source_dataflow": "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+    "source_dataflows": [
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "HOURS_TYPE": {
+    "id": "HOURS_TYPE",
+    "names": {
+      "en": "Hours type"
+    },
+    "name": "Hours type",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_HW",
+    "scheme_agency": "OECD.ELS.SAE",
+    "source_dataflow": "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+    "source_dataflows": [
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "AGGREGATION_OPERATION": {
+    "id": "AGGREGATION_OPERATION",
+    "names": {
+      "en": "Aggregation operation"
+    },
+    "name": "Aggregation operation",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_HW",
+    "scheme_agency": "OECD.ELS.SAE",
+    "source_dataflow": "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+    "source_dataflows": [
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  },
+  "HOUR_BANDS": {
+    "id": "HOUR_BANDS",
+    "names": {
+      "en": "Hour bands"
+    },
+    "name": "Hour bands",
+    "descriptions": {},
+    "description": "",
+    "scheme_id": "CS_HW",
+    "scheme_agency": "OECD.ELS.SAE",
+    "source_dataflow": "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+    "source_dataflows": [
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_ANN_HRS_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_AVG_USL_WK_WKD",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_LNG_USL_WK_HRS",
+      "OECD.ELS.SAE/DSD_HW@DF_EMP_USL_WK_HRS"
+    ]
+  }
+}
