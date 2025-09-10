@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_QDD_DCD_IDRC@DF_QDD_DCD_IDRC")
     
     if data.num_rows > 0:
-        upload_data(data, "dac_refugee_costs_oda")
+        upload_data(data, "oecd_dac_refugee_costs_oda")
         print(f"Uploaded {data.num_rows} rows to dac_refugee_costs_oda")
         
     save_state("dac_refugee_costs_oda", {

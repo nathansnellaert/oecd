@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_SBRD@DF_SBRD")
     
     if data.num_rows > 0:
-        upload_data(data, "rd_indicators_sub_platform")
+        upload_data(data, "oecd_rd_indicators_sub_platform")
         print(f"Uploaded {data.num_rows} rows to rd_indicators_sub_platform")
         
     save_state("rd_indicators_sub_platform", {

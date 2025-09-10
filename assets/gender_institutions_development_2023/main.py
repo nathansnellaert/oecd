@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_GID@DF_GID_2023")
     
     if data.num_rows > 0:
-        upload_data(data, "gender_institutions_development_2023")
+        upload_data(data, "oecd_gender_institutions_development_2023")
         print(f"Uploaded {data.num_rows} rows to gender_institutions_development_2023")
         
     save_state("gender_institutions_development_2023", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AGRI_ENV@DF_AGBIO")
     
     if data.num_rows > 0:
-        upload_data(data, "biodiversity")
+        upload_data(data, "oecd_biodiversity")
         print(f"Uploaded {data.num_rows} rows to biodiversity")
         
     save_state("biodiversity", {

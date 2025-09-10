@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TOOLKIT@DF_GD_DISTANCES")
     
     if data.num_rows > 0:
-        upload_data(data, "going_digital_country_pages")
+        upload_data(data, "oecd_going_digital_country_pages")
         print(f"Uploaded {data.num_rows} rows to going_digital_country_pages")
         
     save_state("going_digital_country_pages", {

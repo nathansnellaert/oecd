@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EAG_LSO_EA@DF_LSO_NEAC_EMP_MIGR")
     
     if data.num_rows > 0:
-        upload_data(data, "employment_by_migration")
+        upload_data(data, "oecd_employment_by_migration")
         print(f"Uploaded {data.num_rows} rows to employment_by_migration")
         
     save_state("employment_by_migration", {

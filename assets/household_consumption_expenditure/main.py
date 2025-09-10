@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAMAIN10@DF_TABLE5")
     
     if data.num_rows > 0:
-        upload_data(data, "household_consumption_expenditure")
+        upload_data(data, "oecd_household_consumption_expenditure")
         print(f"Uploaded {data.num_rows} rows to household_consumption_expenditure")
         
     save_state("household_consumption_expenditure", {

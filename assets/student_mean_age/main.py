@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_MEAN_AGE")
     
     if data.num_rows > 0:
-        upload_data(data, "student_mean_age")
+        upload_data(data, "oecd_student_mean_age")
         print(f"Uploaded {data.num_rows} rows to student_mean_age")
         
     save_state("student_mean_age", {

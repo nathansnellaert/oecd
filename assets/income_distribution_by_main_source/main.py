@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EGDNA_SOCDEM@DF_SOCIODEMOGRAPHIC_MAININC")
     
     if data.num_rows > 0:
-        upload_data(data, "income_distribution_by_main_source")
+        upload_data(data, "oecd_income_distribution_by_main_source")
         print(f"Uploaded {data.num_rows} rows to income_distribution_by_main_source")
         
     save_state("income_distribution_by_main_source", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_HEALTH_STAT@DF_AM")
     
     if data.num_rows > 0:
-        upload_data(data, "avoidable_mortality")
+        upload_data(data, "oecd_avoidable_mortality")
         print(f"Uploaded {data.num_rows} rows to avoidable_mortality")
         
     save_state("avoidable_mortality", {

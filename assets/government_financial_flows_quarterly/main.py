@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NASEC20@DF_T610GOV_Q")
     
     if data.num_rows > 0:
-        upload_data(data, "government_financial_flows_quarterly")
+        upload_data(data, "oecd_government_financial_flows_quarterly")
         print(f"Uploaded {data.num_rows} rows to government_financial_flows_quarterly")
         
     save_state("government_financial_flows_quarterly", {

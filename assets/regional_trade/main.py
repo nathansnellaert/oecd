@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REG_ECO@DF_TRAD")
     
     if data.num_rows > 0:
-        upload_data(data, "regional_trade")
+        upload_data(data, "oecd_regional_trade")
         print(f"Uploaded {data.num_rows} rows to regional_trade")
         
     save_state("regional_trade", {

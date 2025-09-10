@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_OLAB@DF_OIALAB_INDIC")
     
     if data.num_rows > 0:
-        upload_data(data, "unemployment_job_vacancies")
+        upload_data(data, "oecd_unemployment_job_vacancies")
         print(f"Uploaded {data.num_rows} rows to unemployment_job_vacancies")
         
     save_state("unemployment_job_vacancies", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TIME_USE@DF_TIME_USE")
     
     if data.num_rows > 0:
-        upload_data(data, "time_use")
+        upload_data(data, "oecd_time_use")
         print(f"Uploaded {data.num_rows} rows to time_use")
         
     save_state("time_use", {

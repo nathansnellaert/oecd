@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LA_DEGREE_DAYS_DDOWN@DF_DEGREE_DAYS_DDOWN")
     
     if data.num_rows > 0:
-        upload_data(data, "local_cooling_heating_degree_days")
+        upload_data(data, "oecd_local_cooling_heating_degree_days")
         print(f"Uploaded {data.num_rows} rows to local_cooling_heating_degree_days")
         
     save_state("local_cooling_heating_degree_days", {

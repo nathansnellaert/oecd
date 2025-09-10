@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PEFA@DF_PEFAUSE")
     
     if data.num_rows > 0:
-        upload_data(data, "energy_flow_use_activity")
+        upload_data(data, "oecd_energy_flow_use_activity")
         print(f"Uploaded {data.num_rows} rows to energy_flow_use_activity")
         
     save_state("energy_flow_use_activity", {

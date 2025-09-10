@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_FIN_DASH@DF_FIN_DASH_S13")
     
     if data.num_rows > 0:
-        upload_data(data, "financial_dashboard_government")
+        upload_data(data, "oecd_financial_dashboard_government")
         print(f"Uploaded {data.num_rows} rows to financial_dashboard_government")
         
     save_state("financial_dashboard_government", {

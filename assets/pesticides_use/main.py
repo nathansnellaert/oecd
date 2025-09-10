@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AGRI_ENV@DF_AGPEST")
     
     if data.num_rows > 0:
-        upload_data(data, "pesticides_use")
+        upload_data(data, "oecd_pesticides_use")
         print(f"Uploaded {data.num_rows} rows to pesticides_use")
         
     save_state("pesticides_use", {

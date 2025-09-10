@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_INDICATORS@DF_TRANSPORTINDICATORS")
     
     if data.num_rows > 0:
-        upload_data(data, "transport_performance")
+        upload_data(data, "oecd_transport_performance")
         print(f"Uploaded {data.num_rows} rows to transport_performance")
         
     save_state("transport_performance", {

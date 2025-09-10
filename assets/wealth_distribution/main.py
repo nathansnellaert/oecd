@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_WEALTH@DF_WEALTH")
     
     if data.num_rows > 0:
-        upload_data(data, "wealth_distribution")
+        upload_data(data, "oecd_wealth_distribution")
         print(f"Uploaded {data.num_rows} rows to wealth_distribution")
         
     save_state("wealth_distribution", {

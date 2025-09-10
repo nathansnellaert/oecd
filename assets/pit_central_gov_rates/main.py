@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TAX_PIT@DF_PIT_CENT")
     
     if data.num_rows > 0:
-        upload_data(data, "pit_central_gov_rates")
+        upload_data(data, "oecd_pit_central_gov_rates")
         print(f"Uploaded {data.num_rows} rows to pit_central_gov_rates")
         
     save_state("pit_central_gov_rates", {

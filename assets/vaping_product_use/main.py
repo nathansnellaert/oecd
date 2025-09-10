@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_HEALTH_LVNG@DF_HEALTH_LVNG_VP")
     
     if data.num_rows > 0:
-        upload_data(data, "vaping_product_use")
+        upload_data(data, "oecd_vaping_product_use")
         print(f"Uploaded {data.num_rows} rows to vaping_product_use")
         
     save_state("vaping_product_use", {

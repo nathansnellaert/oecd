@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PMR@DF_PMR_WBG")
     
     if data.num_rows > 0:
-        upload_data(data, "product_market_regulation_wbg")
+        upload_data(data, "oecd_product_market_regulation_wbg")
         print(f"Uploaded {data.num_rows} rows to product_market_regulation_wbg")
         
     save_state("product_market_regulation_wbg", {

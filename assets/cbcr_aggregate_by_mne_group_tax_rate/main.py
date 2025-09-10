@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_CBCR@DF_CBCRIII")
     
     if data.num_rows > 0:
-        upload_data(data, "cbcr_aggregate_by_mne_group_tax_rate")
+        upload_data(data, "oecd_cbcr_aggregate_by_mne_group_tax_rate")
         print(f"Uploaded {data.num_rows} rows to cbcr_aggregate_by_mne_group_tax_rate")
         
     save_state("cbcr_aggregate_by_mne_group_tax_rate", {

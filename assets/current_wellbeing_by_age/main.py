@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_HSL@DF_HSL_CWB_AGE")
     
     if data.num_rows > 0:
-        upload_data(data, "current_wellbeing_by_age")
+        upload_data(data, "oecd_current_wellbeing_by_age")
         print(f"Uploaded {data.num_rows} rows to current_wellbeing_by_age")
         
     save_state("current_wellbeing_by_age", {

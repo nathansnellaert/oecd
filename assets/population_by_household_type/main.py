@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EGDNA_SOCDEM@DF_SOCIODEMOGRAPHIC_HHGROUP")
     
     if data.num_rows > 0:
-        upload_data(data, "population_by_household_type")
+        upload_data(data, "oecd_population_by_household_type")
         print(f"Uploaded {data.num_rows} rows to population_by_household_type")
         
     save_state("population_by_household_type", {

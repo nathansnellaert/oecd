@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_CAPMF@DF_CAPMF")
     
     if data.num_rows > 0:
-        upload_data(data, "climate_policy_framework")
+        upload_data(data, "oecd_climate_policy_framework")
         print(f"Uploaded {data.num_rows} rows to climate_policy_framework")
         
     save_state("climate_policy_framework", {

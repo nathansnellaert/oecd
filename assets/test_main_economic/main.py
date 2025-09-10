@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DF_TEST_MEI")
     
     if data.num_rows > 0:
-        upload_data(data, "test_main_economic")
+        upload_data(data, "oecd_test_main_economic")
         print(f"Uploaded {data.num_rows} rows to test_main_economic")
         
     save_state("test_main_economic", {

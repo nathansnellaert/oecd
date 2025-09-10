@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAMAIN10@DF_TABLE5_T502")
     
     if data.num_rows > 0:
-        upload_data(data, "household_consumption_territory_abroad")
+        upload_data(data, "oecd_household_consumption_territory_abroad")
         print(f"Uploaded {data.num_rows} rows to household_consumption_territory_abroad")
         
     save_state("household_consumption_territory_abroad", {

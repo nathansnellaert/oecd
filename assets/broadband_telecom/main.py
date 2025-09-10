@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_BB_DATABASE@DF_BB_TEL_DATABASE")
     
     if data.num_rows > 0:
-        upload_data(data, "broadband_telecom")
+        upload_data(data, "oecd_broadband_telecom")
         print(f"Uploaded {data.num_rows} rows to broadband_telecom")
         
     save_state("broadband_telecom", {

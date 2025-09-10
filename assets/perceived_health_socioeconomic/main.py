@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_HEALTH_STAT@DF_PHS_SES")
     
     if data.num_rows > 0:
-        upload_data(data, "perceived_health_socioeconomic")
+        upload_data(data, "oecd_perceived_health_socioeconomic")
         print(f"Uploaded {data.num_rows} rows to perceived_health_socioeconomic")
         
     save_state("perceived_health_socioeconomic", {

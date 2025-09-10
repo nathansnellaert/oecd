@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_GREEN_TRANSITION@DF_GREEN_TRANSITION")
     
     if data.num_rows > 0:
-        upload_data(data, "green_transition")
+        upload_data(data, "oecd_green_transition")
         print(f"Uploaded {data.num_rows} rows to green_transition")
         
     save_state("green_transition", {

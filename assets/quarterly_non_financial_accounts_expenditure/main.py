@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NASEC1@DF_QSA_TRANSACTIONS_D")
     
     if data.num_rows > 0:
-        upload_data(data, "quarterly_non_financial_accounts_expenditure")
+        upload_data(data, "oecd_quarterly_non_financial_accounts_expenditure")
         print(f"Uploaded {data.num_rows} rows to quarterly_non_financial_accounts_expenditure")
         
     save_state("quarterly_non_financial_accounts_expenditure", {

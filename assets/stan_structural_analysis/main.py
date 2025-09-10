@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_STAN@DF_STAN")
     
     if data.num_rows > 0:
-        upload_data(data, "stan_structural_analysis")
+        upload_data(data, "oecd_stan_structural_analysis")
         print(f"Uploaded {data.num_rows} rows to stan_structural_analysis")
         
     save_state("stan_structural_analysis", {

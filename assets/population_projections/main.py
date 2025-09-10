@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_POPULATION@DF_POP_PROJ")
     
     if data.num_rows > 0:
-        upload_data(data, "population_projections")
+        upload_data(data, "oecd_population_projections")
         print(f"Uploaded {data.num_rows} rows to population_projections")
         
     save_state("population_projections", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_SNGF_CSF@DF_SGCF")
     
     if data.num_rows > 0:
-        upload_data(data, "subnational_climate_finance")
+        upload_data(data, "oecd_subnational_climate_finance")
         print(f"Uploaded {data.num_rows} rows to subnational_climate_finance")
         
     save_state("subnational_climate_finance", {

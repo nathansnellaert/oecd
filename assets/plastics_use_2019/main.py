@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PU_2019@DF_PU_2019")
     
     if data.num_rows > 0:
-        upload_data(data, "plastics_use_2019")
+        upload_data(data, "oecd_plastics_use_2019")
         print(f"Uploaded {data.num_rows} rows to plastics_use_2019")
         
     save_state("plastics_use_2019", {

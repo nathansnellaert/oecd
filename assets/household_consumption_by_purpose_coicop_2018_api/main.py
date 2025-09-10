@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAMAIN10@DF_TABLE5A_T500")
     
     if data.num_rows > 0:
-        upload_data(data, "household_consumption_by_purpose_coicop_2018_api")
+        upload_data(data, "oecd_household_consumption_by_purpose_coicop_2018_api")
         print(f"Uploaded {data.num_rows} rows to household_consumption_by_purpose_coicop_2018_api")
         
     save_state("household_consumption_by_purpose_coicop_2018_api", {

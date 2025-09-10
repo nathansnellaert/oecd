@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LA_DEGURBA_DDOWN@DF_DEGURBA_DDOWN")
     
     if data.num_rows > 0:
-        upload_data(data, "local_degree_of_urbanisation")
+        upload_data(data, "oecd_local_degree_of_urbanisation")
         print(f"Uploaded {data.num_rows} rows to local_degree_of_urbanisation")
         
     save_state("local_degree_of_urbanisation", {

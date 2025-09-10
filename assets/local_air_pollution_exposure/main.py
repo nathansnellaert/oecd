@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LA_AIR_POLLUTION_DDOWN@DF_AIR_POLLUTION_DDOWN")
     
     if data.num_rows > 0:
-        upload_data(data, "local_air_pollution_exposure")
+        upload_data(data, "oecd_local_air_pollution_exposure")
         print(f"Uploaded {data.num_rows} rows to local_air_pollution_exposure")
         
     save_state("local_air_pollution_exposure", {

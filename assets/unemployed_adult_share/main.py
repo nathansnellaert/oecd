@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EAG_LSO_EA@DF_LSO_NEAC_UNEMPLOYED")
     
     if data.num_rows > 0:
-        upload_data(data, "unemployed_adult_share")
+        upload_data(data, "oecd_unemployed_adult_share")
         print(f"Uploaded {data.num_rows} rows to unemployed_adult_share")
         
     save_state("unemployed_adult_share", {

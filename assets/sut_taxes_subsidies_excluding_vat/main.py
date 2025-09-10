@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NASU@DF_VALUATION_T1631")
     
     if data.num_rows > 0:
-        upload_data(data, "sut_taxes_subsidies_excluding_vat")
+        upload_data(data, "oecd_sut_taxes_subsidies_excluding_vat")
         print(f"Uploaded {data.num_rows} rows to sut_taxes_subsidies_excluding_vat")
         
     save_state("sut_taxes_subsidies_excluding_vat", {

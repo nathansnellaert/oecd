@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAAG@DF_NAAG_VIII")
     
     if data.num_rows > 0:
-        upload_data(data, "naag_capital")
+        upload_data(data, "oecd_naag_capital")
         print(f"Uploaded {data.num_rows} rows to naag_capital")
         
     save_state("naag_capital", {

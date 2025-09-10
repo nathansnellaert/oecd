@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_HHDASH@DF_HHDASH_INDIC")
     
     if data.num_rows > 0:
-        upload_data(data, "household_dashboard_indicator")
+        upload_data(data, "oecd_household_dashboard_indicator")
         print(f"Uploaded {data.num_rows} rows to household_dashboard_indicator")
         
     save_state("household_dashboard_indicator", {

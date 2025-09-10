@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_KIIBIH@DF_B18")
     
     if data.num_rows > 0:
-        upload_data(data, "hourly_earnings_formal_informal_ratio")
+        upload_data(data, "oecd_hourly_earnings_formal_informal_ratio")
         print(f"Uploaded {data.num_rows} rows to hourly_earnings_formal_informal_ratio")
         
     save_state("hourly_earnings_formal_informal_ratio", {

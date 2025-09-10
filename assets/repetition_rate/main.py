@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_DIST_RPTR")
     
     if data.num_rows > 0:
-        upload_data(data, "repetition_rate")
+        upload_data(data, "oecd_repetition_rate")
         print(f"Uploaded {data.num_rows} rows to repetition_rate")
         
     save_state("repetition_rate", {

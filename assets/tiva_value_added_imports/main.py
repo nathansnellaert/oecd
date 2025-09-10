@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TIVA_IMGRVA@DF_IMGRVA")
     
     if data.num_rows > 0:
-        upload_data(data, "tiva_value_added_imports")
+        upload_data(data, "oecd_tiva_value_added_imports")
         print(f"Uploaded {data.num_rows} rows to tiva_value_added_imports")
         
     save_state("tiva_value_added_imports", {

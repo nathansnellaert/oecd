@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EPS@DF_EPS")
     
     if data.num_rows > 0:
-        upload_data(data, "environmental_policy_stringency_index")
+        upload_data(data, "oecd_environmental_policy_stringency_index")
         print(f"Uploaded {data.num_rows} rows to environmental_policy_stringency_index")
         
     save_state("environmental_policy_stringency_index", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_QDD_TAD_EXP_RESTRIC@DF_QDD_TAD_EXP_RESTRIC")
     
     if data.num_rows > 0:
-        upload_data(data, "raw_material_export_restrictions")
+        upload_data(data, "oecd_raw_material_export_restrictions")
         print(f"Uploaded {data.num_rows} rows to raw_material_export_restrictions")
         
     save_state("raw_material_export_restrictions", {

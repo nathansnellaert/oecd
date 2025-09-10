@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAAG@DF_NAAG_IX")
     
     if data.num_rows > 0:
-        upload_data(data, "reference_series")
+        upload_data(data, "oecd_reference_series")
         print(f"Uploaded {data.num_rows} rows to reference_series")
         
     save_state("reference_series", {

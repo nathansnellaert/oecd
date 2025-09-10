@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LFS@DF_IALFS_WAP_Q")
     
     if data.num_rows > 0:
-        upload_data(data, "working_age_population")
+        upload_data(data, "oecd_working_age_population")
         print(f"Uploaded {data.num_rows} rows to working_age_population")
         
     save_state("working_age_population", {

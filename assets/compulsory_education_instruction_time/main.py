@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EAG_IT@DF_EAG_IT_ISCED")
     
     if data.num_rows > 0:
-        upload_data(data, "compulsory_education_instruction_time")
+        upload_data(data, "oecd_compulsory_education_instruction_time")
         print(f"Uploaded {data.num_rows} rows to compulsory_education_instruction_time")
         
     save_state("compulsory_education_instruction_time", {

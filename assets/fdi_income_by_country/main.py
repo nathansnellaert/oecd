@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_FDI@DF_FDI_INC_CTRY")
     
     if data.num_rows > 0:
-        upload_data(data, "fdi_income_by_country")
+        upload_data(data, "oecd_fdi_income_by_country")
         print(f"Uploaded {data.num_rows} rows to fdi_income_by_country")
         
     save_state("fdi_income_by_country", {

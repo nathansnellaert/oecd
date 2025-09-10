@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AGRI_ENV@DF_AGGHGSEM")
     
     if data.num_rows > 0:
-        upload_data(data, "agricultural_ghg_emissions")
+        upload_data(data, "oecd_agricultural_ghg_emissions")
         print(f"Uploaded {data.num_rows} rows to agricultural_ghg_emissions")
         
     save_state("agricultural_ghg_emissions", {

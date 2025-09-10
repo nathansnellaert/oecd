@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_BOP@DF_BOP")
     
     if data.num_rows > 0:
-        upload_data(data, "balance_of_payments")
+        upload_data(data, "oecd_balance_of_payments")
         print(f"Uploaded {data.num_rows} rows to balance_of_payments")
         
     save_state("balance_of_payments", {

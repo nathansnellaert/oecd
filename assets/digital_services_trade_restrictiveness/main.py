@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_STRI@DF_STRI_DIGITAL")
     
     if data.num_rows > 0:
-        upload_data(data, "digital_services_trade_restrictiveness")
+        upload_data(data, "oecd_digital_services_trade_restrictiveness")
         print(f"Uploaded {data.num_rows} rows to digital_services_trade_restrictiveness")
         
     save_state("digital_services_trade_restrictiveness", {

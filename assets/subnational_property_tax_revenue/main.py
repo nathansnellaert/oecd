@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_DASHBOARD@PROP_TAX_REV")
     
     if data.num_rows > 0:
-        upload_data(data, "subnational_property_tax_revenue")
+        upload_data(data, "oecd_subnational_property_tax_revenue")
         print(f"Uploaded {data.num_rows} rows to subnational_property_tax_revenue")
         
     save_state("subnational_property_tax_revenue", {

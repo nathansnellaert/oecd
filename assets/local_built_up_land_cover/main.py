@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LA_GHSL_BUILT_DDOWN@DF_BUILT_DDOWN")
     
     if data.num_rows > 0:
-        upload_data(data, "local_built_up_land_cover")
+        upload_data(data, "oecd_local_built_up_land_cover")
         print(f"Uploaded {data.num_rows} rows to local_built_up_land_cover")
         
     save_state("local_built_up_land_cover", {

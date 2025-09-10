@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AGRI_ENV@DF_AGLAND")
     
     if data.num_rows > 0:
-        upload_data(data, "agricultural_land_area")
+        upload_data(data, "oecd_agricultural_land_area")
         print(f"Uploaded {data.num_rows} rows to agricultural_land_area")
         
     save_state("agricultural_land_area", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_RDS_GOV@DF_GBARD_NABS07")
     
     if data.num_rows > 0:
-        upload_data(data, "government_budget_allocations_rd")
+        upload_data(data, "oecd_government_budget_allocations_rd")
         print(f"Uploaded {data.num_rows} rows to government_budget_allocations_rd")
         
     save_state("government_budget_allocations_rd", {

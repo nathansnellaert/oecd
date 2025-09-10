@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REG_ENV@DF_GHG")
     
     if data.num_rows > 0:
-        upload_data(data, "ghg_emissions_regions")
+        upload_data(data, "oecd_ghg_emissions_regions")
         print(f"Uploaded {data.num_rows} rows to ghg_emissions_regions")
         
     save_state("ghg_emissions_regions", {

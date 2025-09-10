@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_WILD_LIFE@DF_WILD_LIFE")
     
     if data.num_rows > 0:
-        upload_data(data, "threatened_species")
+        upload_data(data, "oecd_threatened_species")
         print(f"Uploaded {data.num_rows} rows to threatened_species")
         
     save_state("threatened_species", {

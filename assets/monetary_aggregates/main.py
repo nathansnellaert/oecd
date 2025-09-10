@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_STES@DF_MONAGG")
     
     if data.num_rows > 0:
-        upload_data(data, "monetary_aggregates")
+        upload_data(data, "oecd_monetary_aggregates")
         print(f"Uploaded {data.num_rows} rows to monetary_aggregates")
         
     save_state("monetary_aggregates", {

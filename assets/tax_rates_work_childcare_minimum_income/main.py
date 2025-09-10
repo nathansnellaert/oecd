@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TAXBEN_PTR@DF_PTRCCSA")
     
     if data.num_rows > 0:
-        upload_data(data, "tax_rates_work_childcare_minimum_income")
+        upload_data(data, "oecd_tax_rates_work_childcare_minimum_income")
         print(f"Uploaded {data.num_rows} rows to tax_rates_work_childcare_minimum_income")
         
     save_state("tax_rates_work_childcare_minimum_income", {

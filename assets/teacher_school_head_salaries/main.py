@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EAG_SAL_ACT@DF_ALL")
     
     if data.num_rows > 0:
-        upload_data(data, "teacher_school_head_salaries")
+        upload_data(data, "oecd_teacher_school_head_salaries")
         print(f"Uploaded {data.num_rows} rows to teacher_school_head_salaries")
         
     save_state("teacher_school_head_salaries", {

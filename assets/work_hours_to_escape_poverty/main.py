@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TAXBEN_HOURSPOV@DF_HOURSPOV")
     
     if data.num_rows > 0:
-        upload_data(data, "work_hours_to_escape_poverty")
+        upload_data(data, "oecd_work_hours_to_escape_poverty")
         print(f"Uploaded {data.num_rows} rows to work_hours_to_escape_poverty")
         
     save_state("work_hours_to_escape_poverty", {

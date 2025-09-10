@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LA_PROT_AREAS_DDOWN@DF_PROT_AREAS_DDOWN")
     
     if data.num_rows > 0:
-        upload_data(data, "local_protected_areas")
+        upload_data(data, "oecd_local_protected_areas")
         print(f"Uploaded {data.num_rows} rows to local_protected_areas")
         
     save_state("local_protected_areas", {

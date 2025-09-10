@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NASEC10_IDC@DF_TABLE710Q_IDC")
     
     if data.num_rows > 0:
-        upload_data(data, "quarterly_financial_balance_sheets_consolidated")
+        upload_data(data, "oecd_quarterly_financial_balance_sheets_consolidated")
         print(f"Uploaded {data.num_rows} rows to quarterly_financial_balance_sheets_consolidated")
         
     save_state("quarterly_financial_balance_sheets_consolidated", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EARNINGS@DATASET")
     
     if data.num_rows > 0:
-        upload_data(data, "earnings_full")
+        upload_data(data, "oecd_earnings_full")
         print(f"Uploaded {data.num_rows} rows to earnings_full")
         
     save_state("earnings_full", {

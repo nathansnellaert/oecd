@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_G20_PRICES@DF_G20_PRICES")
     
     if data.num_rows > 0:
-        upload_data(data, "g20_consumer_prices")
+        upload_data(data, "oecd_g20_consumer_prices")
         print(f"Uploaded {data.num_rows} rows to g20_consumer_prices")
         
     save_state("g20_consumer_prices", {

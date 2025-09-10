@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AFDD_STAT_ANNEX@DF_TAB18")
     
     if data.num_rows > 0:
-        upload_data(data, "afdd_export_diversification")
+        upload_data(data, "oecd_afdd_export_diversification")
         print(f"Uploaded {data.num_rows} rows to afdd_export_diversification")
         
     save_state("afdd_export_diversification", {

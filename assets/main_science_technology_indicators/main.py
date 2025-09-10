@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_MSTI@DF_MSTI")
     
     if data.num_rows > 0:
-        upload_data(data, "main_science_technology_indicators")
+        upload_data(data, "oecd_main_science_technology_indicators")
         print(f"Uploaded {data.num_rows} rows to main_science_technology_indicators")
         
     save_state("main_science_technology_indicators", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_WATER_ASSET_ACCOUNTS@DF_WATER_ASSET_ACCOUNTS")
     
     if data.num_rows > 0:
-        upload_data(data, "water_asset_accounts")
+        upload_data(data, "oecd_water_asset_accounts")
         print(f"Uploaded {data.num_rows} rows to water_asset_accounts")
         
     save_state("water_asset_accounts", {

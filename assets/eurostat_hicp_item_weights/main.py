@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PRICES@DF_PRICES_HICP_IT_W")
     
     if data.num_rows > 0:
-        upload_data(data, "eurostat_hicp_item_weights")
+        upload_data(data, "oecd_eurostat_hicp_item_weights")
         print(f"Uploaded {data.num_rows} rows to eurostat_hicp_item_weights")
         
     save_state("eurostat_hicp_item_weights", {

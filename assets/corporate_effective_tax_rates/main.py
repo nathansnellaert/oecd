@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_ETR@DF_ETR_BASELINE")
     
     if data.num_rows > 0:
-        upload_data(data, "corporate_effective_tax_rates")
+        upload_data(data, "oecd_corporate_effective_tax_rates")
         print(f"Uploaded {data.num_rows} rows to corporate_effective_tax_rates")
         
     save_state("corporate_effective_tax_rates", {

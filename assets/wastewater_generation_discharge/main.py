@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_WATER_DISCHARGE@DF_WATER_DISCHARGE")
     
     if data.num_rows > 0:
-        upload_data(data, "wastewater_generation_discharge")
+        upload_data(data, "oecd_wastewater_generation_discharge")
         print(f"Uploaded {data.num_rows} rows to wastewater_generation_discharge")
         
     save_state("wastewater_generation_discharge", {

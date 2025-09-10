@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_HEALTH_LTCR@DF_HEALTH_LTCR_BED")
     
     if data.num_rows > 0:
-        upload_data(data, "long_term_care_beds")
+        upload_data(data, "oecd_long_term_care_beds")
         print(f"Uploaded {data.num_rows} rows to long_term_care_beds")
         
     save_state("long_term_care_beds", {

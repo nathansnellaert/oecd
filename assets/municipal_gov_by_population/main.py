@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_DASHBOARD@SNG_STRUCT")
     
     if data.num_rows > 0:
-        upload_data(data, "municipal_gov_by_population")
+        upload_data(data, "oecd_municipal_gov_by_population")
         print(f"Uploaded {data.num_rows} rows to municipal_gov_by_population")
         
     save_state("municipal_gov_by_population", {

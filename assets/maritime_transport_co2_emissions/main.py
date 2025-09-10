@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_MARITIME_TRANSPORT@DF_MARITIME_TRANSPORT")
     
     if data.num_rows > 0:
-        upload_data(data, "maritime_transport_co2_emissions")
+        upload_data(data, "oecd_maritime_transport_co2_emissions")
         print(f"Uploaded {data.num_rows} rows to maritime_transport_co2_emissions")
         
     save_state("maritime_transport_co2_emissions", {

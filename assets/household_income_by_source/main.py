@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EGDNA_INC_MSI@DF_INC_MSI")
     
     if data.num_rows > 0:
-        upload_data(data, "household_income_by_source")
+        upload_data(data, "oecd_household_income_by_source")
         print(f"Uploaded {data.num_rows} rows to household_income_by_source")
         
     save_state("household_income_by_source", {

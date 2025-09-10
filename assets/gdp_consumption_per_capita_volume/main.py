@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAMAIN10@DF_TABLE1_EXPENDITURE_HVPVOB")
     
     if data.num_rows > 0:
-        upload_data(data, "gdp_consumption_per_capita_volume")
+        upload_data(data, "oecd_gdp_consumption_per_capita_volume")
         print(f"Uploaded {data.num_rows} rows to gdp_consumption_per_capita_volume")
         
     save_state("gdp_consumption_per_capita_volume", {

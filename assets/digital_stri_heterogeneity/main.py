@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_STRI@DF_STRI_DIGITAL_HETERO")
     
     if data.num_rows > 0:
-        upload_data(data, "digital_stri_heterogeneity")
+        upload_data(data, "oecd_digital_stri_heterogeneity")
         print(f"Uploaded {data.num_rows} rows to digital_stri_heterogeneity")
         
     save_state("digital_stri_heterogeneity", {

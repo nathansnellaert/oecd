@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_RDS_GERD@DF_GERD_SEO")
     
     if data.num_rows > 0:
-        upload_data(data, "gross_rd_by_sector_and_objectives")
+        upload_data(data, "oecd_gross_rd_by_sector_and_objectives")
         print(f"Uploaded {data.num_rows} rows to gross_rd_by_sector_and_objectives")
         
     save_state("gross_rd_by_sector_and_objectives", {

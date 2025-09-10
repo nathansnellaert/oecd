@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TAXBEN_METR@DF_METR")
     
     if data.num_rows > 0:
-        upload_data(data, "marginal_tax_rates")
+        upload_data(data, "oecd_marginal_tax_rates")
         print(f"Uploaded {data.num_rows} rows to marginal_tax_rates")
         
     save_state("marginal_tax_rates", {

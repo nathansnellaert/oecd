@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_RDS_BERD@DF_BERD_SOF_SIZE")
     
     if data.num_rows > 0:
-        upload_data(data, "business_rd_by_size_and_funding")
+        upload_data(data, "oecd_business_rd_by_size_and_funding")
         print(f"Uploaded {data.num_rows} rows to business_rd_by_size_and_funding")
         
     save_state("business_rd_by_size_and_funding", {

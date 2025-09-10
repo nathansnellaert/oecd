@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_ALFS@DF_ALFS_EMP_EES")
     
     if data.num_rows > 0:
-        upload_data(data, "employees_by_activities_isic")
+        upload_data(data, "oecd_employees_by_activities_isic")
         print(f"Uploaded {data.num_rows} rows to employees_by_activities_isic")
         
     save_state("employees_by_activities_isic", {

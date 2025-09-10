@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_HW@DF_EMP_USL_WK_HRS")
     
     if data.num_rows > 0:
-        upload_data(data, "employment_by_weekly_hours")
+        upload_data(data, "oecd_employment_by_weekly_hours")
         print(f"Uploaded {data.num_rows} rows to employment_by_weekly_hours")
         
     save_state("employment_by_weekly_hours", {

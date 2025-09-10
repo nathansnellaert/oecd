@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AGRI_ENV@DF_AGWQ")
     
     if data.num_rows > 0:
-        upload_data(data, "agricultural_water_quality")
+        upload_data(data, "oecd_agricultural_water_quality")
         print(f"Uploaded {data.num_rows} rows to agricultural_water_quality")
         
     save_state("agricultural_water_quality", {

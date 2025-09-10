@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REG_DEMO@DF_MIGR_FLOW")
     
     if data.num_rows > 0:
-        upload_data(data, "regional_migration_flows")
+        upload_data(data, "oecd_regional_migration_flows")
         print(f"Uploaded {data.num_rows} rows to regional_migration_flows")
         
     save_state("regional_migration_flows", {

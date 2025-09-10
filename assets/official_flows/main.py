@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_DAC2@DF_OFFICIAL")
     
     if data.num_rows > 0:
-        upload_data(data, "official_flows")
+        upload_data(data, "oecd_official_flows")
         print(f"Uploaded {data.num_rows} rows to official_flows")
         
     save_state("official_flows", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_HEALTH_PROC@DF_KEY_INDIC")
     
     if data.num_rows > 0:
-        upload_data(data, "healthcare_utilisation")
+        upload_data(data, "oecd_healthcare_utilisation")
         print(f"Uploaded {data.num_rows} rows to healthcare_utilisation")
         
     save_state("healthcare_utilisation", {

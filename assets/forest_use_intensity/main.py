@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_FOREST@DF_FOREST")
     
     if data.num_rows > 0:
-        upload_data(data, "forest_use_intensity")
+        upload_data(data, "oecd_forest_use_intensity")
         print(f"Uploaded {data.num_rows} rows to forest_use_intensity")
         
     save_state("forest_use_intensity", {

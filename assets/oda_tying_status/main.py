@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_DAC1@DF_DAC7B")
     
     if data.num_rows > 0:
-        upload_data(data, "oda_tying_status")
+        upload_data(data, "oecd_oda_tying_status")
         print(f"Uploaded {data.num_rows} rows to oda_tying_status")
         
     save_state("oda_tying_status", {

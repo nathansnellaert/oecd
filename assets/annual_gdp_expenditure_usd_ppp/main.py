@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAMAIN10@DF_TABLE1_EXPENDITURE_CPC")
     
     if data.num_rows > 0:
-        upload_data(data, "annual_gdp_expenditure_usd_ppp")
+        upload_data(data, "oecd_annual_gdp_expenditure_usd_ppp")
         print(f"Uploaded {data.num_rows} rows to annual_gdp_expenditure_usd_ppp")
         
     save_state("annual_gdp_expenditure_usd_ppp", {

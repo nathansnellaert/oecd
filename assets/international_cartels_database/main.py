@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_CARTEL_QDD@DF_QDD_CARTEL")
     
     if data.num_rows > 0:
-        upload_data(data, "international_cartels_database")
+        upload_data(data, "oecd_international_cartels_database")
         print(f"Uploaded {data.num_rows} rows to international_cartels_database")
         
     save_state("international_cartels_database", {

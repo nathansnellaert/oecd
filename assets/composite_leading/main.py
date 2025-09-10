@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_STES@DF_CLI")
     
     if data.num_rows > 0:
-        upload_data(data, "composite_leading")
+        upload_data(data, "oecd_composite_leading")
         print(f"Uploaded {data.num_rows} rows to composite_leading")
         
     save_state("composite_leading", {

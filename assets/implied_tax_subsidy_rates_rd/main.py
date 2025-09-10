@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_RDTAX@DF_RDSUB")
     
     if data.num_rows > 0:
-        upload_data(data, "implied_tax_subsidy_rates_rd")
+        upload_data(data, "oecd_implied_tax_subsidy_rates_rd")
         print(f"Uploaded {data.num_rows} rows to implied_tax_subsidy_rates_rd")
         
     save_state("implied_tax_subsidy_rates_rd", {

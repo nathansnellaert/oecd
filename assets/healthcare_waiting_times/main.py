@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_HEALTH_PROC@DF_WAITING")
     
     if data.num_rows > 0:
-        upload_data(data, "healthcare_waiting_times")
+        upload_data(data, "oecd_healthcare_waiting_times")
         print(f"Uploaded {data.num_rows} rows to healthcare_waiting_times")
         
     save_state("healthcare_waiting_times", {

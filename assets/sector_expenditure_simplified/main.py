@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NASEC10@DF_TABLE13_EXP")
     
     if data.num_rows > 0:
-        upload_data(data, "sector_expenditure_simplified")
+        upload_data(data, "oecd_sector_expenditure_simplified")
         print(f"Uploaded {data.num_rows} rows to sector_expenditure_simplified")
         
     save_state("sector_expenditure_simplified", {

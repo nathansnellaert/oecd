@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TOOLKIT_DK@DF_NDSC")
     
     if data.num_rows > 0:
-        upload_data(data, "national_digital_strategy_comprehensiveness")
+        upload_data(data, "oecd_national_digital_strategy_comprehensiveness")
         print(f"Uploaded {data.num_rows} rows to national_digital_strategy_comprehensiveness")
         
     save_state("national_digital_strategy_comprehensiveness", {

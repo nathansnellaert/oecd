@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REG_CLIM@DF_HEAT_STRESS")
     
     if data.num_rows > 0:
-        upload_data(data, "regional_heat_stress")
+        upload_data(data, "oecd_regional_heat_stress")
         print(f"Uploaded {data.num_rows} rows to regional_heat_stress")
         
     save_state("regional_heat_stress", {

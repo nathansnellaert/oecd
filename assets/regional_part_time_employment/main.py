@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REG_LAB@DF_PART_TIME")
     
     if data.num_rows > 0:
-        upload_data(data, "regional_part_time_employment")
+        upload_data(data, "oecd_regional_part_time_employment")
         print(f"Uploaded {data.num_rows} rows to regional_part_time_employment")
         
     save_state("regional_part_time_employment", {

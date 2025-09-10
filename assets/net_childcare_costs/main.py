@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TAXBEN_NCC@DF_NCC")
     
     if data.num_rows > 0:
-        upload_data(data, "net_childcare_costs")
+        upload_data(data, "oecd_net_childcare_costs")
         print(f"Uploaded {data.num_rows} rows to net_childcare_costs")
         
     save_state("net_childcare_costs", {

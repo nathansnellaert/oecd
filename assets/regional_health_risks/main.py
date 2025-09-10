@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REG_HEALTH@DF_RISK")
     
     if data.num_rows > 0:
-        upload_data(data, "regional_health_risks")
+        upload_data(data, "oecd_regional_health_risks")
         print(f"Uploaded {data.num_rows} rows to regional_health_risks")
         
     save_state("regional_health_risks", {

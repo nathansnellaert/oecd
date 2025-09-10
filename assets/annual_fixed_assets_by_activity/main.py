@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAMAIN10@DF_TABLE9A")
     
     if data.num_rows > 0:
-        upload_data(data, "annual_fixed_assets_by_activity")
+        upload_data(data, "oecd_annual_fixed_assets_by_activity")
         print(f"Uploaded {data.num_rows} rows to annual_fixed_assets_by_activity")
         
     save_state("annual_fixed_assets_by_activity", {

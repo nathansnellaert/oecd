@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_BIBLIO@DF_BIBLIO")
     
     if data.num_rows > 0:
-        upload_data(data, "bibliometric_by_field")
+        upload_data(data, "oecd_bibliometric_by_field")
         print(f"Uploaded {data.num_rows} rows to bibliometric_by_field")
         
     save_state("bibliometric_by_field", {

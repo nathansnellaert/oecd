@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DF_AEI2024_DASHBOARD")
     
     if data.num_rows > 0:
-        upload_data(data, "agri_environmental_2024_dashboard")
+        upload_data(data, "oecd_agri_environmental_2024_dashboard")
         print(f"Uploaded {data.num_rows} rows to agri_environmental_2024_dashboard")
         
     save_state("agri_environmental_2024_dashboard", {

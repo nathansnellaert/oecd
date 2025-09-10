@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AGRI_ENV@DF_AGAMMO")
     
     if data.num_rows > 0:
-        upload_data(data, "ammonia_emissions")
+        upload_data(data, "oecd_ammonia_emissions")
         print(f"Uploaded {data.num_rows} rows to ammonia_emissions")
         
     save_state("ammonia_emissions", {

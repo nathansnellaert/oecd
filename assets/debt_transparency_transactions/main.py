@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_DEBT_TRANS_COLL@DF_MICRO")
     
     if data.num_rows > 0:
-        upload_data(data, "debt_transparency_transactions")
+        upload_data(data, "oecd_debt_transparency_transactions")
         print(f"Uploaded {data.num_rows} rows to debt_transparency_transactions")
         
     save_state("debt_transparency_transactions", {

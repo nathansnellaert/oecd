@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAMAIN10_IDC@DF_TABLE6A_IDC")
     
     if data.num_rows > 0:
-        upload_data(data, "annual_value_added_by_activity")
+        upload_data(data, "oecd_annual_value_added_by_activity")
         print(f"Uploaded {data.num_rows} rows to annual_value_added_by_activity")
         
     save_state("annual_value_added_by_activity", {

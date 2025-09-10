@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AGRI_ENV@DF_NB")
     
     if data.num_rows > 0:
-        upload_data(data, "nutrient_balances")
+        upload_data(data, "oecd_nutrient_balances")
         print(f"Uploaded {data.num_rows} rows to nutrient_balances")
         
     save_state("nutrient_balances", {

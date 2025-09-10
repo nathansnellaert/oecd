@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_CBCR@DF_CBCRI")
     
     if data.num_rows > 0:
-        upload_data(data, "cbcr_aggregate_by_jurisdiction")
+        upload_data(data, "oecd_cbcr_aggregate_by_jurisdiction")
         print(f"Uploaded {data.num_rows} rows to cbcr_aggregate_by_jurisdiction")
         
     save_state("cbcr_aggregate_by_jurisdiction", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_CPU@DF_CPU")
     
     if data.num_rows > 0:
-        upload_data(data, "climate_policy_uncertainty")
+        upload_data(data, "oecd_climate_policy_uncertainty")
         print(f"Uploaded {data.num_rows} rows to climate_policy_uncertainty")
         
     save_state("climate_policy_uncertainty", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_FUA_TRAN@DF_SERVICE_ACCESS")
     
     if data.num_rows > 0:
-        upload_data(data, "services_access_fua")
+        upload_data(data, "oecd_services_access_fua")
         print(f"Uploaded {data.num_rows} rows to services_access_fua")
         
     save_state("services_access_fua", {

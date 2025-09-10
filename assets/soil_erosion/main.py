@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AGRI_ENV@DF_AGSE")
     
     if data.num_rows > 0:
-        upload_data(data, "soil_erosion")
+        upload_data(data, "oecd_soil_erosion")
         print(f"Uploaded {data.num_rows} rows to soil_erosion")
         
     save_state("soil_erosion", {

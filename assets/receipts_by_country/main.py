@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_DAC2@DF_RECPTS")
     
     if data.num_rows > 0:
-        upload_data(data, "receipts_by_country")
+        upload_data(data, "oecd_receipts_by_country")
         print(f"Uploaded {data.num_rows} rows to receipts_by_country")
         
     save_state("receipts_by_country", {

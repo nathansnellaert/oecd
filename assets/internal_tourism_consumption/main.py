@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TOURISM_EXP@DF_EXPENDITURE")
     
     if data.num_rows > 0:
-        upload_data(data, "internal_tourism_consumption")
+        upload_data(data, "oecd_internal_tourism_consumption")
         print(f"Uploaded {data.num_rows} rows to internal_tourism_consumption")
         
     save_state("internal_tourism_consumption", {

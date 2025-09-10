@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LFS@DF_LFS_COMP")
     
     if data.num_rows > 0:
-        upload_data(data, "employment_unemployment_composition")
+        upload_data(data, "oecd_employment_unemployment_composition")
         print(f"Uploaded {data.num_rows} rows to employment_unemployment_composition")
         
     save_state("employment_unemployment_composition", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AFDD_STAT_ANNEX@DF_TAB25")
     
     if data.num_rows > 0:
-        upload_data(data, "afdd_ghg_emissions_sector")
+        upload_data(data, "oecd_afdd_ghg_emissions_sector")
         print(f"Uploaded {data.num_rows} rows to afdd_ghg_emissions_sector")
         
     save_state("afdd_ghg_emissions_sector", {

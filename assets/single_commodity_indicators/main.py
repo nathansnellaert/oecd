@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AGR_POLIND@DF_COMM")
     
     if data.num_rows > 0:
-        upload_data(data, "single_commodity_indicators")
+        upload_data(data, "oecd_single_commodity_indicators")
         print(f"Uploaded {data.num_rows} rows to single_commodity_indicators")
         
     save_state("single_commodity_indicators", {

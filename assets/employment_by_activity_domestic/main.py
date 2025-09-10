@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAMAIN10@DF_TABLE3_EMPDC")
     
     if data.num_rows > 0:
-        upload_data(data, "employment_by_activity_domestic")
+        upload_data(data, "oecd_employment_by_activity_domestic")
         print(f"Uploaded {data.num_rows} rows to employment_by_activity_domestic")
         
     save_state("employment_by_activity_domestic", {

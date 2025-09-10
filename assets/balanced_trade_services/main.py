@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_BATIS@DF_BATIS")
     
     if data.num_rows > 0:
-        upload_data(data, "balanced_trade_services")
+        upload_data(data, "oecd_balanced_trade_services")
         print(f"Uploaded {data.num_rows} rows to balanced_trade_services")
         
     save_state("balanced_trade_services", {

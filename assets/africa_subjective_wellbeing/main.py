@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AFDD_STAT_ANNEX_RECENT@DF_TAB14")
     
     if data.num_rows > 0:
-        upload_data(data, "africa_subjective_wellbeing")
+        upload_data(data, "oecd_africa_subjective_wellbeing")
         print(f"Uploaded {data.num_rows} rows to africa_subjective_wellbeing")
         
     save_state("africa_subjective_wellbeing", {

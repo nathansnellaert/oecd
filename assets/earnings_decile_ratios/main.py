@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EARNINGS@DEC_I")
     
     if data.num_rows > 0:
-        upload_data(data, "earnings_decile_ratios")
+        upload_data(data, "oecd_earnings_decile_ratios")
         print(f"Uploaded {data.num_rows} rows to earnings_decile_ratios")
         
     save_state("earnings_decile_ratios", {

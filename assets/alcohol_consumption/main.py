@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_HEALTH_LVNG@DF_HEALTH_LVNG_AC")
     
     if data.num_rows > 0:
-        upload_data(data, "alcohol_consumption")
+        upload_data(data, "oecd_alcohol_consumption")
         print(f"Uploaded {data.num_rows} rows to alcohol_consumption")
         
     save_state("alcohol_consumption", {

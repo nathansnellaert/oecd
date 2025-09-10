@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PL_P@DF_PL_P")
     
     if data.num_rows > 0:
-        upload_data(data, "plastic_leakage_projections")
+        upload_data(data, "oecd_plastic_leakage_projections")
         print(f"Uploaded {data.num_rows} rows to plastic_leakage_projections")
         
     save_state("plastic_leakage_projections", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EAG_IT@DF_EAG_IT_ALL")
     
     if data.num_rows > 0:
-        upload_data(data, "student_instruction_time_full")
+        upload_data(data, "oecd_student_instruction_time_full")
         print(f"Uploaded {data.num_rows} rows to student_instruction_time_full")
         
     save_state("student_instruction_time_full", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PRICES_COICOP2018@DF_PRICES_C2018_ALL")
     
     if data.num_rows > 0:
-        upload_data(data, "cpi_all_items_coicop_2018")
+        upload_data(data, "oecd_cpi_all_items_coicop_2018")
         print(f"Uploaded {data.num_rows} rows to cpi_all_items_coicop_2018")
         
     save_state("cpi_all_items_coicop_2018", {

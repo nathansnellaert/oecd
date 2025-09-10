@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_RPTR")
     
     if data.num_rows > 0:
-        upload_data(data, "repeaters_by_gender_level")
+        upload_data(data, "oecd_repeaters_by_gender_level")
         print(f"Uploaded {data.num_rows} rows to repeaters_by_gender_level")
         
     save_state("repeaters_by_gender_level", {

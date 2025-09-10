@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REV_COMP_ASAP@DF_RSASAP")
     
     if data.num_rows > 0:
-        upload_data(data, "asia_pacific_tax_revenues")
+        upload_data(data, "oecd_asia_pacific_tax_revenues")
         print(f"Uploaded {data.num_rows} rows to asia_pacific_tax_revenues")
         
     save_state("asia_pacific_tax_revenues", {

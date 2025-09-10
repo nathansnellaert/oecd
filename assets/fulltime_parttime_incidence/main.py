@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_FTPT@DF_FTPT_COMMON_INC")
     
     if data.num_rows > 0:
-        upload_data(data, "fulltime_parttime_incidence")
+        upload_data(data, "oecd_fulltime_parttime_incidence")
         print(f"Uploaded {data.num_rows} rows to fulltime_parttime_incidence")
         
     save_state("fulltime_parttime_incidence", {

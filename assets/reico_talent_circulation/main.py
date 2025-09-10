@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REICO_FULL@DF_RDC")
     
     if data.num_rows > 0:
-        upload_data(data, "reico_talent_circulation")
+        upload_data(data, "oecd_reico_talent_circulation")
         print(f"Uploaded {data.num_rows} rows to reico_talent_circulation")
         
     save_state("reico_talent_circulation", {

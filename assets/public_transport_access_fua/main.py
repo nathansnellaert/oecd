@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_FUA_TRAN@DF_PT_ACCESS")
     
     if data.num_rows > 0:
-        upload_data(data, "public_transport_access_fua")
+        upload_data(data, "oecd_public_transport_access_fua")
         print(f"Uploaded {data.num_rows} rows to public_transport_access_fua")
         
     save_state("public_transport_access_fua", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REG_SOC@DF_VOTER")
     
     if data.num_rows > 0:
-        upload_data(data, "regional_civic_engagement")
+        upload_data(data, "oecd_regional_civic_engagement")
         print(f"Uploaded {data.num_rows} rows to regional_civic_engagement")
         
     save_state("regional_civic_engagement", {

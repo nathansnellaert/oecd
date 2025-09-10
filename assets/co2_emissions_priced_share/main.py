@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_ECR@DF_SEP")
     
     if data.num_rows > 0:
-        upload_data(data, "co2_emissions_priced_share")
+        upload_data(data, "oecd_co2_emissions_priced_share")
         print(f"Uploaded {data.num_rows} rows to co2_emissions_priced_share")
         
     save_state("co2_emissions_priced_share", {

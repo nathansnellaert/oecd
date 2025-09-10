@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TOOLKIT_12@DF_GD_BREAKDOWNS_12")
     
     if data.num_rows > 0:
-        upload_data(data, "going_digital_breakdowns_12")
+        upload_data(data, "oecd_going_digital_breakdowns_12")
         print(f"Uploaded {data.num_rows} rows to going_digital_breakdowns_12")
         
     save_state("going_digital_breakdowns_12", {

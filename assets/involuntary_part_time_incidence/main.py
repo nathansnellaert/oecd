@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_INVPT_EMP@DF_INVPT_I")
     
     if data.num_rows > 0:
-        upload_data(data, "involuntary_part_time_incidence")
+        upload_data(data, "oecd_involuntary_part_time_incidence")
         print(f"Uploaded {data.num_rows} rows to involuntary_part_time_incidence")
         
     save_state("involuntary_part_time_incidence", {

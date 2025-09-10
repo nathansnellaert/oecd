@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAMAIN10@DF_TABLE4_PPP_P31S14")
     
     if data.num_rows > 0:
-        upload_data(data, "ppp_household_consumption")
+        upload_data(data, "oecd_ppp_household_consumption")
         print(f"Uploaded {data.num_rows} rows to ppp_household_consumption")
         
     save_state("ppp_household_consumption", {

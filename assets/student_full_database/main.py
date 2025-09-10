@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_STUD_DB")
     
     if data.num_rows > 0:
-        upload_data(data, "student_full_database")
+        upload_data(data, "oecd_student_full_database")
         print(f"Uploaded {data.num_rows} rows to student_full_database")
         
     save_state("student_full_database", {

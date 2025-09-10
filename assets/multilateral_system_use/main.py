@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_MULTI@DF_MULTI")
     
     if data.num_rows > 0:
-        upload_data(data, "multilateral_system_use")
+        upload_data(data, "oecd_multilateral_system_use")
         print(f"Uploaded {data.num_rows} rows to multilateral_system_use")
         
     save_state("multilateral_system_use", {

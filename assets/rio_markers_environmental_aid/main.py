@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_RIOMRKR@DF_RIOMARKERS")
     
     if data.num_rows > 0:
-        upload_data(data, "rio_markers_environmental_aid")
+        upload_data(data, "oecd_rio_markers_environmental_aid")
         print(f"Uploaded {data.num_rows} rows to rio_markers_environmental_aid")
         
     save_state("rio_markers_environmental_aid", {

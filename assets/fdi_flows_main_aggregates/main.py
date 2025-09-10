@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_FDI@DF_FDI_FLOW_AGGR")
     
     if data.num_rows > 0:
-        upload_data(data, "fdi_flows_main_aggregates")
+        upload_data(data, "oecd_fdi_flows_main_aggregates")
         print(f"Uploaded {data.num_rows} rows to fdi_flows_main_aggregates")
         
     save_state("fdi_flows_main_aggregates", {

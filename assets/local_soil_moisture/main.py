@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LA_SOIL_MOISTURE_DDOWN@DF_SOIL_MOISTURE_DDOWN")
     
     if data.num_rows > 0:
-        upload_data(data, "local_soil_moisture")
+        upload_data(data, "oecd_local_soil_moisture")
         print(f"Uploaded {data.num_rows} rows to local_soil_moisture")
         
     save_state("local_soil_moisture", {

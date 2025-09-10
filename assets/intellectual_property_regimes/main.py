@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_QDD_IPR@DF_QDD_IPR")
     
     if data.num_rows > 0:
-        upload_data(data, "intellectual_property_regimes")
+        upload_data(data, "oecd_intellectual_property_regimes")
         print(f"Uploaded {data.num_rows} rows to intellectual_property_regimes")
         
     save_state("intellectual_property_regimes", {

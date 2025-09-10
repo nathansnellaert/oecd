@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PPP@DF_PPP_VI")
     
     if data.num_rows > 0:
-        upload_data(data, "ppp_volume_indices_per_capita")
+        upload_data(data, "oecd_ppp_volume_indices_per_capita")
         print(f"Uploaded {data.num_rows} rows to ppp_volume_indices_per_capita")
         
     save_state("ppp_volume_indices_per_capita", {

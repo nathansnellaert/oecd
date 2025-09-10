@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REG_SOC@DF_INCOME_INEQ")
     
     if data.num_rows > 0:
-        upload_data(data, "regional_income_inequality")
+        upload_data(data, "oecd_regional_income_inequality")
         print(f"Uploaded {data.num_rows} rows to regional_income_inequality")
         
     save_state("regional_income_inequality", {

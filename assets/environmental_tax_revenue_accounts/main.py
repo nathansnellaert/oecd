@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_ERTR@DF_ERTR_ACC")
     
     if data.num_rows > 0:
-        upload_data(data, "environmental_tax_revenue_accounts")
+        upload_data(data, "oecd_environmental_tax_revenue_accounts")
         print(f"Uploaded {data.num_rows} rows to environmental_tax_revenue_accounts")
         
     save_state("environmental_tax_revenue_accounts", {

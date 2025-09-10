@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_FISH_EMP@DF_FISH_EMPL")
     
     if data.num_rows > 0:
-        upload_data(data, "fisheries_employment")
+        upload_data(data, "oecd_fisheries_employment")
         print(f"Uploaded {data.num_rows} rows to fisheries_employment")
         
     save_state("fisheries_employment", {

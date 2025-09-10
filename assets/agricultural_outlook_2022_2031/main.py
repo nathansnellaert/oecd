@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AGR@DF_OUTLOOK_2022_2031")
     
     if data.num_rows > 0:
-        upload_data(data, "agricultural_outlook_2022_2031")
+        upload_data(data, "oecd_agricultural_outlook_2022_2031")
         print(f"Uploaded {data.num_rows} rows to agricultural_outlook_2022_2031")
         
     save_state("agricultural_outlook_2022_2031", {

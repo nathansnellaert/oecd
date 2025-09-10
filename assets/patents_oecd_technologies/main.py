@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PATENTS@DF_PATENTS_OECDSPECIFIC")
     
     if data.num_rows > 0:
-        upload_data(data, "patents_oecd_technologies")
+        upload_data(data, "oecd_patents_oecd_technologies")
         print(f"Uploaded {data.num_rows} rows to patents_oecd_technologies")
         
     save_state("patents_oecd_technologies", {

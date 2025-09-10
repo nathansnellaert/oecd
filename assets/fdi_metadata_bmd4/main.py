@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_QDD_FDI@DF_FDI_BMD4")
     
     if data.num_rows > 0:
-        upload_data(data, "fdi_metadata_bmd4")
+        upload_data(data, "oecd_fdi_metadata_bmd4")
         print(f"Uploaded {data.num_rows} rows to fdi_metadata_bmd4")
         
     save_state("fdi_metadata_bmd4", {

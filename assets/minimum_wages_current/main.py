@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EARNINGS@MW_CURP")
     
     if data.num_rows > 0:
-        upload_data(data, "minimum_wages_current")
+        upload_data(data, "oecd_minimum_wages_current")
         print(f"Uploaded {data.num_rows} rows to minimum_wages_current")
         
     save_state("minimum_wages_current", {

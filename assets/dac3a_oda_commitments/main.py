@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_DAC2@DF_DAC3A")
     
     if data.num_rows > 0:
-        upload_data(data, "dac3a_oda_commitments")
+        upload_data(data, "oecd_dac3a_oda_commitments")
         print(f"Uploaded {data.num_rows} rows to dac3a_oda_commitments")
         
     save_state("dac3a_oda_commitments", {

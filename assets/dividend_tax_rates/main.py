@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TAX_CIT@DF_CIT_DIVD_INCOME")
     
     if data.num_rows > 0:
-        upload_data(data, "dividend_tax_rates")
+        upload_data(data, "oecd_dividend_tax_rates")
         print(f"Uploaded {data.num_rows} rows to dividend_tax_rates")
         
     save_state("dividend_tax_rates", {

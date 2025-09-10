@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_KIIBIH@DF_B11")
     
     if data.num_rows > 0:
-        upload_data(data, "workers_national_poverty_formality")
+        upload_data(data, "oecd_workers_national_poverty_formality")
         print(f"Uploaded {data.num_rows} rows to workers_national_poverty_formality")
         
     save_state("workers_national_poverty_formality", {

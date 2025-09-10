@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_FFS@DF_FFS_UKR")
     
     if data.num_rows > 0:
-        upload_data(data, "fossil_fuel_support_ukraine")
+        upload_data(data, "oecd_fossil_fuel_support_ukraine")
         print(f"Uploaded {data.num_rows} rows to fossil_fuel_support_ukraine")
         
     save_state("fossil_fuel_support_ukraine", {

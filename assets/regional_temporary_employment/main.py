@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REG_LAB@DF_TEMPORARY")
     
     if data.num_rows > 0:
-        upload_data(data, "regional_temporary_employment")
+        upload_data(data, "oecd_regional_temporary_employment")
         print(f"Uploaded {data.num_rows} rows to regional_temporary_employment")
         
     save_state("regional_temporary_employment", {

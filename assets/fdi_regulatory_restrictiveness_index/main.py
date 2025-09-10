@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_FDIRRI_SCORES@DF_FDIRRI_SCORES")
     
     if data.num_rows > 0:
-        upload_data(data, "fdi_regulatory_restrictiveness_index")
+        upload_data(data, "oecd_fdi_regulatory_restrictiveness_index")
         print(f"Uploaded {data.num_rows} rows to fdi_regulatory_restrictiveness_index")
         
     save_state("fdi_regulatory_restrictiveness_index", {

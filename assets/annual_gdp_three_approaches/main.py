@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAMAIN10@DF_TABLE1")
     
     if data.num_rows > 0:
-        upload_data(data, "annual_gdp_three_approaches")
+        upload_data(data, "oecd_annual_gdp_three_approaches")
         print(f"Uploaded {data.num_rows} rows to annual_gdp_three_approaches")
         
     save_state("annual_gdp_three_approaches", {

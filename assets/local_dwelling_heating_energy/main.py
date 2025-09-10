@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LA_HOUSING_DDOWN@DF_HEATING_FUEL_DDOWN")
     
     if data.num_rows > 0:
-        upload_data(data, "local_dwelling_heating_energy")
+        upload_data(data, "oecd_local_dwelling_heating_energy")
         print(f"Uploaded {data.num_rows} rows to local_dwelling_heating_energy")
         
     save_state("local_dwelling_heating_energy", {

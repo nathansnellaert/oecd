@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PPP@DF_PPP_NEGDP")
     
     if data.num_rows > 0:
-        upload_data(data, "ppp_expenditure_gdp_share")
+        upload_data(data, "oecd_ppp_expenditure_gdp_share")
         print(f"Uploaded {data.num_rows} rows to ppp_expenditure_gdp_share")
         
     save_state("ppp_expenditure_gdp_share", {

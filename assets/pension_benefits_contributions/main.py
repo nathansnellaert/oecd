@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_FP@DF_BC")
     
     if data.num_rows > 0:
-        upload_data(data, "pension_benefits_contributions")
+        upload_data(data, "oecd_pension_benefits_contributions")
         print(f"Uploaded {data.num_rows} rows to pension_benefits_contributions")
         
     save_state("pension_benefits_contributions", {

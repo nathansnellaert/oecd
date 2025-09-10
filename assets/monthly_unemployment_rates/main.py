@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LFS@DF_IALFS_UNE_M")
     
     if data.num_rows > 0:
-        upload_data(data, "monthly_unemployment_rates")
+        upload_data(data, "oecd_monthly_unemployment_rates")
         print(f"Uploaded {data.num_rows} rows to monthly_unemployment_rates")
         
     save_state("monthly_unemployment_rates", {

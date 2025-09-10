@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AGR_POLIND@DF_COMPSE")
     
     if data.num_rows > 0:
-        upload_data(data, "producer_support_composition")
+        upload_data(data, "oecd_producer_support_composition")
         print(f"Uploaded {data.num_rows} rows to producer_support_composition")
         
     save_state("producer_support_composition", {

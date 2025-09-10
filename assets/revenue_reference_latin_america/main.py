@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REF_LAC@DF_REFSERIES_LAC")
     
     if data.num_rows > 0:
-        upload_data(data, "revenue_reference_latin_america")
+        upload_data(data, "oecd_revenue_reference_latin_america")
         print(f"Uploaded {data.num_rows} rows to revenue_reference_latin_america")
         
     save_state("revenue_reference_latin_america", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_SHA@DF_SHA_FP")
     
     if data.num_rows > 0:
-        upload_data(data, "healthcare_provider_input_costs")
+        upload_data(data, "oecd_healthcare_provider_input_costs")
         print(f"Uploaded {data.num_rows} rows to healthcare_provider_input_costs")
         
     save_state("healthcare_provider_input_costs", {

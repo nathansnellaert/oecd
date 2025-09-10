@@ -31,7 +31,7 @@ def process_dataset(dataset_code: str) -> None:
     
     # Upload the data
     print(f"Uploading {data.num_rows:,} rows...")
-    upload_data(data, dataset_name)
+    upload_data(data, f"oecd_{dataset_name}")
     
     # Save state
     save_state(dataset_name, {
@@ -63,7 +63,7 @@ def main():
             data = fetch_data(args.dataset_code)
             
             if data.num_rows > 0:
-                upload_data(data, args.dataset_name)
+                upload_data(data, f"oecd_{args.dataset_name}")
                 save_state(args.dataset_name, {
                     "last_updated": datetime.now().isoformat(),
                     "row_count": data.num_rows,

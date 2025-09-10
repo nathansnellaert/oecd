@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_IPAC@DF_IPAC")
     
     if data.num_rows > 0:
-        upload_data(data, "ipac_dashboard")
+        upload_data(data, "oecd_ipac_dashboard")
         print(f"Uploaded {data.num_rows} rows to ipac_dashboard")
         
     save_state("ipac_dashboard", {

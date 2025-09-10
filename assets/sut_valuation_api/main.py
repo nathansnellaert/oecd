@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NASU@DF_VALUATION")
     
     if data.num_rows > 0:
-        upload_data(data, "sut_valuation_api")
+        upload_data(data, "oecd_sut_valuation_api")
         print(f"Uploaded {data.num_rows} rows to sut_valuation_api")
         
     save_state("sut_valuation_api", {

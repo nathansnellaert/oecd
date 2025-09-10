@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PRICES@DF_PRICES_N_CP01")
     
     if data.num_rows > 0:
-        upload_data(data, "cpi_food_beverages_growth")
+        upload_data(data, "oecd_cpi_food_beverages_growth")
         print(f"Uploaded {data.num_rows} rows to cpi_food_beverages_growth")
         
     save_state("cpi_food_beverages_growth", {

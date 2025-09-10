@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_STES@DF_CSBAR")
     
     if data.num_rows > 0:
-        upload_data(data, "consumer_barometer")
+        upload_data(data, "oecd_consumer_barometer")
         print(f"Uploaded {data.num_rows} rows to consumer_barometer")
         
     save_state("consumer_barometer", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_SOCX_AGG@DF_NET_GDP")
     
     if data.num_rows > 0:
-        upload_data(data, "net_social_expenditure_gdp")
+        upload_data(data, "oecd_net_social_expenditure_gdp")
         print(f"Uploaded {data.num_rows} rows to net_social_expenditure_gdp")
         
     save_state("net_social_expenditure_gdp", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TEMP@DF_TEMP_I_GEN")
     
     if data.num_rows > 0:
-        upload_data(data, "dsd_temp@temp_i_gen")
+        upload_data(data, "oecd_dsd_temp@temp_i_gen")
         print(f"Uploaded {data.num_rows} rows to dsd_temp@temp_i_gen")
         
     save_state("dsd_temp@temp_i_gen", {

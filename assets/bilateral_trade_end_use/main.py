@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_BTIGE@DF_BTIGE")
     
     if data.num_rows > 0:
-        upload_data(data, "bilateral_trade_end_use")
+        upload_data(data, "oecd_bilateral_trade_end_use")
         print(f"Uploaded {data.num_rows} rows to bilateral_trade_end_use")
         
     save_state("bilateral_trade_end_use", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_SUBEMP@DF_SUBEMP")
     
     if data.num_rows > 0:
-        upload_data(data, "subnational_public_employment")
+        upload_data(data, "oecd_subnational_public_employment")
         print(f"Uploaded {data.num_rows} rows to subnational_public_employment")
         
     save_state("subnational_public_employment", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_GOV_LEVEL@DF_GOV_LEVEL_2023")
     
     if data.num_rows > 0:
-        upload_data(data, "gov_finance_procurement_by_level_2023")
+        upload_data(data, "oecd_gov_finance_procurement_by_level_2023")
         print(f"Uploaded {data.num_rows} rows to gov_finance_procurement_by_level_2023")
         
     save_state("gov_finance_procurement_by_level_2023", {

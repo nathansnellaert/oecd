@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PPP@DF_PPP_CPL")
     
     if data.num_rows > 0:
-        upload_data(data, "ppp_price_level_indices")
+        upload_data(data, "oecd_ppp_price_level_indices")
         print(f"Uploaded {data.num_rows} rows to ppp_price_level_indices")
         
     save_state("ppp_price_level_indices", {

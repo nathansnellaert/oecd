@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NASU@DF_USEPP_T1601")
     
     if data.num_rows > 0:
-        upload_data(data, "sut_domestic_use_purchasers_prices")
+        upload_data(data, "oecd_sut_domestic_use_purchasers_prices")
         print(f"Uploaded {data.num_rows} rows to sut_domestic_use_purchasers_prices")
         
     save_state("sut_domestic_use_purchasers_prices", {

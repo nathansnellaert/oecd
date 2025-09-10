@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_BIBLIO@DF_BIBLIO_COLLAB")
     
     if data.num_rows > 0:
-        upload_data(data, "bibliometric_international_collaboration")
+        upload_data(data, "oecd_bibliometric_international_collaboration")
         print(f"Uploaded {data.num_rows} rows to bibliometric_international_collaboration")
         
     save_state("bibliometric_international_collaboration", {

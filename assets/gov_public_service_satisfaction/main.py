@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_GOV_INT@DF_GOV_SPS_2025")
     
     if data.num_rows > 0:
-        upload_data(data, "gov_public_service_satisfaction")
+        upload_data(data, "oecd_gov_public_service_satisfaction")
         print(f"Uploaded {data.num_rows} rows to gov_public_service_satisfaction")
         
     save_state("gov_public_service_satisfaction", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AGR_POLIND@DF_BOR_PRI")
     
     if data.num_rows > 0:
-        upload_data(data, "border_price_change_contribution")
+        upload_data(data, "oecd_border_price_change_contribution")
         print(f"Uploaded {data.num_rows} rows to border_price_change_contribution")
         
     save_state("border_price_change_contribution", {

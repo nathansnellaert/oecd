@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PDB@DF_PDB_ULC_Q")
     
     if data.num_rows > 0:
-        upload_data(data, "productivity_unit_labour_costs")
+        upload_data(data, "oecd_productivity_unit_labour_costs")
         print(f"Uploaded {data.num_rows} rows to productivity_unit_labour_costs")
         
     save_state("productivity_unit_labour_costs", {

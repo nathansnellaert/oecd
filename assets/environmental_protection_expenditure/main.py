@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EPEA@DF_EPEA")
     
     if data.num_rows > 0:
-        upload_data(data, "environmental_protection_expenditure")
+        upload_data(data, "oecd_environmental_protection_expenditure")
         print(f"Uploaded {data.num_rows} rows to environmental_protection_expenditure")
         
     save_state("environmental_protection_expenditure", {

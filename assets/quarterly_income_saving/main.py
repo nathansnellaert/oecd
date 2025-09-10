@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAMAIN1@DF_QNA_INC_SAV")
     
     if data.num_rows > 0:
-        upload_data(data, "quarterly_income_saving")
+        upload_data(data, "oecd_quarterly_income_saving")
         print(f"Uploaded {data.num_rows} rows to quarterly_income_saving")
         
     save_state("quarterly_income_saving", {

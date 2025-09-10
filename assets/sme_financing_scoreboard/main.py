@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_SMEE_FINANCING@DF_SMEE_SCOREBOARD")
     
     if data.num_rows > 0:
-        upload_data(data, "sme_financing_scoreboard")
+        upload_data(data, "oecd_sme_financing_scoreboard")
         print(f"Uploaded {data.num_rows} rows to sme_financing_scoreboard")
         
     save_state("sme_financing_scoreboard", {

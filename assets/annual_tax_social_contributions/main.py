@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NASEC10_IDC@DF_TABLE10_IDC")
     
     if data.num_rows > 0:
-        upload_data(data, "annual_tax_social_contributions")
+        upload_data(data, "oecd_annual_tax_social_contributions")
         print(f"Uploaded {data.num_rows} rows to annual_tax_social_contributions")
         
     save_state("annual_tax_social_contributions", {

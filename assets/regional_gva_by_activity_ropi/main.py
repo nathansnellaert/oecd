@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REG_ECO_ROPI@DF_GVA_ROPI")
     
     if data.num_rows > 0:
-        upload_data(data, "regional_gva_by_activity_ropi")
+        upload_data(data, "oecd_regional_gva_by_activity_ropi")
         print(f"Uploaded {data.num_rows} rows to regional_gva_by_activity_ropi")
         
     save_state("regional_gva_by_activity_ropi", {

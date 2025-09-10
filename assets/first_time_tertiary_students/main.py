@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_FIRST")
     
     if data.num_rows > 0:
-        upload_data(data, "first_time_tertiary_students")
+        upload_data(data, "oecd_first_time_tertiary_students")
         print(f"Uploaded {data.num_rows} rows to first_time_tertiary_students")
         
     save_state("first_time_tertiary_students", {

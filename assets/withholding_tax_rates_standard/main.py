@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_WHT@DF_WHT_STANDARD")
     
     if data.num_rows > 0:
-        upload_data(data, "withholding_tax_rates_standard")
+        upload_data(data, "oecd_withholding_tax_rates_standard")
         print(f"Uploaded {data.num_rows} rows to withholding_tax_rates_standard")
         
     save_state("withholding_tax_rates_standard", {

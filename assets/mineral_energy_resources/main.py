@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NAT_RES@DF_NAT_RES")
     
     if data.num_rows > 0:
-        upload_data(data, "mineral_energy_resources")
+        upload_data(data, "oecd_mineral_energy_resources")
         print(f"Uploaded {data.num_rows} rows to mineral_energy_resources")
         
     save_state("mineral_energy_resources", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EAG_UOE_NON_FIN_STUD@DF_UOE_NF_SHARE_VET")
     
     if data.num_rows > 0:
-        upload_data(data, "school_work_based_enrollment_share")
+        upload_data(data, "oecd_school_work_based_enrollment_share")
         print(f"Uploaded {data.num_rows} rows to school_work_based_enrollment_share")
         
     save_state("school_work_based_enrollment_share", {

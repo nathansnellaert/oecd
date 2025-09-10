@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_RDTAX@DF_IPTAX")
     
     if data.num_rows > 0:
-        upload_data(data, "income_based_tax_support_rd")
+        upload_data(data, "oecd_income_based_tax_support_rd")
         print(f"Uploaded {data.num_rows} rows to income_based_tax_support_rd")
         
     save_state("income_based_tax_support_rd", {

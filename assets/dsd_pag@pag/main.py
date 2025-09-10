@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PAG@DF_PAG")
     
     if data.num_rows > 0:
-        upload_data(data, "dsd_pag@pag")
+        upload_data(data, "oecd_dsd_pag@pag")
         print(f"Uploaded {data.num_rows} rows to dsd_pag@pag")
         
     save_state("dsd_pag@pag", {

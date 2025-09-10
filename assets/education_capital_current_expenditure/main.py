@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_EAG_UOE_FIN@DF_UOE_FIN_NATURE_CUR_CAP")
     
     if data.num_rows > 0:
-        upload_data(data, "education_capital_current_expenditure")
+        upload_data(data, "oecd_education_capital_current_expenditure")
         print(f"Uploaded {data.num_rows} rows to education_capital_current_expenditure")
         
     save_state("education_capital_current_expenditure", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_PII@DF_PUBLIC_INTEGRITY")
     
     if data.num_rows > 0:
-        upload_data(data, "public_integrity")
+        upload_data(data, "oecd_public_integrity")
         print(f"Uploaded {data.num_rows} rows to public_integrity")
         
     save_state("public_integrity", {

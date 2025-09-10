@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LA_EXTREME_TEMP_DDOWN@DF_EXTREME_TEMP_DDOWN")
     
     if data.num_rows > 0:
-        upload_data(data, "local_extreme_temperatures")
+        upload_data(data, "oecd_local_extreme_temperatures")
         print(f"Uploaded {data.num_rows} rows to local_extreme_temperatures")
         
     save_state("local_extreme_temperatures", {

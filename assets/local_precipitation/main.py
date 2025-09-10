@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LA_PRECIPITATION_DDOWN@DF_PRECIPITATION_DDOWN")
     
     if data.num_rows > 0:
-        upload_data(data, "local_precipitation")
+        upload_data(data, "oecd_local_precipitation")
         print(f"Uploaded {data.num_rows} rows to local_precipitation")
         
     save_state("local_precipitation", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_NASEC10_IDC@DF_TABLE9B_IDC")
     
     if data.num_rows > 0:
-        upload_data(data, "annual_non_financial_assets_balance_sheets")
+        upload_data(data, "oecd_annual_non_financial_assets_balance_sheets")
         print(f"Uploaded {data.num_rows} rows to annual_non_financial_assets_balance_sheets")
         
     save_state("annual_non_financial_assets_balance_sheets", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TIE@DF_TIE_AUS")
     
     if data.num_rows > 0:
-        upload_data(data, "timely_entrepreneurship_australia")
+        upload_data(data, "oecd_timely_entrepreneurship_australia")
         print(f"Uploaded {data.num_rows} rows to timely_entrepreneurship_australia")
         
     save_state("timely_entrepreneurship_australia", {

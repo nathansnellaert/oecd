@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_CEC_QDD@DF_QDD_CEC")
     
     if data.num_rows > 0:
-        upload_data(data, "competition_enforcement_cooperation")
+        upload_data(data, "oecd_competition_enforcement_cooperation")
         print(f"Uploaded {data.num_rows} rows to competition_enforcement_cooperation")
         
     save_state("competition_enforcement_cooperation", {

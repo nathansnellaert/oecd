@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TAXBEN_NRR@DF_NRR")
     
     if data.num_rows > 0:
-        upload_data(data, "net_replacement_rates_unemployment")
+        upload_data(data, "oecd_net_replacement_rates_unemployment")
         print(f"Uploaded {data.num_rows} rows to net_replacement_rates_unemployment")
         
     save_state("net_replacement_rates_unemployment", {

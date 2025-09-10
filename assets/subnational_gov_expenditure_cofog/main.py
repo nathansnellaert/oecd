@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_DASHBOARD@COFOG")
     
     if data.num_rows > 0:
-        upload_data(data, "subnational_gov_expenditure_cofog")
+        upload_data(data, "oecd_subnational_gov_expenditure_cofog")
         print(f"Uploaded {data.num_rows} rows to subnational_gov_expenditure_cofog")
         
     save_state("subnational_gov_expenditure_cofog", {

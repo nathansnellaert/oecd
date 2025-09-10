@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_RHPI@DF_RHPI_TRANSACTIONS")
     
     if data.num_rows > 0:
-        upload_data(data, "housing_transactions")
+        upload_data(data, "oecd_housing_transactions")
         print(f"Uploaded {data.num_rows} rows to housing_transactions")
         
     save_state("housing_transactions", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_CRS@DF_CRS_CPA")
     
     if data.num_rows > 0:
-        upload_data(data, "country_programmable_aid")
+        upload_data(data, "oecd_country_programmable_aid")
         print(f"Uploaded {data.num_rows} rows to country_programmable_aid")
         
     save_state("country_programmable_aid", {

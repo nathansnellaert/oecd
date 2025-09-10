@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TIVA_MAINLV@DF_MAINLV")
     
     if data.num_rows > 0:
-        upload_data(data, "tiva_principal_levels")
+        upload_data(data, "oecd_tiva_principal_levels")
         print(f"Uploaded {data.num_rows} rows to tiva_principal_levels")
         
     save_state("tiva_principal_levels", {

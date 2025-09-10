@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_QDD_ILR@DF_QDD_ILR")
     
     if data.num_rows > 0:
-        upload_data(data, "interest_limitation_rules")
+        upload_data(data, "oecd_interest_limitation_rules")
         print(f"Uploaded {data.num_rows} rows to interest_limitation_rules")
         
     save_state("interest_limitation_rules", {

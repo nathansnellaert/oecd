@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_AFDD_STAT_ANNEX@DF_TAB23")
     
     if data.num_rows > 0:
-        upload_data(data, "afdd_ecological_sustainability")
+        upload_data(data, "oecd_afdd_ecological_sustainability")
         print(f"Uploaded {data.num_rows} rows to afdd_ecological_sustainability")
         
     save_state("afdd_ecological_sustainability", {

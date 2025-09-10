@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_STRI_POLICY@DF_STRI_POLICY_INTRAEEA")
     
     if data.num_rows > 0:
-        upload_data(data, "intra_eea_stri_regulatory_database")
+        upload_data(data, "oecd_intra_eea_stri_regulatory_database")
         print(f"Uploaded {data.num_rows} rows to intra_eea_stri_regulatory_database")
         
     save_state("intra_eea_stri_regulatory_database", {

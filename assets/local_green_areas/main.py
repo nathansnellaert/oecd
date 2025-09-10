@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_LA_ENV_GREEN_AREA_DDOWN@DF_GREEN_AREA_DDOWN")
     
     if data.num_rows > 0:
-        upload_data(data, "local_green_areas")
+        upload_data(data, "oecd_local_green_areas")
         print(f"Uploaded {data.num_rows} rows to local_green_areas")
         
     save_state("local_green_areas", {

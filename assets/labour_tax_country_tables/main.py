@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TAX_WAGES_COU@DF_TW_COU")
     
     if data.num_rows > 0:
-        upload_data(data, "labour_tax_country_tables")
+        upload_data(data, "oecd_labour_tax_country_tables")
         print(f"Uploaded {data.num_rows} rows to labour_tax_country_tables")
         
     save_state("labour_tax_country_tables", {

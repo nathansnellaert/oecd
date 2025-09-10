@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_HEALTH_STAT@DF_AWDI")
     
     if data.num_rows > 0:
-        upload_data(data, "sickness_work_absences")
+        upload_data(data, "oecd_sickness_work_absences")
         print(f"Uploaded {data.num_rows} rows to sickness_work_absences")
         
     save_state("sickness_work_absences", {

@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_DEO_3@DF_DEO_3")
     
     if data.num_rows > 0:
-        upload_data(data, "digital_economy_outlook_3")
+        upload_data(data, "oecd_digital_economy_outlook_3")
         print(f"Uploaded {data.num_rows} rows to digital_economy_outlook_3")
         
     save_state("digital_economy_outlook_3", {

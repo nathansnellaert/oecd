@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_REV_AFRICA@DF_REVCOD")
     
     if data.num_rows > 0:
-        upload_data(data, "congo_drc_tax_revenues")
+        upload_data(data, "oecd_congo_drc_tax_revenues")
         print(f"Uploaded {data.num_rows} rows to congo_drc_tax_revenues")
         
     save_state("congo_drc_tax_revenues", {

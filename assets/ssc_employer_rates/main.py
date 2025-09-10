@@ -6,7 +6,7 @@ def main():
     data = fetch_data("DSD_TAX_SSC@DF_SSC_EMPLOYER")
     
     if data.num_rows > 0:
-        upload_data(data, "ssc_employer_rates")
+        upload_data(data, "oecd_ssc_employer_rates")
         print(f"Uploaded {data.num_rows} rows to ssc_employer_rates")
         
     save_state("ssc_employer_rates", {
